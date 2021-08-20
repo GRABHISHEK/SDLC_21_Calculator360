@@ -44,15 +44,5 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR03 | Performing Multiplication | HR01 |  In progress  |
 | LR04 | Performing Division | HR01 |  In progress  |
 
-### Low level Requirements for electronics operation
 
-| ID     | Description                                                                                          | HLR ID     | Status (Implemented/ InProgress/ Future) |
-| ------ | ---------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------- |
 
-| LR05   | Read the input from user for applying transform techniques from the following                        | HR06       |        Implemented                              |
-| LR06   | Select the size of complete matrix N                                                                 | HR06       |        In progress                              |
-| LR07   | Take the elements of input matrix in the form of pixels                                              | HR06       |        In progress                              |
-| LR08   | check for size of matrix is defined in confied domain(i*j), if not raise an error                    | HR06       |        In progress                              |
-| LR09   | If the matrix size confined the multiply input matrix with transform matrix(pixel by pixel)          | HR06       |        In progress                              |
-| LR010   | Display the pixel in from of matrix after transformation                                            | HR06       |        In progress                              |
-| LR011   | compare the initial and transformed pixel vales and disply the optimization                         | HR06       |        In progress                              | 
