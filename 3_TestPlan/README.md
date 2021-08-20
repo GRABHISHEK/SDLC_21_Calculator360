@@ -43,21 +43,21 @@
 |  L_25       | H_06 | Performing Hadmard transform | [3x3] | [3x3] | [3x3] | matrix based |
 |  L_26       | H_06 | Performing Harwavlet transform | [3x3] | [3x3] | [3x3] | matrix based |
 |  L_27       | H_06 | Performing image enhancement transform | [3x3] | [3x3] | [3x3] | matrix based |
-|  L_28       | H_02 |  Star to Delta( Positive test case) |     |      |     | Scenario based |
-|  L_29       | H_02 |  Star to Delta( Negative test case) |     |      |     | Scenario based |
-|  L_30       | H_02 |  Star to Delta( Null test case) |     |      |     | Scenario based |
-|  L_28       | H_02 |  Delta to Star( Positive test case) |     |      |     | Scenario based |
-|  L_29       | H_02 |  Delta to Star( Negative test case) |     |      |     | Scenario based |
-|  L_30       | H_02 |  Delta to Star( Null test case) |     |      |     | Scenario based |
-|  L_31       | H_02 |  KW to Amps(1p)( Positive test case) |     |      |     | Scenario based |
-|  L_32       | H_02 |  KW to Amps(1p)( Negative test case) |     |      |     | Scenario based |
-|  L_33       | H_02 |  KW to Amps(1p)( Null test case) |     |      |     | Scenario based |
-|  L_34       | H_02 |  KW to Amps(3p)( Positive test case) |     |      |     | Scenario based |
-|  L_35       | H_02 |  KW to Amps(3p)( Negative test case) |     |      |     | Scenario based |
-|  L_36       | H_02 |  KW to Amps(3p)( Null test case) |     |      |     | Scenario based |
-|  L_37       | H_02 |  Battery life( Positive test case) |     |      |     | Scenario based |
-|  L_38       | H_02 |  Battery life( Negative test case) |     |      |     | Scenario based |
-|  L_39       | H_02 |  Battery life( Null test case) |     |      |     | Scenario based |
+|  L_28       | H_02 |  Star to Delta( Positive) |     |      |     | Scenario based |
+|  L_29       | H_02 |  Star to Delta( Negative) |     |      |     | Scenario based |
+|  L_30       | H_02 |  Star to Delta( Null) |     |      |     | Scenario based |
+|  L_28       | H_02 |  Delta to Star( Positive) |     |      |     | Scenario based |
+|  L_29       | H_02 |  Delta to Star( Negative) |     |      |     | Scenario based |
+|  L_30       | H_02 |  Delta to Star( Null) |     |      |     | Scenario based |
+|  L_31       | H_02 |  KW to Amps(1p)( Positive) |     |      |     | Scenario based |
+|  L_32       | H_02 |  KW to Amps(1p)( Negative) |     |      |     | Scenario based |
+|  L_33       | H_02 |  KW to Amps(1p)( Null) |     |      |     | Scenario based |
+|  L_34       | H_02 |  KW to Amps(3p)( Positive) |     |      |     | Scenario based |
+|  L_35       | H_02 |  KW to Amps(3p)( Negative) |     |      |     | Scenario based |
+|  L_36       | H_02 |  KW to Amps(3p)( Null) |     |      |     | Scenario based |
+|  L_37       | H_02 |  Battery life( Positive) |     |      |     | Scenario based |
+|  L_38       | H_02 |  Battery life( Negative) |     |      |     | Scenario based |
+|  L_39       | H_02 |  Battery life( Null) |     |      |     | Scenario based |
 
 
 
