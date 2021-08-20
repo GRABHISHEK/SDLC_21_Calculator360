@@ -1,6 +1,13 @@
 # Calculator360
 
 ## Introduction
+## What is Calculator360?
+A calculator is a useful machine to solve arithmetical problems. The simplest calculators can do only addition, subtraction, multiplication, and division. More sophisticated calculators can handle the electrical, physics, medical and financial calculations. The purpose of a calculator is to do correct calculations, and to do so efficiently. The design of the calculator is simple. It has various components to input the problem and display the output of the problem. The key layout of the device is also very simple for providing easy access to the user. Calculator360 supports multiple calculations across various subjects.
+## Advantages of Calculator360
+1. You can solve tedious and most difficult problems across various subjects.
+2. It is an easy-to-use device.
+3. Moreover, the biggest advantage is that calculations are always accurate.
+
 
 
 ## State of Art
