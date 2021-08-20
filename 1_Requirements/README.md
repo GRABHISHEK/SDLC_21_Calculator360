@@ -88,3 +88,13 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR025 |  Projectile Motion | HR03 | In Progress |
 | LR026 | Simple Pendulum  | HR03 | In Progress |
 | LR027 | Conical Pendulum  | HR03 | In Progress |
+| LR028 | Performing Star to delta conversion  | HR02 | In Progress |
+| LR029 | Performing Delta to Star conversion  | HR02 | In Progress |
+| LR030 | Performing KW to Amps conversion (Single phase) | HR02 | In Progress |
+| LR031 | Performing KW to Amps conversion (Three phase) | HR02 | In Progress |
+| LR032 | Performing Battery life calculation | HR02 | In Progress |
+| LR033 | Performing Energy Unit calculation | HR02 | In Progress |
+| LR034 | Performing Single phase real power calculation | HR02 | In Progress |
+| LR035 | Performing Single phase apparent power calculation | HR02 | In Progress |
+| LR036 | Performing Three phase real power calculation | HR02 | In Progress |
+| LR037 | Performing Three phase apparent power calculation | HR02 | In Progress |
