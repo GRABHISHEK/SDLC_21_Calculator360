@@ -92,11 +92,11 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR04 | Performing Division | HR01 |  In progress  |
 | LR05 | Performing Trignometric operations | HR01 | In Progress |
 | LR06 | Read the input from user for applying transform techniques from the following | HR06 |  Implemented   |
-| LR07 | Select the size of complete matrix N  | HR06 |  In Progress  |
-| LR08 | Take the elements of input matrix in the form of pixels | HR06 |  In Progress  |
-| LR09 | check for size of matrix is defined in confied domain(i*j), if not raise an error  | HR06 |  In Progress  |
-| LR010 | If the matrix size confined the multiply input matrix with transform matrix(pixel by pixel) | HR06 |  In Progress  |
-| LR011 | Display the pixel in from of matrix after transformation | HR06 |  In Progress  |
+| LR07 | Perform Discrete cosine Transform  | HR06 |  In Progress  |
+| LR08 | Perform Discrete sine Transform | HR06 |  In Progress  |
+| LR09 | Perform Hadmard Transform  | HR06 |  In Progress  |
+| LR010 | Perform harwavlet Transform | HR06 |  In Progress  |
+| LR011 | Perform Image enhancement Transform | HR06 |  In Progress  |
 | LR012 | compare the initial and transformed pixel vales and disply the optimizatio | HR06 |  In Progress  |
 | LR013 | Motion in one dimension | HR03 | In Progress |
 | LR014 | Momentum, Force, Impulse | HR03 | In Progress |
