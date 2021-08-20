@@ -1,4 +1,26 @@
+# Calculator360
 
+## Introduction
+
+
+## State of Art
+|   Time        |   Features |      Cost   |
+| ---------------|------------|-------------|
+|  2500BC       | Abacus - which was used for simple addition and subtraction|It was handmade and cheaper, but less efficient  |                                       
+|  1642         | Pascal calculator - which could be perform all the basic arithmetic operation but difficult to produce | The device was complex , expensive and rare |
+|  1860         | Mechanical Calculator – which was easier to produce but was bulkier and hard to carry | The device was expensive but less complex |
+|  1945         | Mechanical Handheld calculator easier to produce and lighter  | The device is cheaper than bulk mechanical calculator|
+|  1970         |  Introduction of Digital pocket calculator  | The device is very cheap and easy to use|
+|  1995         | Multiuse calculator began to replace the single use calculator and provided more features | Cheap calculators with multiple features is widely used today|
+|  2001         | Smartphones and desktop now comes with sophisticated inbuilt calculators |  Inbuilt powerful calculator comes free with smartphones and desktops |
+
+## SWOT Analysis
+
+## 4W's and 1 H's
+
+## Detail Requirements
+
+### High Level Requirements
 
 ### Low level Requirements for electronics operation
 
