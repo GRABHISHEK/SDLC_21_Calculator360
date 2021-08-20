@@ -29,27 +29,39 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 ### High Level Requirements 
 | ID | Description | Status (Implemented/In Progress/Future) | 
 | ----- | ----- | ---------|
-| HR01 | User shall be able to perform Arthmetic Operations |In progress | 
-| HR02 | User shall be able to perform Electrical unit conversions | In progress |
-| HR03 | User shall be able to perform Physics Related conversion | In progress |
-| HR04 | User shall be able to perform Medical and financial Operations | In progress|
-| HR05 | User shall be able to perform Time Operations |In progress | 
-| HR06 | User shall be able to perform  Electronics Operations |In progress| 
+| HR01 | User shall be able to perform Arthmetic Operations |In Progress | 
+| HR02 | User shall be able to perform Electrical unit conversions | In Progress |
+| HR03 | User shall be able to perform Physics Related conversion | In Progress |
+| HR04 | User shall be able to perform Medical and financial Operations | In Progress|
+| HR05 | User shall be able to perform Time Operations |In Progress | 
+| HR06 | User shall be able to perform  Electronics Operations |In Progress| 
 
 ### Low level Requirements:
 | ID | Description | HLR ID | Status (Implemented/In Progress/Future) |
 | ------ | --------- | ------ | ----- |
-| LR01 | Permorming Addition | HR01 |  In progress  |
-| LR02 | Performing Subtraction | HR01 |  In progress |
-| LR03 | Performing Multiplication | HR01 |  In progress  |
+| LR01 | Permorming Addition | HR01 |  In Progress  |
+| LR02 | Performing Subtraction | HR01 |  In Progress |
+| LR03 | Performing Multiplication | HR01 |  In Progress  |
 | LR04 | Performing Division | HR01 |  In progress  |
 | LR05 | Read the input from user for applying transform techniques from the following | HR06 |  Implemented   |
-| LR06 | Select the size of complete matrix N  | HR06 |  In progress  |
-| LR07 | Take the elements of input matrix in the form of pixels | HR06 |  In progress  |
-| LR08 | check for size of matrix is defined in confied domain(i*j), if not raise an error  | HR06 |  In progress  |
-| LR09 | If the matrix size confined the multiply input matrix with transform matrix(pixel by pixel) | HR06 |  In progress  |
-| LR010| Display the pixel in from of matrix after transformation | HR06 |  In progress  |
-| LR011| compare the initial and transformed pixel vales and disply the optimizatio | HR06 |  In progress  |
-
-
-
+| LR06 | Select the size of complete matrix N  | HR06 |  In Progress  |
+| LR07 | Take the elements of input matrix in the form of pixels | HR06 |  In Progress  |
+| LR08 | check for size of matrix is defined in confied domain(i*j), if not raise an error  | HR06 |  In Progress  |
+| LR09 | If the matrix size confined the multiply input matrix with transform matrix(pixel by pixel) | HR06 |  In Progress  |
+| LR010 | Display the pixel in from of matrix after transformation | HR06 |  In Progress  |
+| LR011 | compare the initial and transformed pixel vales and disply the optimizatio | HR06 |  In Progress  |
+| LR012 | Motion in one dimension | HR03 | In Progress |
+| LR013 | Momentum, Force, Impulse | HR03 | In Progress |
+| LR014 | Pressure | HR03 | In Progress |
+| LR015 |  Density | HR03 | In Progress |
+| LR016 | Angular Momentum  | HR03 | In Progress |
+| LR017 |  Torque | HR03 | In Progress |
+| LR018 | Circular Motion  | HR03 | In Progress |
+| LR019 |  Reduced Mass for two Interacting Bodies | HR03 | In Progress |
+| LR020 |  Work and Energy | HR03 | In Progress |
+| LR021 |  Friction | HR03 | In Progress |
+| LR022 | Moment of Inertia  | HR03 | In Progress |
+| LR023 |  Newtonian Gravity | HR03 | In Progress |
+| LR024 |  Projectile Motion | HR03 | In Progress |
+| LR025 | Simple Pendulum  | HR03 | In Progress |
+| LR025 | Conical Pendulum  | HR03 | In Progress |
