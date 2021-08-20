@@ -22,6 +22,7 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 |  2001         | Smartphones and desktop now comes with sophisticated inbuilt calculators |  Inbuilt powerful calculator comes free with smartphones and desktops |
 
 ## SWOT Analysis
+![](https://github.com/thomasathul/SDLC_21_Calculator360/blob/main/1_Requirements/calculator360.jpg)
 
 ## 4W's and 1 H's
 
