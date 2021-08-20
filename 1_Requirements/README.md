@@ -64,4 +64,4 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR023 |  Newtonian Gravity | HR03 | In Progress |
 | LR024 |  Projectile Motion | HR03 | In Progress |
 | LR025 | Simple Pendulum  | HR03 | In Progress |
-| LR025 | Conical Pendulum  | HR03 | In Progress |
+| LR026 | Conical Pendulum  | HR03 | In Progress |
