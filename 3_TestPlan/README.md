@@ -38,3 +38,8 @@
 |  L_20       | H_01 | Performing Secant | 90 | UNDEFINED | UNDEFINED | Boundary based |
 |  L_21       | H_01 | Performing Cosecant | 90 | 1 | 1 | Requirement based |
 |  L_22       | H_01 | Performing Cosecant | 180 | UNDEFINED | UNDEFINED | Boundary based |
+|  L_23       | H_06 | Performing Cosine transform | [3x3] | [3x3] | [3x3] | matrix based |
+|  L_24       | H_06 | Performing sine transform | [3x3] | [3x3] | [3x3]  | matrix based |
+|  L_25       | H_06 | Performing Hadmard transform | [3x3] | [3x3] | [3x3] | matrix based |
+|  L_26       | H_06 | Performing Harwavlet transform | [3x3] | [3x3] | [3x3] | matrix based |
+|  L_27       | H_06 | Performing image enhancement transform | [3x3] | [3x3] | [3x3] | matrix based |
