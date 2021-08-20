@@ -44,7 +44,30 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 
 1. Can be used by Private and public sectors professionals.
 2. Can be used by School and  university students.
-3. Can be used by beginners to perform their work more efficiently
+3. Can be used by beginners to perform their work more efficiently.
+4. It can be used by illiterate for simple calculations.
+5. Can be used by old personals to get their daily health vitals accurately.
+6. Can be used by Professionals of image computation.
+
+### When:
+
+1. It can be can use while testing others whether they are right in their calculations.
+2. Can be used anytime easily to help you know about your health.
+3. When calculating number of days, years or months we can use it.
+4. One can calculate financial costs anywhere.
+5. Can be used to calculate different units for easy conversions.
+6. Can be used to compress, remove noise, enhancement of image.
+
+### How:
+
+1. By giving different numbers one can find their desired output.
+2. It will be helpful in performing various operations like addition, subtraction, multiplication, etc, This will give accurate results.
+3. It will be helpful in unit conversions and some electric laws
+4. By giving input matrix pixel size to transform matrix and get desired output.
+
+
+
+
 
 
 ## Detail Requirements
