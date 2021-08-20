@@ -25,6 +25,28 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 
 ## 4W's and 1 H's
 
+# Why:
+
+1. To reduce the complexity for students and working professionals
+2. We are making this to do all kind of calculations at one place
+3. It will reduce time to the people who are making manual calculations 
+4. It will be more useful for elders to know their health condition
+5. It can be used by anyone at anyplace
+
+# Where:
+1. One can use at school university, work places, hospitals and at home 
+2. The calculator operations can be used in our daily lives, programming based and even in business.
+3. We can use in banking system for interest and credit debit calculation. 
+4. we can use at grocery shops are at electronics shops.
+5. We can use transformation techniques for various matrix pixels of image.
+
+# Who:
+
+1. Can be used by Private and public sectors professionals.
+2. Can be used by School and  university students.
+3. Can be used by beginners to perform their work more efficiently
+
+
 ## Detail Requirements
 ### High Level Requirements 
 | ID | Description | Status (Implemented/In Progress/Future) | 
