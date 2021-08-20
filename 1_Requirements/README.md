@@ -37,7 +37,7 @@
 | LR03 | Performing Multiplication | HR01 |  In progress  |
 | LR04 | Performing Division | HR01 |  In progress  |
 
-### Low level Requirements for Electronics operation
+### Low level Requirements for electronics operation
 
 | ID     | Description                                                                                          | HLR ID     | Status (Implemented/ InProgress/ Future) |
 | ------ | ---------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------- |
