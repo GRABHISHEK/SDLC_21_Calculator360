@@ -78,9 +78,10 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | HR01 | User shall be able to perform Arthmetic Operations |In Progress | 
 | HR02 | User shall be able to perform Electrical unit conversions | In Progress |
 | HR03 | User shall be able to perform Physics Related conversion | In Progress |
-| HR04 | User shall be able to perform Medical and financial Operations | In Progress|
-| HR05 | User shall be able to perform Time Operations |In Progress | 
-| HR06 | User shall be able to perform  Electronics Operations |In Progress| 
+| HR04 | User shall be able to perform Medical Operations | In Progress|
+| HR05 | User shall be able to perform Financial Operations | In Progress|
+| HR06 | User shall be able to perform Time Operations |In Progress | 
+| HR07 | User shall be able to perform  Electronics Operations |In Progress| 
 
 ### Low level Requirements:
 | ID | Description | HLR ID | Status (Implemented/In Progress/Future) |
