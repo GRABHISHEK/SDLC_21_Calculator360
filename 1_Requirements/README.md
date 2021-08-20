@@ -91,44 +91,49 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR03 | Performing Multiplication | HR01 |  In Progress  |
 | LR04 | Performing Division | HR01 |  In progress  |
 | LR05 | Performing Trignometric operations | HR01 | In Progress |
-| LR06 | Permorming Mod | HR01 |  In Progress  |
-| LR07 | Performing Power | HR01 |  In Progress |
-| LR08 | Performing Factorial | HR01 |  In Progress  |
-| LR09 | Performing Permutation | HR01 |  In progress  |
-| LR10 | Permorming Combination | HR01 |  In Progress  |
-| LR011 | Performing probability | HR01 |  In Progress |
-| LR012 | Read the input from user for applying transform techniques from the following | HR06 |  Implemented   |
-| LR013 | Perform Discrete cosine Transform  | HR06 |  In Progress  |
-| LR014 | Perform Discrete sine Transform | HR06 |  In Progress  |
-| LR015 | Perform Hadmard Transform  | HR06 |  In Progress  |
-| LR016 | Perform harwavlet Transform | HR06 |  In Progress  |
-| LR017 | Perform Image enhancement Transform | HR06 |  In Progress  |
-| LR018 | compare the initial and transformed pixel vales and disply the optimizatio | HR06 |  In Progress  |
-| LR019 | Motion in one dimension | HR03 | In Progress |
-| LR020 | Momentum, Force, Impulse | HR03 | In Progress |
-| LR021 | Pressure | HR03 | In Progress |
-| LR022 |  Density | HR03 | In Progress |
-| LR023 | Angular Momentum  | HR03 | In Progress |
-| LR024 |  Torque | HR03 | In Progress |
-| LR025 | Circular Motion  | HR03 | In Progress |
-| LR026 |  Reduced Mass for two Interacting Bodies | HR03 | In Progress |
-| LR027 |  Work and Energy | HR03 | In Progress |
-| LR028 |  Friction | HR03 | In Progress |
-| LR029 | Moment of Inertia  | HR03 | In Progress |
-| LR030 |  Newtonian Gravity | HR03 | In Progress |
-| LR031 |  Projectile Motion | HR03 | In Progress |
-| LR032 | Simple Pendulum  | HR03 | In Progress |
-| LR033 | Conical Pendulum  | HR03 | In Progress |
-| LR034 | Performing Star to delta conversion  | HR02 | In Progress |
-| LR035 | Performing Delta to Star conversion  | HR02 | In Progress |
-| LR036 | Performing KW to Amps conversion (Single phase) | HR02 | In Progress |
-| LR037 | Performing KW to Amps conversion (Three phase) | HR02 | In Progress |
-| LR038 | Performing Battery life calculation | HR02 | In Progress |
-| LR039 | Performing Electricity bill calculation | HR02 | In Progress |
-| LR040 | Performing Single phase real power calculation | HR02 | In Progress |
-| LR041 | Performing Single phase apparent power calculation | HR02 | In Progress |
-| LR042 | Performing Three phase real power calculation | HR02 | In Progress |
-| LR043 | Performing Three phase apparent power calculation | HR02 | In Progress |
-| LR044 | Performing Ohm's law calculation | HR02 | In Progress |
-| LR045 | Performing Power Factor calculation | HR02 | In Progress |
-| LR046 | Performing Voltage divider calculation | HR02 | In Progress |
+| LR06 | Read the input from user for applying transform techniques from the following | HR06 |  Implemented   |
+| LR07 | Perform Discrete cosine Transform  | HR06 |  In Progress  |
+| LR08 | Perform Discrete sine Transform | HR06 |  In Progress  |
+| LR09 | Perform Hadmard Transform  | HR06 |  In Progress  |
+| LR010 | Perform harwavlet Transform | HR06 |  In Progress  |
+| LR011 | Perform Image enhancement Transform | HR06 |  In Progress  |
+| LR012 | compare the initial and transformed pixel vales and disply the optimizatio | HR06 |  In Progress  |
+| LR013 | Motion in one dimension | HR03 | In Progress |
+| LR014 | Momentum, Force, Impulse | HR03 | In Progress |
+| LR015 | Pressure | HR03 | In Progress |
+| LR016 |  Density | HR03 | In Progress |
+| LR017 | Angular Momentum  | HR03 | In Progress |
+| LR018 |  Torque | HR03 | In Progress |
+| LR019 | Circular Motion  | HR03 | In Progress |
+| LR020 |  Reduced Mass for two Interacting Bodies | HR03 | In Progress |
+| LR021 |  Work and Energy | HR03 | In Progress |
+| LR022 |  Friction | HR03 | In Progress |
+| LR023 | Moment of Inertia  | HR03 | In Progress |
+| LR024 |  Newtonian Gravity | HR03 | In Progress |
+| LR025 |  Projectile Motion | HR03 | In Progress |
+| LR026 | Simple Pendulum  | HR03 | In Progress |
+| LR027 | Conical Pendulum  | HR03 | In Progress |
+| LR028 | Center of Mass  | HR03 | In Progress |
+| LR029 | Power factor | HR03 | In Progress |
+| LR030 | Acceleration | HR03 | In Progress |
+| LR031 | Power factor | HR03 | In Progress |
+| LR032 | Displacement | HR03 | In Progress |
+| LR033 | Energy lost to friction | HR03 | In Progress |
+| LR034 | Newton's second law | HR03 | In Progress |
+| LR035 | Simple Harmonic Motion | HR03 | In Progress |
+| LR036 | Doppler Effect | HR03 | In Progress |
+| LR037 | Wavelength| HR03 | In Progress |
+| LR038 | Impulse and Momentum | HR03 | In Progress |
+| LR039 | Performing Star to delta conversion  | HR02 | In Progress |
+| LR040 | Performing Delta to Star conversion  | HR02 | In Progress |
+| LR041 | Performing KW to Amps conversion (Single phase) | HR02 | In Progress |
+| LR042 | Performing KW to Amps conversion (Three phase) | HR02 | In Progress |
+| LR043 | Performing Battery life calculation | HR02 | In Progress |
+| LR044 | Performing Electricity bill calculation | HR02 | In Progress |
+| LR045 | Performing Single phase real power calculation | HR02 | In Progress |
+| LR046 | Performing Single phase apparent power calculation | HR02 | In Progress |
+| LR047 | Performing Three phase real power calculation | HR02 | In Progress |
+| LR048 | Performing Three phase apparent power calculation | HR02 | In Progress |
+| LR049 | Performing Ohm's law calculation | HR02 | In Progress |
+| LR050 | Performing Power Factor calculation | HR02 | In Progress |
+| LR051 | Performing Voltage divider calculation | HR02 | In Progress |
