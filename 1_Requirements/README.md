@@ -28,14 +28,15 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 
 ### Why:
 
-1. To reduce the complexity for students and working professionals
-2. We are making this to do all kind of calculations at one place
-3. It will reduce time to the people who are making manual calculations 
-4. It will be more useful for elders to know their health condition
-5. It can be used by anyone at anyplace
+1. To reduce the complexity for students and working professionals.
+2. We are making this to do all kind of calculations at one place.
+3. It will reduce time to the people who are making manual calculations.
+4. It will be more useful for elders to know their health condition.
+5. It can be used by anyone at anyplace.
+6. To reduce the size of image pixels for better Data storage.
 
 ### Where:
-1. One can use at school university, work places, hospitals and at home 
+1. One can use at school university, work places, hospitals and at home.
 2. The calculator operations can be used in our daily lives, programming based and even in business.
 3. We can use in banking system for interest and credit debit calculation. 
 4. we can use at grocery shops are at electronics shops.
