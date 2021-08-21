@@ -117,6 +117,16 @@
 | L_96        | H_06| minutes into hour |      |        |     | Requirement Based |
 | L_97        | H_06| days into year |      |        |     | Requirement Based |
 | L_98        | H_06| days into minutes |      |        |     | Requirement Based |
+|  L_99       | H_02 |  Singlephase true power( Positive) | 400,70,0.8     |  22.4    |  22.4   | Scenario based |
+|  L_100       | H_02 |  Singlephase true power( Null) | NULL    | NULL_ERROR     |  NULL_ERROR   | Scenario based |
+|  L_101       | H_02 |  Threephase true power( Positive) | 400,70,0.8     |  38.79794    |  38.79794   | Scenario based |
+|  L_102       | H_02 |  Threephase true power( Null) | NULL    | NULL_ERROR     |  NULL_ERROR   | Scenario based |
+|  L_103       | H_02 |  Battery Run time( Positive) | 60,100     |  6.0    |  6.0   | Scenario based |
+|  L_104       | H_02 |  Battery Run time( Negative) | 60,100       |   NOT EQUAL   |  6.0   | Scenario based |
+|  L_105       | H_02 |  Battery Run time( Null) | NULL    | NULL_ERROR     |  NULL_ERROR   | Scenario based |
+
+
+
 
 
 
