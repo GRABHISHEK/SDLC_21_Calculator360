@@ -5,8 +5,8 @@
 | **Test ID** | **Description**                   | **Exp I/P** | **Exp O/P** | **Actual O/P** |    
 |-------------|-----------------------------------|------------|-------------|----------------|
 |  H_01       | Math Operations | Choice | SUCCESS | SUCCESS |
-|  H_02       | Electrical unit conversions Operations | Choice| SUCCESS | SUCCESS |
-|  H_03       | Physics Related conversion Operations | Choice | SUCCESS | SUCCESS |
+|  H_02       | Electrical Unit Conversions Operations | Choice| SUCCESS | SUCCESS |
+|  H_03       | Physics Related Conversion Operations | Choice | SUCCESS | SUCCESS |
 |  H_04       | Medical Operations | Choice| SUCCESS | SUCCESS |
 |  H_05       | Financial Operations | Choice| SUCCESS | SUCCESS |
 |  H_06       | Time Operations | Choice| SUCCESS | SUCCESS |
@@ -76,9 +76,9 @@
 | L_55        | H_01 |  Performing power | (4,2) | 16 | 16 | Requirement Based |
 | L_56        | H_01 |  performing power | (570,3) | 185193000 | 185193000 | Scenario based |
 | L_57        | H_01 | Perfoeming power | (1784,3) | 5677858304 | 5677858304 | Boundary Based |
-| L_58        |H_01 | Performing factorial | (5) | 120 | 120 | Requirement Based |
-| L_59        | H_01  | Performing Factorial | (20) | 2432902008176640000 | 2432902008176640000 | Scenario Based |
-| L-60        | H_01  | Performing Factorial | (120) | 6.6895029134491E+198 | 6.6895029134491E+198 | Boundary Scenario |
+| L_58        | H_01  | Performing factorial | (5) | 120 | 120 | Requirement Based |
+| L_59        | H_01 | Performing Factorial | (20) | 2432902008176640000 | 2432902008176640000 | Scenario Based |
+| L-60        | H_01 | Performing Factorial | (120) | 6.6895029134491E+198 | 6.6895029134491E+198 | Boundary Scenario |
 | L_61        | H_01 | Performing Permutation | (6,5) | 720 | 720 | Requirement Based |
 | L_62        | H_01 | Performing Permutation | (120,6) | 2629976731200 | 2629976731200 | Scenario Based |
 | L_63        | H_01 | Performing permutation | (5,6) | Error | Error | Boundary Based |
@@ -102,6 +102,8 @@
 | L_81        | H_03 | Pressure | (8, 0) | Error | Error | Requirement Based |
 | L_82        | H_03 | Density | (40, 8) | 5 | 5 | Requirement Based |
 | L_83        | H_03 | Torque | (2, 6, 30) | 6 | 6 | Scenario Based |
-| L_83        | H_03 | Torque | (2, 6, 0) | 0 | 0 | Scenario Based |
+| L_84        | H_03 | Torque | (2, 6, 0) | 0 | 0 | Scenario Based |
+| L_85        | H_04 | 
+
 
 
