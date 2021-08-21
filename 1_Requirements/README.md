@@ -152,3 +152,19 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR064 | performing weight based calculations | HR04 | In Progress |
 | LR065 | performing flow rate for IV infusion | HR04 | In Progress |
 | LR066 | performing flow rate for infusion pump | HR04 | In Progress |
+| LR067 | Permorming Simple Interest | HR05 |  In Progress  |
+| LR068 | Permorming Principal | HR05 |  In Progress  |
+| LR069 | Permorming Rate of interest | HR05 |  In Progress  |
+| LR070 | Permorming Time | HR05 |  In Progress  |
+| LR071 | Permorming Gain | HR05 |  In Progress  |
+| LR072 | Permorming Loss | HR05 |  In Progress  |
+| LR073 | Permorming Gain Percentage | HR05 |  In Progress  |
+| LR074 | Permorming Loss Percentage | HR05 |  In Progress  |
+| LR075 | Permorming Selling Price(with Gain) | HR05 |  In Progress  |
+| LR076 | Permorming Selling Price(with Loss) | HR05 |  In Progress  |
+| LR077 | Permorming Cost Price(with Gain) | HR05 |  In Progress  |
+| LR078 | Permorming Cost Price(with Loss) | HR05 |  In Progress  |
+| LR079 | Permorming Gain(from false weights) | HR05 |  In Progress  |
+| LR080 | Permorming Premium of a share | HR05 |  In Progress  |
+| LR081 | Permorming Discount of a share | HR05 |  In Progress  |
+| LR082 | Permorming No. of Shares | HR05 |  In Progress  |
