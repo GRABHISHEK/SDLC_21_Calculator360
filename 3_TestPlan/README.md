@@ -58,6 +58,19 @@
 |  L_37       | H_02 |  Battery life( Positive) |     |      |     | Scenario based |
 |  L_38       | H_02 |  Battery life( Negative) |     |      |     | Scenario based |
 |  L_39       | H_02 |  Battery life( Null) |     |      |     | Scenario based |
+|  L_40       | H_02 |  Ohm's law calculate voltage(Positive) | (2.4,3.2)    |  7.68   |   7.68  | Requirement based |
+|  L_41       | H_02 |  Ohm's law calculate voltage(Negative) | (-2,-2)    |  -1   |   -1  | Requirement based |
+|  L_42       | H_02 |  Ohm's law calculate current(Positive) | (5.6,2.4)    |  2.33   |   2.33 | Requirement based |
+|  L_43       | H_02 |  Ohm's law calculate current(Negative) | (-2.5,-7.2)    |  -1   |   -1  | Requirement based |
+|  L_44       | H_02 |  Ohm's law calculate resistance(Positive) | (6.5,2.1)    |  3.10   |   3.10  | Requirement based |
+|  L_45       | H_02 |  Ohm's law calculate resistance(Negative) | (-4.2,-2)    |  -1   |   -1  | Requirement based |
+|  L_46       | H_02 |  Performing Voltage divider (Positive) |    |     |     | Requirement based |
+|  L_47       | H_02 |  Performing Voltage divider (Negative) |     |     |     | Requirement based |
+|  L_48       | H_02 |  Power factor calculation (Positive) |    |     |     | Requirement based |
+|  L_49       | H_02 |  Power factor calculation (Negative) |    |     |     | Requirement based |
+|  L_50       | H_02 |  Electricity Bill calculation (Positive) |    |     |     | Scenario based |
+|  L_50       | H_02 |  Electricity Bill calculation (Null) |    |     |     | Scenario based |
+
 
 
 
