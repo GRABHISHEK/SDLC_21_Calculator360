@@ -113,16 +113,16 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR025 |  Projectile Motion | HR03 | In Progress |
 | LR026 | Simple Pendulum  | HR03 | In Progress |
 | LR027 | Conical Pendulum  | HR03 | In Progress |
-| LR028 | Center of Mass  | HR03 | In Progress |
-| LR029 | Newton's first law | HR03 | In Progress |
-| LR030 | Acceleration | HR03 | In Progress |
-| LR031 | Displacement | HR03 | In Progress |
-| LR032 | potential Energy  | HR03 | In Progress |
+| LR028 | Sound  | HR03 | In Progress |
+| LR029 | Speed of sound | HR03 | In Progress |
+| LR030 | Doppler Effect in sound | HR03 | In Progress |
+| LR031 | Intensity of Sound| HR03 | In Progress |
+| LR032 | Incident, Reflective angles | HR03 | In Progress |
 | LR033 | Newton's Second law | HR03 | In Progress |
-| LR034 | Poisson's Ratio | HR03 | In Progress |
+| LR034 | Refractive index, Snell's Law| HR03 | In Progress |
 | LR035 | Simple Harmonic Motion | HR03 | In Progress |
-| LR036 | Doppler Effect | HR03 | In Progress |
-| LR037 | Wavelength| HR03 | In Progress |
+| LR036 | Len's Equation | HR03 | In Progress |
+| LR037 | Wavelength of Sound| HR03 | In Progress |
 | LR038 | Angular Momentum | HR03 | In Progress |
 | LR039 | Performing Star to delta conversion  | HR02 | In Progress |
 | LR040 | Performing Delta to Star conversion  | HR02 | In Progress |
