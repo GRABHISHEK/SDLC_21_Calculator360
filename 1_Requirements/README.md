@@ -145,7 +145,10 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR057 | performing Sum of Natural Numbers | HR01 | In Progress |
 | LR058 | performing BSA calculation | HR04 | In Progress |
 | LR059 | performing BMI calculation | HR04 | In Progress |
-| LR060 | performing pounds to kg coversions | HR04 | In Progress |
-| LR061 | performing weight based calculations | HR04 | In Progress |
-| LR062 | performing flow rate for IV infusion | HR04 | In Progress |
-| LR063 | performing flow rate for infusion pump | HR04 | In Progress |
+| LR060 | performing BMR calculation | HR04 | In Progress |
+| LR061 | performing Heart rate calculation | HR04 | In Progress |
+| LR062 | performing Calories calculation | HR04 | In Progress |
+| LR063 | performing pounds to kg coversions | HR04 | In Progress |
+| LR064 | performing weight based calculations | HR04 | In Progress |
+| LR065 | performing flow rate for IV infusion | HR04 | In Progress |
+| LR066 | performing flow rate for infusion pump | HR04 | In Progress |
