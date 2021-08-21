@@ -88,9 +88,9 @@
 | L_67        | H_01 | Performing sum of natural number | (90) | 4095 | 4095 | Requirement Based |
 | L_68        | H_01 | Performing sum of natural numbers | (740) | 274170 | 274170 | Scenario Based |
 | L_69        | H_01 | Performing sum of natural numbers | (-60) | Error | Error | Boundary Based |
-| L_70        | H_03 | Finding displacement | (2, 3, 4) | 32 | 32 | Scenerio Based |
-| L_71        | H_03 | Finding displacement | (2.5, 3.5, 4.5) | 46.687500 | 46.687500 | Scenerio Based |
-| L_72        | H_03 | Finding displacement | (5, 2, -4) | Error | Error | Scenerio Based |
+| L_70        | H_03 | Finding displacement | (2, 3, 4) | 32 | 32 | Scenario Based |
+| L_71        | H_03 | Finding displacement | (2.5, 3.5, 4.5) | 46.687500 | 46.687500 | Scenario Based |
+| L_72        | H_03 | Finding displacement | (5, 2, -4) | Error | Error | Scenario Based |
 | L_73        | H_03 | Avarage velocity | (3, 4) | 3.5 | 3.5 | Requirement Based |
 | L_74        | H_03 | Avarage velocity | (-10, 6) | 2 | 2 | Requirement Based |
 
