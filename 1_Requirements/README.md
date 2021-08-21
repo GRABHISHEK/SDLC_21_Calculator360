@@ -143,3 +143,7 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR055 | Performing Permutation | HR01 |  In progress  |
 | LR056 | Performing Combination | HR01 | In Progress |
 | LR057 | performing Sum of Natural Numbers | HR01 | In Progress |
+| LR058 | performing BSA calculation | HR04 | In Progress |
+| LR059 | performing BMI calculation | HR04 | In Progress |
+| LR060 | performing flow rate for IV infusion | HR04 | In Progress |
+| LR061 | performing flow rate for infusion pump | HR04 | In Progress |
