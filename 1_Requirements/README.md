@@ -114,7 +114,7 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR026 | Simple Pendulum  | HR03 | In Progress |
 | LR027 | Conical Pendulum  | HR03 | In Progress |
 | LR028 | Center of Mass  | HR03 | In Progress |
-| LR029 | Power Factor | HR03 | In Progress |
+| LR029 | Newton's first law | HR03 | In Progress |
 | LR030 | Acceleration | HR03 | In Progress |
 | LR031 | Displacement | HR03 | In Progress |
 | LR032 | potential Energy  | HR03 | In Progress |
