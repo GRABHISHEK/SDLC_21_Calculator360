@@ -3,6 +3,7 @@
 
 # Low Level Design
 ## Structural Design
+![](Calculator360_structlowleveldesign_1.png)
 ![](Calculator360_structlowleveldesign_2.png)
 ![](Calculator360_structlowleveldesign_3.png)
 ![](Calculator360_structlowleveldesign_4.png)
