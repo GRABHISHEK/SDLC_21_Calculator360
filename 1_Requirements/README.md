@@ -95,8 +95,8 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR07 | Perform Discrete cosine Transform  | HR06 |  In Progress  |
 | LR08 | Perform Discrete sine Transform | HR06 |  In Progress  |
 | LR09 | Perform Hadmard Transform  | HR06 |  In Progress  |
-| LR010 | Perform harwavlet Transform | HR06 |  In Progress  |
-| LR011 | Perform Image enhancement Transform | HR06 |  In Progress  |
+| LR010 | Perform Fourier Transform | HR06 |  In Progress  |
+| LR011 | Perform Run length encoding compression | HR06 |  In Progress  |
 | LR012 | compare the initial and transformed pixel vales and disply the optimizatio | HR06 |  In Progress  |
 | LR013 | Motion in one dimension | HR03 | In Progress |
 | LR014 | Momentum, Force, Impulse | HR03 | In Progress |
