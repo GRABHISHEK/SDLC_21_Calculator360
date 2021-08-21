@@ -108,8 +108,15 @@
 | L_87        | H_03  | Refractive Index | (C=3*10^-8, n=2 ) | 1.5 | 1.5 |  Requirement Based |
 | L_88        | H_03  | Speed of Sound | (D=6, T=0.5 ) | 12 | 12 | Scenario Based  |
 | L_89        | H_03 | Light | (0.2, 1.2 ) | 0.24 | 0.24 | Scenario Based |
-
- 
+| L_90        | H_06| Year into hours |      |        |     | Requirement Based |
+| L_91        | H_06| days into hours |      |        |     | Requirement Based |
+| L_92        | H_06| hours into seconds|      |        |     | Requirement Based |
+| L_93        | H_06| hours into minutes |      |        |     | Requirement Based |
+| L_94        | H_06| minutes into seconds |      |        |     | Requirement Based |
+| l_95        | H_06| days into weeks |      |        |     | Requirement Based |
+| L_96        | H_06| minutes into hour |      |        |     | Requirement Based |
+| L_97        | H_06| days into year |      |        |     | Requirement Based |
+| L_98        | H_06| days into minutes |      |        |     | Requirement Based |
 
 
 
