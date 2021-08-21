@@ -39,6 +39,7 @@ typedef struct pfstruct
 {
     float P, V, I, AP, RP, PF;
 } pfstruct;
+float powerfactor();
 
 int electricalcalc();
 
@@ -83,8 +84,6 @@ float ohmR(float V, float I);
 // Declarations for VOLTAGE DIVIDER
 float voltagedivideroperation(float Vin, float R1, float R2);
 float voltagedivider();
-
-float powerfactor();
 
 //Declarations for EB Bill calculator
 float EBbillcalc(float units);
