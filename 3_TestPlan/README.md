@@ -93,9 +93,15 @@
 | L_72        | H_03 | Finding displacement | (5, 2, -4) | Error | Error | Scenario Based |
 | L_73        | H_03 | Avarage velocity | (3, 4) | 3.5 | 3.5 | Requirement Based |
 | L_74        | H_03 | Avarage velocity | (-10, 6) | 2 | 2 | Requirement Based |
-
-
-
-
+| L_75        | H_03 | Momentum | (20, 5) | 100 | 100 | Requirement Based |
+| L_76        | H_03 | Force | (15, 4) | 60 | 60 | Requirement Based |
+| L_77        | H_03 | Force | (-50, 14) | Error | Error | Requirement Based |
+| L_78        | H_03 | Impulse | (10, 4, 3) | 30 | 30 | Requirement Based |
+| L_79        | H_03 | Impulse | (-10, 4, 3) | Error | Error | Requirement Based |
+| L_80        | H_03 | Pressure | (42, 7) | 6 | 6 | Requirement Based |
+| L_81        | H_03 | Pressure | (8, 0) | Error | Error | Requirement Based |
+| L_82        | H_03 | Density | (40, 8) | 5 | 5 | Requirement Based |
+| L_83        | H_03 | Torque | (2, 6, 30) | 6 | 6 | Scenario Based |
+| L_83        | H_03 | Torque | (2, 6, 0) | 0 | 0 | Scenario Based |
 
 
