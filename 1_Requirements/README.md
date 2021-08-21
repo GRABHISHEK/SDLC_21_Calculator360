@@ -137,3 +137,9 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR049 | Performing Ohm's law calculation | HR02 | In Progress |
 | LR050 | Performing Power Factor calculation | HR02 | In Progress |
 | LR051 | Performing Voltage divider calculation | HR02 | In Progress |
+| LR052 | Permorming Mod | HR01 |  In Progress  |
+| LR053 | Performing Power | HR01 |  In Progress |
+| LR054 | Performing Factorial | HR01 |  In Progress  |
+| LR055 | Performing Permutation | HR01 |  In progress  |
+| LR056 | Performing Combination | HR01 | In Progress |
+| LR057 | performing Sum of Natural Numbers | HR01 | In Progress |
