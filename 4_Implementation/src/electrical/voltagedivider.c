@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include "electricalcalc.h"
 
-float voltagedivideroperation(float Vin, float R1, float R2)
+float voltagedivideroperation(float *Vin, float *R1, float *R2)
 {
     if(Vin >0 && R1>0 && R2>0)
-    return R2/(R1+R2)*Vin;
+    return *R2/(*R1+*R2)*(*Vin);
     else 
     return 0;
 }
@@ -19,5 +19,5 @@ float voltagedivider()
     scanf("%f",&R1);
     printf("Resistance (R2) in ohms     : ");
     scanf("%f",&R2);
-    printf("Output Volatge (Vo)         :%0.2fV",voltagedivideroperation(Vin,R1,R2));
+    printf("Output Voltage (Vo)         : %0.2fV",voltagedivideroperation(&Vin,&R1,&R2));
 }

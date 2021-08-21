@@ -82,11 +82,11 @@ float ohmI(float V, float R);
 float ohmR(float V, float I);
 
 // Declarations for VOLTAGE DIVIDER
-float voltagedivideroperation(float Vin, float R1, float R2);
+float voltagedivideroperation(float *Vin, float *R1, float *R2);
 float voltagedivider();
 
 //Declarations for EB Bill calculator
-float EBbillcalc(float units);
+float EBbillcalc(float *units);
 float EBbill();
 
 #endif
