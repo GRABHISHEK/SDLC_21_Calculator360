@@ -74,24 +74,25 @@
 | L_53        | H_01 |  performing mod | (570,7) | 3 | 3 | Scenario based |
 | L_54        | H_01 | Perfoeming mod | (97543854,254) | 234 | 234 | Boundary Based |
 | L_55        | H_01 |  Performing power | (4,2) | 16 | 16 | Requirement Based |
-| L_56       | H_01 |  performing power | (570,3) | 185193000 | 185193000 | Scenario based |
-| L_57       | H_01 | Perfoeming power | (1784,3) | 5677858304 | 5677858304 | Boundary Based |
+| L_56        | H_01 |  performing power | (570,3) | 185193000 | 185193000 | Scenario based |
+| L_57        | H_01 | Perfoeming power | (1784,3) | 5677858304 | 5677858304 | Boundary Based |
 | L_58        |H_01 | Performing factorial | (5) | 120 | 120 | Requirement Based |
-| L_59      | H_01  | Performing Factorial | (20) | 2432902008176640000 | 2432902008176640000 | Scenario Based |
-| L-60      | H_01  | Performing Factorial | (120) | 6.6895029134491E+198 | 6.6895029134491E+198 | Boundary Scenario |
-| L_61     | H_01 | Performing Permutation | (6,5) | 720 | 720 | Requirement Based |
-| L_62     | H_01 | Performing Permutation | (120,6) | 2629976731200 | 2629976731200 | Scenario Based |
-| L_63     | H_01 | Performing permutation | (5,6) | Error | Error | Boundary Based |
-| L_64     | H_01 | Performing combination | (6,5) | 6 | 6 | Requirement Based |
-| L_65     | H_01 | Performing combination | (120,6) | 3652745460 | 3652745460 | Scenario Based |
-| L_66     | H_01 | Performing combination | (5,6) | Error | Error | Boundary Based |
-| L_67     | H_01 | Performing sum of natural number | (90) | 4095 | 4095 | Requirement Based |
-| L_68    | H_01 | Performing sum of natural numbers | (740) | 274170 | 274170 | Scenario Based |
-| L_69    | H_01 | Performing sum of natural numbers | (-60) | Error | Error | Boundary Based |
-
-'
-
-
+| L_59        | H_01  | Performing Factorial | (20) | 2432902008176640000 | 2432902008176640000 | Scenario Based |
+| L-60        | H_01  | Performing Factorial | (120) | 6.6895029134491E+198 | 6.6895029134491E+198 | Boundary Scenario |
+| L_61        | H_01 | Performing Permutation | (6,5) | 720 | 720 | Requirement Based |
+| L_62        | H_01 | Performing Permutation | (120,6) | 2629976731200 | 2629976731200 | Scenario Based |
+| L_63        | H_01 | Performing permutation | (5,6) | Error | Error | Boundary Based |
+| L_64        | H_01 | Performing combination | (6,5) | 6 | 6 | Requirement Based |
+| L_65        | H_01 | Performing combination | (120,6) | 3652745460 | 3652745460 | Scenario Based |
+| L_66        | H_01 | Performing combination | (5,6) | Error | Error | Boundary Based |
+| L_67        | H_01 | Performing sum of natural number | (90) | 4095 | 4095 | Requirement Based |
+| L_68        | H_01 | Performing sum of natural numbers | (740) | 274170 | 274170 | Scenario Based |
+| L_69        | H_01 | Performing sum of natural numbers | (-60) | Error | Error | Boundary Based |
+| L_70        | H_03 | Finding displacement | (2, 3, 4) | 32 | 32 | Scenerio Based |
+| L_71        | H_03 | Finding displacement | (2.5, 3.5, 4.5) | 46.687500 | 46.687500 | Scenerio Based |
+| L_72        | H_03 | Finding displacement | (5, 2, -4) | Error | Error | Scenerio Based |
+| L_73        | H_03 | Avarage velocity | (3, 4) | 3.5 | 3.5 | Requirement Based |
+| L_74        | H_03 | Avarage velocity | (-10, 6) | 2 | 2 | Requirement Based |
 
 
 
