@@ -4,7 +4,7 @@
 
 | **Test ID** | **Description**                   | **Exp I/P** | **Exp O/P** | **Actual O/P** |    
 |-------------|-----------------------------------|------------|-------------|----------------|
-|  H_01       | Arthimetic Operations | Choice | SUCCESS | SUCCESS |
+|  H_01       | Math Operations | Choice | SUCCESS | SUCCESS |
 |  H_02       | Electrical unit conversions Operations | Choice| SUCCESS | SUCCESS |
 |  H_03       | Physics Related conversion Operations | Choice | SUCCESS | SUCCESS |
 |  H_04       | Medical Operations | Choice| SUCCESS | SUCCESS |
@@ -69,7 +69,31 @@
 |  L_48       | H_02 |  Power factor calculation (Positive) |    |     |     | Requirement based |
 |  L_49       | H_02 |  Power factor calculation (Negative) |    |     |     | Requirement based |
 |  L_50       | H_02 |  Electricity Bill calculation (Positive) |    |     |     | Scenario based |
-|  L_50       | H_02 |  Electricity Bill calculation (Null) |    |     |     | Scenario based |
+|  L_51       | H_02 |  Electricity Bill calculation (Null) |    |     |     | Scenario based |
+| L_52        | H_01 |  Performing Mod | (4,2) | 0 | 0 | Requirement Based |
+| L_53        | H_01 |  performing mod | (570,7) | 3 | 3 | Scenario based |
+| L_54        | H_01 | Perfoeming mod | (97543854,254) | 234 | 234 | Boundary Based |
+| L_55        | H_01 |  Performing power | (4,2) | 16 | 16 | Requirement Based |
+| L_56       | H_01 |  performing power | (570,3) | 185193000 | 185193000 | Scenario based |
+| L_57       | H_01 | Perfoeming power | (1784,3) | 5677858304 | 5677858304 | Boundary Based |
+| L_58        |H_01 | Performing factorial | (5) | 120 | 120 | Requirement Based |
+| L_59      | H_01  | Performing Factorial | (20) | 2432902008176640000 | 2432902008176640000 | Scenario Based |
+| L-60      | H_01  | Performing Factorial | (120) | 6.6895029134491E+198 | 6.6895029134491E+198 | Boundary Scenario |
+| L_61     | H_01 | Performing Permutation | (6,5) | 720 | 720 | Requirement Based |
+| L_62     | H_01 | Performing Permutation | (120,6) | 2629976731200 | 2629976731200 | Scenario Based |
+| L_63     | H_01 | Performing permutation | (5,6) | Error | Error | Boundary Based |
+| L_64     | H_01 | Performing combination | (6,5) | 6 | 6 | Requirement Based |
+| L_65     | H_01 | Performing combination | (120,6) | 3652745460 | 3652745460 | Scenario Based |
+| L_66     | H_01 | Performing combination | (5,6) | Error | Error | Boundary Based |
+| L_67     | H_01 | Performing sum of natural number | (90) | 4095 | 4095 | Requirement Based |
+| L_68    | H_01 | Performing sum of natural numbers | (740) | 274170 | 274170 | Scenario Based |
+| L_69    | H_01 | Performing sum of natural numbers | (-60) | Error | Error | Boundary Based |
+
+'
+
+
+
+
 
 
 
