@@ -124,9 +124,38 @@
 |  L_103       | H_02 |  Battery Run time( Positive) | 60,100     |  6.0    |  6.0   | Scenario based |
 |  L_104       | H_02 |  Battery Run time( Negative) | 60,100       |   NOT EQUAL   |  6.0   | Scenario based |
 |  L_105       | H_02 |  Battery Run time( Null) | NULL    | NULL_ERROR     |  NULL_ERROR   | Scenario based |
-
-
-
+|  L_106  | H_05 | Performing Simple Interest | (100,10,10) | 100.000000 | 100.000000 | Requirement based |
+|  L_107  | H_05 | Performing Simple Interest | (560,5,6) | 168.000000 | 168.000000 | Requirement based |
+|  L_108  | H_05 | Performing Principal | (50,5,6) | 166.666667 | 166.666667 | Requirement based |
+|  L_109  | H_05 | Performing Principal | (58,3,4) | 483.333333 | 483.333333 | Requirement based |
+|  L_110  | H_05 | Performing Rate of interest | (400,2.5,4) | 4000.000000 | 4000.000000 | Requirement based |
+|  L_111  | H_05 | Performing Rate of interest | (520,300,3.1) | 55.913978 | 55.913978 | Requirement based |
+|  L_112  | H_05 | Performing Time | (250,130,5) | 38.461538 | 38.461538 | Requirement based |
+|  L_113  | H_05 | Performing Time | (56,41,2) | 68.292683 | 68.292683 | Requirement based |
+|  L_114  | H_05 | Performing Gain | (120,12) | 108.000000 | 108.000000 | Requirement based |
+|  L_115  | H_05 | Performing Gain | (20,50) | Invalid | Invalid | Requirement based |
+|  L_116  | H_05 | Performing Loss | (12,50) | 38.000000 | 38.000000 | Requirement based |
+|  L_117  | H_05 | Performing Loss | (52,10) | Invalid | Invalid | Requirement based |
+|  L_118  | H_05 | Performing Gain Percentage | (40,52) | 76.923077 | 76.923077 | Requirement based |
+|  L_119  | H_05 | Performing Gain Percentage | (23,82) | 28.048780 | 28.048780 | Requirement based |
+|  L_120  | H_05 | Performing Loss Percentage | (52,21) | 247.619048 | 247.619048 | Requirement based |
+|  L_121  | H_05 | Performing Loss Percentage | (12,89) | 13.483146 | 13.483146 | Requirement based |
+|  L_122  | H_05 | Performing Selling Price(with Gain) | (10,52) | 57.200000 | 57.200000 | Requirement based |
+|  L_123  | H_05 | Performing Selling Price(with Gain) | (52,10) | 15.200000 | 15.200000 | Requirement based |
+|  L_124  | H_05 | Performing Selling Price(with Loss) | (52,91) | 43.680000 | 43.680000 | Requirement based |
+|  L_125  | H_05 | Performing Selling Price(with Loss) | (21,8) | 6.320000 | 6.320000 | Requirement based |
+|  L_126  | H_05 | Performing Cost Price(with Gain) | (59,87) | 54.716981 | 54.716981 | Requirement based |
+|  L_127  | H_05 | Performing Cost Price(with Gain) | (36,65) | 47.794118 | 47.794118 | Requirement based |
+|  L_128  | H_05 | Performing Cost Price(with Loss) | (58,2) | 4.761905 | 4.761905 | Requirement based |
+|  L_129  | H_05 | Performing Cost Price(with Loss) | (6,4) | 4.255319 | 4.255319 | Requirement based |
+|  L_130  | H_05 | Performing Gain(from false weights) | (5,125) | 4.166667 | 4.166667 | Requirement based |
+|  L_131  | H_05 | Performing Gain(from false weights) | (56,12) | Invalid | Invalid | Requirement based |
+|  L_132  | H_05 | Performing Premium of share | (156,100) | 56.000000 | 56.000000 | Requirement based |
+|  L_133  | H_05 | Performing Premium of share | (56,59) | Invalid | Invalid | Requirement based |
+|  L_134  | H_05 | Performing Discount of share | (69,85) | 16.000000 | 16.000000 | Requirement based |
+|  L_135  | H_05 | Performing Discount of share | (156,125) | Invalid | Invalid | Requirement based |
+|  L_136  | H_05 | Performing No. of Shares | (560,25) | Invalid | Invalid | Requirement based |
+|  L_137  | H_05 | Performing No. of Shares | (500,5) | 100 | 100 | Requirement based |
 
 
 
