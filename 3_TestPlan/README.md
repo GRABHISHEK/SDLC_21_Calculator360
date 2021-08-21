@@ -91,8 +91,8 @@
 | L_70        | H_03 | Finding displacement | (2, 3, 4) | 32 | 32 | Scenario Based |
 | L_71        | H_03 | Finding displacement | (2.5, 3.5, 4.5) | 46.687500 | 46.687500 | Scenario Based |
 | L_72        | H_03 | Finding displacement | (5, 2, -4) | Error | Error | Scenario Based |
-| L_73        | H_03 | Avarage velocity | (3, 4) | 3.5 | 3.5 | Requirement Based |
-| L_74        | H_03 | Avarage velocity | (-10, 6) | 2 | 2 | Requirement Based |
+| L_73        | H_03 | Average velocity | (3, 4) | 3.5 | 3.5 | Requirement Based |
+| L_74        | H_03 | Average velocity | (-10, 6) | 2 | 2 | Requirement Based |
 | L_75        | H_03 | Momentum | (20, 5) | 100 | 100 | Requirement Based |
 | L_76        | H_03 | Force | (15, 4) | 60 | 60 | Requirement Based |
 | L_77        | H_03 | Force | (-50, 14) | Error | Error | Requirement Based |
