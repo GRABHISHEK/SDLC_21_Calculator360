@@ -43,21 +43,21 @@
 |  L_25       | H_06 | Performing Hadmard transform | [3x3] | [3x3] | [3x3] | matrix based |
 |  L_26       | H_06 | Performing Harwavlet transform | [3x3] | [3x3] | [3x3] | matrix based |
 |  L_27       | H_06 | Performing image enhancement transform | [3x3] | [3x3] | [3x3] | matrix based |
-|  L_28       | H_02 |  Star to Delta( Positive) |     |      |     | Scenario based |
-|  L_29       | H_02 |  Star to Delta( Negative) |     |      |     | Scenario based |
-|  L_30       | H_02 |  Star to Delta( Null) |     |      |     | Scenario based |
-|  L_28       | H_02 |  Delta to Star( Positive) |     |      |     | Scenario based |
-|  L_29       | H_02 |  Delta to Star( Negative) |     |      |     | Scenario based |
-|  L_30       | H_02 |  Delta to Star( Null) |     |      |     | Scenario based |
-|  L_31       | H_02 |  KW to Amps(1p)( Positive) |     |      |     | Scenario based |
-|  L_32       | H_02 |  KW to Amps(1p)( Negative) |     |      |     | Scenario based |
-|  L_33       | H_02 |  KW to Amps(1p)( Null) |     |      |     | Scenario based |
-|  L_34       | H_02 |  KW to Amps(3p)( Positive) |     |      |     | Scenario based |
-|  L_35       | H_02 |  KW to Amps(3p)( Negative) |     |      |     | Scenario based |
-|  L_36       | H_02 |  KW to Amps(3p)( Null) |     |      |     | Scenario based |
-|  L_37       | H_02 |  Battery life( Positive) |     |      |     | Scenario based |
-|  L_38       | H_02 |  Battery life( Negative) |     |      |     | Scenario based |
-|  L_39       | H_02 |  Battery life( Null) |     |      |     | Scenario based |
+|  L_28       | H_02 |  Star to Delta( Positive) | {10, 20, 30}     | {110, 55, 36}      | {110, 55, 36}    | Scenario based |
+|  L_29       | H_02 |  Star to Delta( Negative) | {10, 20, 30}    |  NOT EQUAL    |  {110, 55, 36}   | Scenario based |
+|  L_30       | H_02 |  Star to Delta( Null) |  NULL   |   NULL_ERROR   | NULL_ERROR    | Scenario based |
+|  L_28       | H_02 |  Delta to Star( Positive) |   {10, 20, 30}  | {10, 5, 3}     | {10, 5, 3}    | Scenario based |
+|  L_29       | H_02 |  Delta to Star( Negative) | {10, 20, 30}    |  NOT EQUAL    | {10, 5, 3}    | Scenario based |
+|  L_30       | H_02 |  Delta to Star( Null) | NULL    | NULL_ERROR     | NULL_ERROR    | Scenario based |
+|  L_31       | H_02 |  KW to Amps(1p)( Positive) |  0.33,0.8,110   | 3.750     |  3.750   | Scenario based |
+|  L_32       | H_02 |  KW to Amps(1p)( Negative) | 0.33,0.8,110     |  NOT EQUAL    |   3.750    | Scenario based |
+|  L_33       | H_02 |  KW to Amps(1p)( Null) |  NULL    | NULL_ERROR     | NULL_ERROR    | Scenario based |
+|  L_34       | H_02 |  KW to Amps(3p)( Positive) | 0.33,0.8,110      |  2.165    |  2.165   | Scenario based |
+|  L_35       | H_02 |  KW to Amps(3p)( Negative) | 0.33,0.8,110      |   NOT EQUAL   |  2.165   | Scenario based |
+|  L_36       | H_02 |  KW to Amps(3p)( Null) | NULL    | NULL_ERROR     |  NULL_ERROR   | Scenario based |
+|  L_37       | H_02 |  Battery life( Positive) | 2000,260    | 7.7     |  7.7   | Scenario based |
+|  L_38       | H_02 |  Battery life( Negative) | 2000,260    |  NOT EQUAL    | 7.7    | Scenario based |
+|  L_39       | H_02 |  Battery life( Null) |   NULL  |  NULL_ERROR    | NULL_ERROR    | Scenario based |
 |  L_40       | H_02 |  Ohm's law calculate voltage(Positive) | (2.4,3.2)    |  7.68   |   7.68  | Requirement based |
 |  L_41       | H_02 |  Ohm's law calculate voltage(Negative) | (-2,-2)    |  -1   |   -1  | Requirement based |
 |  L_42       | H_02 |  Ohm's law calculate current(Positive) | (5.6,2.4)    |  2.33   |   2.33 | Requirement based |
