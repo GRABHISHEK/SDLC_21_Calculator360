@@ -26,13 +26,16 @@ typedef struct star
     int r3;
 } starval;
 
-// Function declaration
 // Declarations for OHMS LAW
-// structure for ohms law variables V,I,R (Volatge, Current, resistance)
+// structure for ohms law variables V,I,R (Voltage, Current, resistance)
 typedef struct
 {
     float V, I, R;
 } ohmparameter;
+float ohmslaw();
+float ohmV(float I, float R);
+float ohmI(float V, float R);
+float ohmR(float V, float I);
 
 //Declarations for POWER FACTOR
 typedef struct pfstruct
@@ -74,12 +77,6 @@ float sprealpower(float *voltage, float *current, float *powerfactor);
 void threephase(float *voltage, float *current, float *powerfactor);
 
 float tprealpower(float *voltage, float *current, float *powerfactor);
-
-//Declarations for Ohm's law
-float ohmslaw();
-float ohmV(float I, float R);
-float ohmI(float V, float R);
-float ohmR(float V, float I);
 
 // Declarations for VOLTAGE DIVIDER
 float voltagedivideroperation(float *Vin, float *R1, float *R2);

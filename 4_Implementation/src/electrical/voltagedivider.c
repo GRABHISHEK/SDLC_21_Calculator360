@@ -3,10 +3,10 @@
 
 float voltagedivideroperation(float *Vin, float *R1, float *R2)
 {
-    if(Vin >0 && R1>0 && R2>0)
+    if(*Vin >0 && *R1>0 && *R2>0)
     return *R2/(*R1+*R2)*(*Vin);
     else 
-    return 0;
+    return -1;
 }
 float voltagedivider()
 {
