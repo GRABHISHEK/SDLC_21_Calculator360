@@ -24,11 +24,11 @@
  * @brief Error enum variables for unit testing
  * 
  */
-typedef enum error_t
+typedef enum errort
 {
     SUCCESS,
     NULL_ERROR,
-} error_t;
+} errort;
 
 /**
  * @brief Resistance variables for delta configuration

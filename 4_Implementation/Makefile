@@ -12,16 +12,16 @@ CFLAGS= -o
 MAIN=main.c
 
 # All source code files
-SRC=batterylife.c\
-KWtoAmps.c\
-singlephasepower.c\
-threephasepower.c\
-stardeltaconversion.c\
-EBbill.c\
-ohmslaw.c\
-voltagedivider.c\
-powerfactor.c\
-electricalCalc.c
+SRC=src/electrical/batterylife.c\
+src/electrical/KWtoAmps.c\
+src/electrical/singlephasepower.c\
+src/electrical/threephasepower.c\
+src/electrical/stardeltaconversion.c\
+src/electrical/EBbill.c\
+src/electrical/ohmslaw.c\
+src/electrical/voltagedivider.c\
+src/electrical/powerfactor.c\
+src/electrical/electricalCalc.c
 
 
 # All test source files
