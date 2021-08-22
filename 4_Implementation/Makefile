@@ -29,7 +29,7 @@ TEST=test.c\
 unity/unity.c
 
 # All include folders with header files
-INC=electricalCalc.h\
+INC=-I inc\
 -I unity
 
 #SOurce file for coverage test
