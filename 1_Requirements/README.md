@@ -125,16 +125,16 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR036 | Len's Equation | HR03 | In Progress |
 | LR037 | Wavelength of Sound| HR03 | In Progress |
 | LR038 | Angular Momentum | HR03 | In Progress |
-| LR039 | Performing Star to delta conversion  | HR02 | In Progress |
-| LR040 | Performing Delta to Star conversion  | HR02 | In Progress |
-| LR041 | Performing KW to Amps conversion (Single phase) | HR02 | In Progress |
-| LR042 | Performing KW to Amps conversion (Three phase) | HR02 | In Progress |
-| LR043 | Performing Battery life calculation | HR02 | In Progress |
+| LR039 | Performing Star to delta conversion  | HR02 | Implemented |
+| LR040 | Performing Delta to Star conversion  | HR02 | Implemented |
+| LR041 | Performing KW to Amps conversion (Single phase) | HR02 | Implemented |
+| LR042 | Performing KW to Amps conversion (Three phase) | HR02 | Implemented |
+| LR043 | Performing Battery life calculation | HR02 | Implemented |
 | LR044 | Performing Electricity bill calculation | HR02 | In Progress |
-| LR045 | Performing Single phase real power calculation | HR02 | In Progress |
-| LR046 | Performing Single phase apparent power calculation | HR02 | In Progress |
-| LR047 | Performing Three phase real power calculation | HR02 | In Progress |
-| LR048 | Performing Three phase apparent power calculation | HR02 | In Progress |
+| LR045 | Performing Single phase real power calculation | HR02 | Implemented |
+| LR046 | Performing Single phase apparent power calculation | HR02 | Future |
+| LR047 | Performing Three phase real power calculation | HR02 | Implemented |
+| LR048 | Performing Three phase apparent power calculation | HR02 | Future |
 | LR049 | Performing Ohm's law calculation | HR02 | In Progress |
 | LR050 | Performing Power Factor calculation | HR02 | In Progress |
 | LR051 | Performing Voltage divider calculation | HR02 | In Progress |
