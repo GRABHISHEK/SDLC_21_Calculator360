@@ -21,7 +21,8 @@ src/electrical/EBbill.c\
 src/electrical/ohmslaw.c\
 src/electrical/voltagedivider.c\
 src/electrical/powerfactor.c\
-src/electrical/electricalCalc.c
+src/electrical/electricalCalc.c\
+src/Electronicsfunctions.c
 
 
 # All test source files
