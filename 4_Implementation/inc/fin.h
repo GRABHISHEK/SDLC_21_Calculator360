@@ -6,6 +6,7 @@
 #include<stdio.h>
 
 //int input;
+int financecal();
 double simpleinterest(double pr,double ra,double ti);
 double principal(double si,double ra,double ti);
 double rate(double si,double pr,double ti);
