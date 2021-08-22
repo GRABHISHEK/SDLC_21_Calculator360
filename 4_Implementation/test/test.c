@@ -70,6 +70,9 @@ int main(){
   RUN_TEST(batterylife1);
   RUN_TEST(sprealpowercalc);
   RUN_TEST(tprealpowercalc);
+RUN_TEST(testohmV);
+  RUN_TEST(testohmI);
+  RUN_TEST(testohmR);
   return UNITY_END();
 }
 
@@ -386,4 +389,22 @@ void tprealpowercalc(void)
     float volt = 400, current = 70, pf = 0.8;
     TEST_ASSERT_EQUAL_FLOAT(38.79794, tprealpower(&volt, &current, &pf));
     TEST_ASSERT_EQUAL(NULL_ERROR, tprealpower(NULL, NULL, NULL));
+}
+void testohmV(void)
+{
+  float I = 2.4, R = 3.2;
+  TEST_ASSERT_EQUAL_FLOAT(7.68, ohmV(I, R));
+  TEST_ASSERT_NOT_EQUAL(1.9, ohmV(I, R));
+}
+void testohmI(void)
+{
+  float V = 5.6, R = 2.4;
+  TEST_ASSERT_EQUAL_FLOAT(2.33, ohmI(V, R));
+  TEST_ASSERT_NOT_EQUAL(3.7, ohmI(V, R));
+}
+void testohmR(void)
+{
+  float I = 6.5, V = 2.1;
+  TEST_ASSERT_EQUAL_FLOAT(3.1, ohmI(I, V));
+  TEST_ASSERT_NOT_EQUAL(4.2, ohmI(I, V));
 }
