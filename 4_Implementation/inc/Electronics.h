@@ -20,6 +20,12 @@ int a[10][10],r,c,i,j,k;
 float dsst[4][4],Discretesine[4][4];
 
 int Electronicsfun();
+int Hadmardtransform(int avar);
+int RunlengthEncodingCompression(int a , int b);
+int sinetransform(int atomicity);
+int DiscreteFourierTransform(int a , int b);
+int cosinetransform(int a , int b);
+
 
 void fun1();
 void fun2();
