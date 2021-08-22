@@ -64,12 +64,12 @@
 |  L_43       | H_02 |  Ohm's law calculate current(Negative) | (-2.5,-7.2)    |  -1   |   -1  | Requirement based |
 |  L_44       | H_02 |  Ohm's law calculate resistance(Positive) | (6.5,2.1)    |  3.10   |   3.10  | Requirement based |
 |  L_45       | H_02 |  Ohm's law calculate resistance(Negative) | (-4.2,-2)    |  -1   |   -1  | Requirement based |
-|  L_46       | H_02 |  Performing Voltage divider (Positive) |    |     |     | Requirement based |
-|  L_47       | H_02 |  Performing Voltage divider (Negative) |     |     |     | Requirement based |
-|  L_48       | H_02 |  Power factor calculation (Positive) |    |     |     | Requirement based |
-|  L_49       | H_02 |  Power factor calculation (Negative) |    |     |     | Requirement based |
-|  L_50       | H_02 |  Electricity Bill calculation (Positive) |    |     |     | Scenario based |
-|  L_51       | H_02 |  Electricity Bill calculation (Null) |    |     |     | Scenario based |
+|  L_46       | H_02 |  Performing Voltage divider (Positive) |  (3.1,1.5,0.86)  |   1.13  |   1.13  | Requirement based |
+|  L_47       | H_02 |  Performing Voltage divider (Negative) |   (-2,-3,-4)  |  -1   |  -1   | Requirement based |
+|  L_48       | H_02 |  Power factor calculation (Positive) |  (2,50,230)  |   (0.17,11.50,11.32)  |   (0.17,11.50,11.32)  | Requirement based |
+|  L_49       | H_02 |  Power factor calculation (Negative) |  (-3,-52,230)  |  -1   |   -1  | Requirement based |
+|  L_50       | H_02 |  Electricity Bill calculation (Positive) |  125.6  |  448.12   |  448.12   | Scenario based |
+|  L_51       | H_02 |  Electricity Bill calculation (Null) |  NULL  |  0   |  0   | Scenario based |
 | L_52        | H_01 |  Performing Mod | (4,2) | 0 | 0 | Requirement Based |
 | L_53        | H_01 |  performing mod | (570,7) | 3 | 3 | Scenario based |
 | L_54        | H_01 | Perfoeming mod | (97543854,254) | 234 | 234 | Boundary Based |
