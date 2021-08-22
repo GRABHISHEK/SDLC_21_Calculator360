@@ -75,7 +75,7 @@
 | L_54        | H_01 | Perfoeming mod | (97543854,254) | 234 | 234 | Boundary Based |
 | L_55        | H_01 |  Performing power | (4,2) | 16 | 16 | Requirement Based |
 | L_56        | H_01 |  performing power | (570,3) | 185193000 | 185193000 | Scenario based |
-| L_57        | H_01 | Perfoeming power | (1784,3) | 5677858304 | 5677858304 | Boundary Based |
+| L_57        | H_01 | Performing power | (1784,3) | 5677858304 | 5677858304 | Boundary Based |
 | L_58        | H_01  | Performing factorial | (5) | 120 | 120 | Requirement Based |
 | L_59        | H_01 | Performing Factorial | (20) | 2432902008176640000 | 2432902008176640000 | Scenario Based |
 | L-60        | H_01 | Performing Factorial | (-60) | FAILURE | FAILURE | Boundary Scenario |
@@ -156,6 +156,13 @@
 |  L_135  | H_05 | Performing Discount of share | (156,125) | Invalid | Invalid | Requirement based |
 |  L_136  | H_05 | Performing No. of Shares | (560,25) | Invalid | Invalid | Requirement based |
 |  L_137  | H_05 | Performing No. of Shares | (500,5) | 100 | 100 | Requirement based |
-
+|  L_138       | H_01 | Performing Power | (2,3) | 8 | 8 | Requirement based |
+|  L_139       | H_01 | Performing Power | (2*2+5*23 ,2 ) | 14161 | 14161 | Scenario based |
+|  L_140       | H_01 | Performing Square root | 9 | 3 | 3 | Requirement based |
+|  L_141       | H_01 | Performing Square root | 9223372036854775805 | 3037000448 | 3037000448 | Boundary based |
+|  L_142       | H_01 | Performing Log10 | 10 | 1 | 1 | Requirement based |
+|  L_143       | H_01 | Performing Log10 | -10 | UNDEFINED | UNDEFINED | Boundary based |
+|  L_144       | H_01 | Performing Factorial | 4 | 24 | 24 | Requirement based |
+|  L_145      | H_01 | Performing Factorial | -1 | FAILURE | FAILURE |  Boundary based |
 
 
