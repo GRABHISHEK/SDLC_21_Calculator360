@@ -24,11 +24,11 @@
  * @brief Error enum variables for unit testing
  * 
  */
-typedef enum error_t
+typedef enum errort
 {
     SUCCESS,
     NULL_ERROR,
-} error_t;
+} errort;
 
 /**
  * @brief Resistance variables for delta configuration
@@ -52,24 +52,73 @@ typedef struct star
     int r3;
 } starval;
 
-// Declarations for OHMS LAW
-// structure for ohms law variables V,I,R (Voltage, Current, resistance)
+/**
+ * @brief Parameters for Ohms Law
+ * 
+ */
+
 typedef struct
 {
     float V, I, R;
 } ohmparameter;
+
+/**
+ * @brief Inputing parameters for Ohmslaw 
+ * 
+ * @return float 
+ */
 float ohmslaw();
+
+/**
+ * @brief Inputing the I and R to find V
+ * 
+ * @param I 
+ * @param R 
+ */
 float ohmV(float I, float R);
+
+/**
+ * @brief Inputing the V and R to find I
+ * 
+ * @param V 
+ * @param R 
+ */
 float ohmI(float V, float R);
+
+/**
+ * @brief Inputing the V and I to find R
+ * 
+ * @param V 
+ * @param I 
+ */
 float ohmR(float V, float I);
 
-//Declarations for POWER FACTOR
+/**
+ * @brief Inputing the variable to find Power factor
+ * @param P
+ * @param V
+ * @param I
+ * @param AP
+ * @param RP
+ * @param PF
+ */
 typedef struct pfstruct
 {
     float P, V, I, AP, RP, PF;
 } pfstruct;
+
+/**
+ * @brief Findinf Power Factor
+ * 
+ * @return float 
+ */
 float powerfactor();
 
+/**
+ * @brief Electrical Calculator Page
+ * 
+ * @return int 
+ */
 int electricalcalc();
 
 /**
@@ -214,12 +263,37 @@ void threephase(float *voltage, float *current, float *powerfactor);
  */
 float tprealpower(float *voltage, float *current, float *powerfactor);
 
-// Declarations for VOLTAGE DIVIDER
+
+/**
+ * @brief Finding Output voltage for Voltage divider
+ * 
+ * @param Vin 
+ * @param R1 
+ * @param R2 
+ * @return float 
+ */
 float voltagedivideroperation(float *Vin, float *R1, float *R2);
+
+/**
+ * @brief Parameters for Voltage Divider
+ * 
+ * @return float 
+ */
 float voltagedivider();
 
-//Declarations for EB Bill calculator
+/**
+ * @brief Finding Electricity bill using number of units
+ * 
+ * @param units 
+ * @return float 
+ */
 float EBbillcalc(float *units);
+
+/**
+ * @brief Inputing Unit varaible into EBbillcalc
+ * 
+ * @return float 
+ */
 float EBbill();
 
 #endif
