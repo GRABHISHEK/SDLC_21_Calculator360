@@ -87,85 +87,94 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 ### Low level Requirements:
 | ID | Description | HLR ID | Status (Implemented/In Progress/Future) |
 | ------ | --------- | ------ | ----- |
-| LR01 | Permorming Addition | HR01 |  In Progress  |
-| LR02 | Performing Subtraction | HR01 |  In Progress |
-| LR03 | Performing Multiplication | HR01 |  In Progress  |
-| LR04 | Performing Division | HR01 |  In progress  |
-| LR05 | Performing Trignometric operations | HR01 | In Progress |
-| LR06 | Read the input from user for applying transform techniques from the following | HR06 |  Implemented   |
-| LR07 | Perform Discrete cosine Transform  | HR06 |  Implemented  |
-| LR08 | Perform Discrete sine Transform | HR06 | Implemented  |
-| LR09 | Perform Hadmard Transform  | HR06 |  Implemented  |
-| LR010 | Perform Fourier Transform | HR06 |  Implemented  |
-| LR011 | Perform Run length encoding compression | HR06 |  Implemented  |
-| LR012 | compare the initial and transformed pixel vales and disply the optimizatio | HR06 |  In Progress  |
-| LR013 | Motion in one dimension | HR03 | In Progress |
-| LR014 | Momentum, Force, Impulse | HR03 | In Progress |
-| LR015 | Pressure | HR03 | In Progress |
-| LR016 |  Density | HR03 | In Progress |
-| LR017 | Angular Momentum  | HR03 | In Progress |
-| LR018 |  Torque | HR03 | In Progress |
-| LR019 | Circular Motion  | HR03 | In Progress |
-| LR020 |  Reduced Mass for two Interacting Bodies | HR03 | In Progress |
-| LR021 |  Work and Energy | HR03 | In Progress |
-| LR022 |  Friction | HR03 | In Progress |
-| LR023 | Moment of Inertia  | HR03 | In Progress |
-| LR024 |  Newtonian Gravity | HR03 | In Progress |
-| LR025 |  Projectile Motion | HR03 | In Progress |
-| LR026 | Simple Pendulum  | HR03 | In Progress |
-| LR027 | Conical Pendulum  | HR03 | In Progress |
-| LR028 | Sound  | HR03 | In Progress |
-| LR029 | Speed of sound | HR03 | In Progress |
-| LR030 | Doppler Effect in sound | HR03 | In Progress |
-| LR031 | Intensity of Sound| HR03 | In Progress |
-| LR032 | Incident, Reflective angles | HR03 | In Progress |
-| LR033 | Newton's Second law | HR03 | In Progress |
-| LR034 | Refractive index, Snell's Law| HR03 | In Progress |
-| LR035 | Simple Harmonic Motion | HR03 | In Progress |
-| LR036 | Len's Equation | HR03 | In Progress |
-| LR037 | Wavelength of Sound| HR03 | In Progress |
-| LR038 | Angular Momentum | HR03 | In Progress |
-| LR039 | Performing Star to delta conversion  | HR02 | Implemented |
-| LR040 | Performing Delta to Star conversion  | HR02 | Implemented |
-| LR041 | Performing KW to Amps conversion (Single phase) | HR02 | Implemented |
-| LR042 | Performing KW to Amps conversion (Three phase) | HR02 | Implemented |
-| LR043 | Performing Battery life calculation | HR02 | Implemented |
-| LR044 | Performing Electricity bill calculation | HR02 | Implemented |
-| LR045 | Performing Single phase real power calculation | HR02 | Implemented |
-| LR046 | Performing Single phase apparent power calculation | HR02 | Future |
-| LR047 | Performing Three phase real power calculation | HR02 | Implemented |
-| LR048 | Performing Three phase apparent power calculation | HR02 | Future |
-| LR049 | Performing Ohm's law calculation | HR02 | Implemented |
-| LR050 | Performing Power Factor calculation | HR02 | Implemented |
-| LR051 | Performing Voltage divider calculation | HR02 | Implemented |
-| LR052 | Permorming Mod | HR01 |  In Progress  |
-| LR053 | Performing Power | HR01 |  In Progress |
-| LR054 | Performing Factorial | HR01 |  In Progress  |
-| LR055 | Performing Permutation | HR01 |  In progress  |
-| LR056 | Performing Combination | HR01 | In Progress |
-| LR057 | performing Sum of Natural Numbers | HR01 | In Progress |
-| LR058 | performing BSA calculation | HR04 | In Progress |
-| LR059 | performing BMI calculation | HR04 | In Progress |
-| LR060 | performing BMR calculation | HR04 | In Progress |
-| LR061 | performing Heart rate calculation | HR04 | In Progress |
-| LR062 | performing Calories calculation | HR04 | In Progress |
-| LR063 | performing pounds to kg coversions | HR04 | In Progress |
-| LR064 | performing weight based calculations | HR04 | In Progress |
-| LR065 | performing flow rate for IV infusion | HR04 | In Progress |
-| LR066 | performing flow rate for infusion pump | HR04 | In Progress |
-| LR067 | Permorming Simple Interest | HR05 |  In Progress  |
-| LR068 | Permorming Principal | HR05 |  In Progress  |
-| LR069 | Permorming Rate of interest | HR05 |  In Progress  |
-| LR070 | Permorming Time | HR05 |  In Progress  |
-| LR071 | Permorming Gain | HR05 |  In Progress  |
-| LR072 | Permorming Loss | HR05 |  In Progress  |
-| LR073 | Permorming Gain Percentage | HR05 |  In Progress  |
-| LR074 | Permorming Loss Percentage | HR05 |  In Progress  |
-| LR075 | Permorming Selling Price(with Gain) | HR05 |  In Progress  |
-| LR076 | Permorming Selling Price(with Loss) | HR05 |  In Progress  |
-| LR077 | Permorming Cost Price(with Gain) | HR05 |  In Progress  |
-| LR078 | Permorming Cost Price(with Loss) | HR05 |  In Progress  |
-| LR079 | Permorming Gain(from false weights) | HR05 |  In Progress  |
-| LR080 | Permorming Premium of a share | HR05 |  In Progress  |
-| LR081 | Permorming Discount of a share | HR05 |  In Progress  |
-| LR082 | Permorming No. of Shares | HR05 |  In Progress  |
+| LR01 | Permorming Addition | HR01 |  Implemented |
+| LR02 | Performing Subtraction | HR01 |  Implemented |
+| LR03 | Performing Multiplication | HR01 |  Implemented  |
+| LR04 | Performing Division | HR01 |  Implemented  |
+| LR05 | Performing Power | HR01 | Implemented |
+| LR06 | Performing Squarerootof a number | HR01 | Implemented |
+| LR07 | Performing Logarithm with base 10 | HR01 | Implemented |
+| LR08 | Performing Factorial of a number | HR01 | Implemented |
+| LR09 | Performing Sine function | HR01 | Implemented |
+| LR10 | Performing Cosine function | HR01 | Implemented |
+| LR11 | Performing Tangent function | HR01 | Implemented |
+| LR12 | Performing Cotangent function | HR01 | Implemented |
+| LR13 | Performing Secant function | HR01 | Implemented |
+| LR14 | Performing cosecant function | HR01| Implemented |
+| LR15 | Read the input from user for applying transform techniques from the following | HR06 |  Implemented   |
+| LR16 | Perform Discrete cosine Transform  | HR06 |  Implemented  |
+| LR17 | Perform Discrete sine Transform | HR06 | Implemented  |
+| LR18 | Perform Hadmard Transform  | HR06 |  Implemented  |
+| LR19 | Perform Fourier Transform | HR06 |  Implemented  |
+| LR20 | Perform Run length encoding compression | HR06 |  Implemented  |
+| LR21 | compare the initial and transformed pixel vales and disply the optimizatio | HR06 |  In Progress  |
+| LR22 | Motion in one dimension | HR03 | In Progress |
+| LR23 | Momentum, Force, Impulse | HR03 | In Progress |
+| LR24 | Pressure | HR03 | In Progress |
+| LR25 |  Density | HR03 | In Progress |
+| LR26 | Angular Momentum  | HR03 | In Progress |
+| LR27 |  Torque | HR03 | In Progress |
+| LR28 | Circular Motion  | HR03 | In Progress |
+| LR29 |  Reduced Mass for two Interacting Bodies | HR03 | In Progress |
+| LR30 |  Work and Energy | HR03 | In Progress |
+| LR31 |  Friction | HR03 | In Progress |
+| LR32 | Moment of Inertia  | HR03 | In Progress |
+| LR33 |  Newtonian Gravity | HR03 | In Progress |
+| LR34 |  Projectile Motion | HR03 | In Progress |
+| LR35 | Simple Pendulum  | HR03 | In Progress |
+| LR36| Conical Pendulum  | HR03 | In Progress |
+| LR37 | Sound  | HR03 | In Progress |
+| LR38 | Speed of sound | HR03 | In Progress |
+| LR39 | Doppler Effect in sound | HR03 | In Progress |
+| LR40 | Intensity of Sound| HR03 | In Progress |
+| LR41 | Incident, Reflective angles | HR03 | In Progress |
+| LR42 | Newton's Second law | HR03 | In Progress |
+| LR43 | Refractive index, Snell's Law| HR03 | In Progress |
+| LR44 | Simple Harmonic Motion | HR03 | In Progress |
+| LR45 | Len's Equation | HR03 | In Progress |
+| LR46 | Wavelength of Sound| HR03 | In Progress |
+| LR47 | Angular Momentum | HR03 | In Progress |
+| LR48 | Performing Star to delta conversion  | HR02 | Implemented |
+| LR49 | Performing Delta to Star conversion  | HR02 | Implemented |
+| LR50 | Performing KW to Amps conversion (Single phase) | HR02 | Implemented |
+| LR51 | Performing KW to Amps conversion (Three phase) | HR02 | Implemented |
+| LR52 | Performing Battery life calculation | HR02 | Implemented |
+| LR53 | Performing Electricity bill calculation | HR02 | Implemented |
+| LR54 | Performing Single phase real power calculation | HR02 | Implemented |
+| LR55 | Performing Single phase apparent power calculation | HR02 | Future |
+| LR56 | Performing Three phase real power calculation | HR02 | Implemented |
+| LR57 | Performing Three phase apparent power calculation | HR02 | Future |
+| LR58 | Performing Ohm's law calculation | HR02 | Implemented |
+| LR59 | Performing Power Factor calculation | HR02 | Implemented |
+| LR60 | Performing Voltage divider calculation | HR02 | Implemented |
+| LR61 | Permorming Mod | HR01 |  In Progress  |
+| LR62 | Performing Power | HR01 |  In Progress |
+| LR63 | Performing Factorial | HR01 |  In Progress  |
+| LR64 | Performing Permutation | HR01 |  In progress  |
+| LR65 | Performing Combination | HR01 | In Progress |
+| LR66 | performing Sum of Natural Numbers | HR01 | In Progress |
+| LR67 | performing BSA calculation | HR04 | In Progress |
+| LR68 | performing BMI calculation | HR04 | In Progress |
+| LR69 | performing BMR calculation | HR04 | In Progress |
+| LR70 | performing Heart rate calculation | HR04 | In Progress |
+| LR71 | performing Calories calculation | HR04 | In Progress |
+| LR72 | performing pounds to kg coversions | HR04 | In Progress |
+| LR73 | performing weight based calculations | HR04 | In Progress |
+| LR74 | performing flow rate for IV infusion | HR04 | In Progress |
+| LR75| performing flow rate for infusion pump | HR04 | In Progress |
+| LR76 | Permorming Simple Interest | HR05 |  In Progress  |
+| LR77 | Permorming Principal | HR05 |  In Progress  |
+| LR78 | Permorming Rate of interest | HR05 |  In Progress  |
+| LR79 | Permorming Time | HR05 |  In Progress  |
+| LR80 | Permorming Gain | HR05 |  In Progress  |
+| LR81 | Permorming Loss | HR05 |  In Progress  |
+| LR82 | Permorming Gain Percentage | HR05 |  In Progress  |
+| LR83 | Permorming Loss Percentage | HR05 |  In Progress  |
+| LR84 | Permorming Selling Price(with Gain) | HR05 |  In Progress  |
+| LR85 | Permorming Selling Price(with Loss) | HR05 |  In Progress  |
+| LR86 | Permorming Cost Price(with Gain) | HR05 |  In Progress  |
+| LR87 | Permorming Cost Price(with Loss) | HR05 |  In Progress  |
+| LR88 | Permorming Gain(from false weights) | HR05 |  In Progress  |
+| LR89 | Permorming Premium of a share | HR05 |  In Progress  |
+| LR90 | Permorming Discount of a share | HR05 |  In Progress  |
+| LR91 | Permorming No. of Shares | HR05 |  In Progress  |
