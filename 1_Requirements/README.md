@@ -130,14 +130,14 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR041 | Performing KW to Amps conversion (Single phase) | HR02 | Implemented |
 | LR042 | Performing KW to Amps conversion (Three phase) | HR02 | Implemented |
 | LR043 | Performing Battery life calculation | HR02 | Implemented |
-| LR044 | Performing Electricity bill calculation | HR02 | In Progress |
+| LR044 | Performing Electricity bill calculation | HR02 | Implemented |
 | LR045 | Performing Single phase real power calculation | HR02 | Implemented |
 | LR046 | Performing Single phase apparent power calculation | HR02 | Future |
 | LR047 | Performing Three phase real power calculation | HR02 | Implemented |
 | LR048 | Performing Three phase apparent power calculation | HR02 | Future |
-| LR049 | Performing Ohm's law calculation | HR02 | In Progress |
-| LR050 | Performing Power Factor calculation | HR02 | In Progress |
-| LR051 | Performing Voltage divider calculation | HR02 | In Progress |
+| LR049 | Performing Ohm's law calculation | HR02 | Implemented |
+| LR050 | Performing Power Factor calculation | HR02 | Implemented |
+| LR051 | Performing Voltage divider calculation | HR02 | Implemented |
 | LR052 | Permorming Mod | HR01 |  In Progress  |
 | LR053 | Performing Power | HR01 |  In Progress |
 | LR054 | Performing Factorial | HR01 |  In Progress  |
