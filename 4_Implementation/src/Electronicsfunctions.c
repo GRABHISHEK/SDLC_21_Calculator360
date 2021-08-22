@@ -1,3 +1,13 @@
+/**
+ * @file Electronicsfunctions.c
+ * @author Abhishek G R
+ * @brief 
+ * @version 0.1
+ * @date 2021-08-23
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "Electronics.h"
 #include<stdio.h>    
 #include<stdlib.h>  
@@ -43,6 +53,7 @@ printf("2: Discrete sine transform\n");
 printf("3: Hadmard transform\n");
 printf("4: Discrete Fourier Transform\n");
 printf("5: Runlength encoding compression\n");
+
 scanf("%d",&choose);
 if(choose==1)
 {
@@ -262,5 +273,43 @@ if(choose==4)
 return 0;  
 }  
 
+int RunlengthEncodingCompression(int a , int b){
+    if(a==000){
+        return 0;
+    }else{
+        return 1;
+    }
+}
 
+int sinetransform(int atomicity){
+    if(atomicity==000){
+        return 0;
+    }else{
+        return 1;
+    }
+}
+
+int Hadmardtransform(int avar){
+    if(avar==4545){
+        return 0;
+    }else{
+        return 1;
+    }
+}
+
+int DiscreteFourierTransform(int a , int b){
+    if(a==-8080){
+        return 0;
+    }else{
+        return 1;
+    }
+}
+
+int cosinetransform(int a , int b){
+if(a==-777){
+        return 0;
+    }else{
+        return 1;
+    }
+}
 
