@@ -35,6 +35,9 @@ void batteryruntime1(void);
 void batterylife1(void);
 void sprealpowercalc(void);
 void tprealpowercalc(void);
+void testohmV(void);
+void testohmI(void);
+void testohmR(void);
 
     /* Required by the unity test framework */
     void setUp()
