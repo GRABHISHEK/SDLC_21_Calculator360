@@ -38,11 +38,11 @@
 |  L_20       | H_01 | Performing Secant | 90 | UNDEFINED | UNDEFINED | Boundary based |
 |  L_21       | H_01 | Performing Cosecant | 90 | 1 | 1 | Requirement based |
 |  L_22       | H_01 | Performing Cosecant | 180 | UNDEFINED | UNDEFINED | Boundary based |
-|  L_23       | H_06 | Performing Cosine transform | [3x3] | [3x3] | [3x3] | matrix based |
-|  L_24       | H_06 | Performing sine transform | [3x3] | [3x3] | [3x3]  | matrix based |
-|  L_25       | H_06 | Performing Hadmard transform | [3x3] | [3x3] | [3x3] | matrix based |
-|  L_26       | H_06 | Performing Discrete Fourier transform | [3x3] | [3x3] | [3x3] | matrix based |
-|  L_27       | H_06 | Performing Run length encoding compression | [3x3] | [3x3] | [3x3] | matrix based |
+|  L_23       | H_06 | Performing Cosine transform | [4x4] | [4x4] | [4x4] | matrix based |
+|  L_24       | H_06 | Performing sine transform | [4x4] | [4x4] | [4x4]  | matrix based |
+|  L_25       | H_06 | Performing Hadmard transform | [4x4] | [4x4] | [4x4] | matrix based |
+|  L_26       | H_06 | Performing Discrete Fourier transform | [4x4] | [4x4] | [3x3] | matrix based |
+|  L_27       | H_06 | Performing Run length encoding compression | [4x4] | [4x4] | [4x4] | matrix based |
 |  L_28       | H_02 |  Star to Delta( Positive) | {10, 20, 30}     | {110, 55, 36}      | {110, 55, 36}    | Scenario based |
 |  L_29       | H_02 |  Star to Delta( Negative) | {10, 20, 30}    |  NOT EQUAL    |  {110, 55, 36}   | Scenario based |
 |  L_30       | H_02 |  Star to Delta( Null) |  NULL   |   NULL_ERROR   | NULL_ERROR    | Scenario based |
