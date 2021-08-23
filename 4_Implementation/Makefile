@@ -98,7 +98,7 @@ $(PROJECT_NAME):all
 
 #Run make call to invoke cppcheck and compliation
 all: 
-	$(CC) $(MAIN) $(SRC) $(INC) $(CFLAGS) $(call FixPath,$(PROJECT_NAME).$(EXEC))
+	$(CC) $(MAIN) $(SRC) $(INC) $(CFLAGS) $(call FixPath,$(PROJECT_NAME).$(EXEC)) -lm
 
 # Call `make run` to run the application
 run:
