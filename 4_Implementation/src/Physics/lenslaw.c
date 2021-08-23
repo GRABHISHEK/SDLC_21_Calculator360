@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main() {
+void lenslaw() {
      float u,f;
     scanf("%f %f",&u,&f);
     float v;

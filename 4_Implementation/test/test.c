@@ -2,6 +2,7 @@
 #include "calculator.h"
 #include "electricalcalc.h"
 #include "Electronics.h"
+#include "physicscalc.h"
 #include "unity_internals.h"
 #include "../inc/Electronics.h"
 #include "fin.h"
@@ -72,9 +73,20 @@ void test_no_of_shares(void);
 void cosine_transform(void);
 void sine_transform(void);
 void Hadmard_transform(void);
-void  Discrete_Fourier_Transform(void);
+void Discrete_Fourier_Transform(void);
 void Runlength_encoding_compression(void);
-
+void test_NewtonianGravity(void);//
+void test_Newtons(void);//
+void test_amTorque(void);
+void test_circularMotion(void);
+void test_displacement_velocity(void);
+void test_friction(void);
+void test_light(void);
+void test_mfi(void);
+void test_moi(void);
+void test_reducedMass(void);
+void test_sound(void);
+void test_work_energy(void);
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
@@ -82,7 +94,10 @@ void tearDown(){}
 
 int main(){
   UNITY_BEGIN();
+<<<<<<< HEAD
   //maths
+=======
+>>>>>>> 281830691106e66e90a2043df67f168a5aebeb5f
   RUN_TEST(test_add);
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
@@ -113,10 +128,13 @@ int main(){
   RUN_TEST(testohmV);
   RUN_TEST(testohmI);
   RUN_TEST(testohmR);
+<<<<<<< HEAD
   RUN_TEST(testEBbill);
   RUN_TEST(testvoltdivider);
 
 //finance
+=======
+>>>>>>> 281830691106e66e90a2043df67f168a5aebeb5f
   RUN_TEST(test_simpleinterest);
   RUN_TEST(test_principal);
   RUN_TEST(test_rate);
@@ -139,6 +157,18 @@ int main(){
   RUN_TEST(Hadmard_transform);
   RUN_TEST(Discrete_Fourier_Transform);
   RUN_TEST(Runlength_encoding_compression);
+  RUN_TEST(test_NewtonianGravity);//
+  RUN_TEST(test_Newtons);//
+  RUN_TEST(test_amTorque);
+  RUN_TEST(test_circularMotion);
+  RUN_TEST(test_displacement_velocity);
+  RUN_TEST(test_friction);
+  RUN_TEST(test_light);
+  RUN_TEST(test_mfi);
+  RUN_TEST(test_moi);
+  RUN_TEST(test_reducedMass);
+  RUN_TEST(test_sound);
+  RUN_TEST(test_work_energy);
   return UNITY_END();
 }
 
@@ -594,7 +624,21 @@ void Runlength_encoding_compression(void){
   TEST_ASSERT_EQUAL_INT(0, RunlengthEncodingCompression(000,69));
 
 }
-
+void test_NewtonianGravity(void){
+   TEST_ASSERT_EQUAL(, simpleinterest(100,10,10));
+}
+  
+void test_Newtons(void);//
+void test_amTorque(void);
+void test_circularMotion(void);
+void test_displacement_velocity(void);
+void test_friction(void);
+void test_light(void);
+void test_mfi(void);
+void test_moi(void);
+void test_reducedMass(void);
+void test_sound(void);
+void test_work_energy(void);
   
   
 
