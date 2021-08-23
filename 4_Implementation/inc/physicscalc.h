@@ -21,6 +21,9 @@ void workEnergypower(); // work,potential energy,kinetic energy,power
 void SoundFormulas(); // sound
 void LightFormulas(); //light
 void lenslaw(); //lenslaw
+void simplePendulum(); // simplePendulum
+void conicalPendulum(); // conicalPendulum
+void heightOfPendulum(); // heightOfPendulum
 
 
 
