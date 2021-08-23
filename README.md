@@ -22,7 +22,7 @@ Folder                      | Description
 |-----|-----|----|------|-----|-----|-----|
 |     | Abhishek GR |  |      |    |    |      |
 |     | Archit Shrivastava   |    |      |     |     |     |
-|     |    Athul Thomas              |     |     |      |    |     |
+|     |    Athul Thomas              |     |     |      |  8  |  8   |
 |     |    Barathvignesh JK             |     |     |      |    |     |
 |     |   Bellamkonda Sushma              |     |     |      |    |     |
 |     |   Lok Prakash Raju Goli              |     |     |      |    |     |
