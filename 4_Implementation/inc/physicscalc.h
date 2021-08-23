@@ -7,7 +7,7 @@
 #define PI 3.14
 #define g 9.8
 
-
+int physicscalc();
 void amTorque(); // Angular momentum and torque
 void reducedMass(); // Reduced mass
 void force(); // NewtonianGravity
