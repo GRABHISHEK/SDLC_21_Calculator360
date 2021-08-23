@@ -5,7 +5,6 @@
 #include <stdio.h>
 #include <math.h>
 #define PI 3.14
-#define g 9.8
 
 int physicscalc();
 void force(); // NewtonianGravity
@@ -17,10 +16,10 @@ void friction(); // static friction
 void LightFormulas(); //light
 void mofoim(); //momentum,force,impulse,pressure,density
 void moi(); // moment of inertia
-void reducedMass(); // Reduced mass
+void reduceMass(); // Reduced mass
 void SoundFormulas(); // sound
 void workEnergypower(); // work,potential energy,kinetic energy,power
-void heightOfPendulum(); // heightOfPendulum
+void heightOfProjectile(); // heightOfPendulum
 void conicalPendulum(); // conicalPendulum
 void simplePendulum(); // simplePendulum
 void lenslaw(); //lenslaw
