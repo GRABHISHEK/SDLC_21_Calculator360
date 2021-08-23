@@ -23,25 +23,25 @@ src/electrical/voltagedivider.c\
 src/electrical/powerfactor.c\
 src/electrical/electricalcalc.c\
 src/Electronicsfunctions.c
-src/ArthimeticOperations/add.c\
-src/ArthimeticOperations/combination.c\
-src/ArthimeticOperations/cosecant.c\
-src/ArthimeticOperations/cosine.c\
-src/ArthimeticOperations/cotangent.c\
-src/ArthimeticOperations/division.c\
-src/ArthimeticOperations/factorial.c\
+src/ArithmeticOperations/add.c\
+src/ArithmeticOperations/combination.c\
+src/ArithmeticOperations/cosecant.c\
+src/ArithmeticOperations/cosine.c\
+src/ArithmeticOperations/cotangent.c\
+src/ArithmeticOperations/division.c\
+src/ArithmeticOperations/factorial.c\
 src/ArthimeticOperations/logarithm.c\
-src/ArthimeticOperations/mathcalc.c\
-src/ArthimeticOperations/mod.c\
-src/ArthimeticOperations/multiply.c\
-src/ArthimeticOperations/natural_numbers.c\
-src/ArthimeticOperations/permutation.c\
-src/ArthimeticOperations/power.c\
-src/ArthimeticOperations/secant.c\
+src/ArithmeticOperations/mathcalc.c\
+src/ArithmeticOperations/mod.c\
+src/ArithmeticOperations/multiply.c\
+src/ArithmeticOperations/natural_numbers.c\
+src/ArithmeticOperations/permutation.c\
+src/ArithmeticOperations/power.c\
+src/ArithmeticOperations/secant.c\
 src/ArithmeticOperations/sine.c\
-src/ArthimeticOperations/squareroot.c\
-src/ArthimeticOperations/sub.c\
-src/ArthimeticOperations/tangent.c\
+src/ArithmeticOperations/squareroot.c\
+src/ArithmeticOperations/sub.c\
+src/ArithmeticOperations/tangent.c\
 
 
 # All test source files
