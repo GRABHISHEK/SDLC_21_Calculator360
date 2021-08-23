@@ -20,7 +20,7 @@ void reduceMass(); // reduced mass
 void workEnergypower(); // work,potential energy,kinetic energy,power
 void SoundFormulas(); // sound
 void LightFormulas(); //light
-int main(); //lenslaw
+void lenslaw(); //lenslaw
 
 
 
