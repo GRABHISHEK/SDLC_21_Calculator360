@@ -54,7 +54,10 @@ src/Physics/reducedMass.c\
 src/Physics/work_energy.c\
 src/Physics/Newtons.c\
 src/Physics/light.c\
-src/Physics/sound.c
+src/Physics/sound.c\
+src/Physics/conicalPendulum.c\
+src/Physics/heightOfProjectile.c\
+src/Physics/simplePendulum.c\
 
 # All test source files
 TEST=test.c\
