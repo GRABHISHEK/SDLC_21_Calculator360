@@ -7,9 +7,9 @@
 int mathcalc(){
     int choice;
     printf("1-6:Arithmetic Operations:1-Addition 2-Subtaction 3-Multiplication   4-Division  5-Power function 6:mod \n");
-    printf("7-9:Single input functions : 7:Squareroot  8:Logarithm with base10  9:Factorial\n");
-    printf("10-15 :Trignometric functions : 10:sine 11:cosine 12:tangent  13: cotangent  14:secant 15:cosecant\n");
-    printf("16-18 :Other functions : 16:permutation 17:combination  18: natural_numbers\n");
+    printf("7-8:Single input functions : 7:Squareroot  8:Logarithm with base10 \n");
+    printf("9-14 :Trignometric functions : 9:sine 10:cosine 11:tangent  12: cotangent  13:secant 14:cosecant\n");
+    printf("15-18 :Other functions : 15:Factorial 16:permutation 17:combination  18: natural_numbers\n");
 	
     printf("Enter the choice\n");
     scanf("%d",&choice);
@@ -54,7 +54,7 @@ int mathcalc(){
         }
 
     }
-    else if(choice>6 && choice<10){
+    else if(choice>6 && choice<9){
             single_inputs s_input;
             float num=0.0;
 	        printf("Enter the input1\n");
@@ -69,42 +69,39 @@ int mathcalc(){
                     logarithm(&s_input);
                     printf("Log10 value of the given number is %.3f",s_input.output_2);
                     break;
-                case 9:
-                    factorial(&s_input);
-                    printf("Factorial of the number is %.3f",s_input.output_2);
-                    break;
+               
                     
             }
 
         }
-        else if(choice>9 && choice<16){
+        else if(choice>8 && choice<15){
             trignometric_inputs t_input;
             float num_t=0.0;
 	        printf("Enter the input for trignometric function\n");
             scanf("%f",&num_t);
             t_input.input_4=num_t;
             switch(choice){
-                case 10:
+                case 9:
                     sine(&t_input);
                     printf("The Result is %.3f",t_input.output_3);
                     break;
-                case 11:
+                case 10:
                     cosine(&t_input);
                     printf("The Result is %.3f",t_input.output_3);
                     break;
-                case 12:
+                case 11:
                     tangent(&t_input);
                     printf("The Result is %.3f",t_input.output_3);
                     break;
-                case 13:
+                case 12:
                     cotangent(&t_input);
                     printf("The Result is %.3f",t_input.output_3);
                     break;
-                case 14:
+                case 13:
                     secant(&t_input);
                     printf("The Result is %.3f",t_input.output_3);
                     break;
-                case 15:
+                case 14:
                     cosecant(&t_input);
                     printf("The Result is %.3f",t_input.output_3);
                     break;
@@ -123,6 +120,10 @@ int mathcalc(){
         o_input.input_6=r;
             switch(choice)
             {
+		 case 15:
+                    factorial(&o_input);
+                    printf("Factorial of the number is %lld",s_input.output_4);
+                    break;
                 case 16:
                     permutation(&o_input);
                     printf("The Result is %lld",o_input.output_4);
