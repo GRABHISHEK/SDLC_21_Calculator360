@@ -1,6 +1,6 @@
 # TEST PLAN
 
-## Table : High Level Test Plan
+## Table no: High Level Test Plan
 
 | **Test ID** | **Description**                   | **Exp I/P** | **Exp O/P** | **Actual O/P** |    
 |-------------|-----------------------------------|------------|-------------|----------------|
@@ -12,7 +12,7 @@
 |  H_06       | Time Operations | Choice| SUCCESS | SUCCESS |
 |  H_07       | Electronics Operations | Choice| SUCCESS | SUCCESS |
 
-## Table : Low Level Test Plan
+## Table no: Low Level Test Plan
 
 | **Test ID** | **HL_ID** | **Description**   | **Exp Input** | **Exp Output** | **Actual Output** |**Type Of Test**  |    
 |-------------|-----------|---------------------------|------------|-------------|----------------|------------------|
