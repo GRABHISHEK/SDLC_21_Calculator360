@@ -12,7 +12,6 @@
 #define pi 3.142857
 #include <math.h>
 #include <string.h>
-#include <conio.h>
 
 
 int Electronicsfun();
