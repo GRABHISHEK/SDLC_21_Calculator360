@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include <math.h>
+#include "physicscalc.h"
 void simplePendulum() {
 double g=2;
 double L=4;
