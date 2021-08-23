@@ -50,6 +50,7 @@ void testohmI(void);
 void testohmR(void);
 void testEBbill(void);
 void testvoltdivider(void);
+void testPF(void)
 void test_simpleinterest(void);
 void test_principal(void);
 void test_rate(void);
@@ -121,6 +122,7 @@ int main(){
   RUN_TEST(testohmR);
   RUN_TEST(testEBbill);
   RUN_TEST(testvoltdivider);
+  RUN_TEST(testPF);
   RUN_TEST(test_simpleinterest);
   RUN_TEST(test_principal);
   RUN_TEST(test_rate);
@@ -500,6 +502,18 @@ void testvoltdivider(void)
 {
     TEST_ASSERT_EQUAL(1.54,voltagedivider(2.5,0.5,0.8));
     TEST_ASSERT_EQUAL(73.85,voltagedivider(120,20,32));
+}
+
+void testPF(void)   
+{
+    pfstruct input1;
+    input1.P = 2;
+    input1.I = 10;
+    input1.V = 230;
+    pfcalc(input1);
+    TEST_ASSERT_EQUAL(0.87,input1.PF);
+    TEST_ASSERT_EQUAL(2.30,input1.AP);
+    TEST_ASSERT_EQUAL(1.14,input1.RP);
 }
 
 void test_simpleinterest(void)
