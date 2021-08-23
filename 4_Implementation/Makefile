@@ -113,7 +113,7 @@ test:
 	
 #Run the target to find the memory leak in the program	
 memoryleak:
-	$(CC) $(INC) $(SRC) $(TEST) $(CFLAGS) $(call FixPath,$(TEST_NAME).$(EXEC))
+	$(CC) $(INC) $(SRC) $(TEST) $(CFLAGS) $(call FixPath,$(TEST_NAME).$(EXEC)) -lm
 	$(VALGRIND)
 	
 
@@ -124,7 +124,7 @@ static:
 
 #To test the coverage of the whole program
 coverage:
-	$(CC) -fprofile-arcs -ftest-coverage $(SRC) $(TEST) $(INC) $(CFLAGS) $(call FixPath,$(TEST_NAME).$(EXEC))
+	$(CC) -fprofile-arcs -ftest-coverage $(SRC) $(TEST) $(INC) $(CFLAGS) $(call FixPath,$(TEST_NAME).$(EXEC)) -lm
 	./$(call FixPath,$(TEST_NAME).$(EXEC))
 	gcov -a $(COV_SRC)
 
