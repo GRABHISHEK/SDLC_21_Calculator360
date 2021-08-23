@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-error_t mod(arthimetic_inputs *ai)
+error_t mod(arithmetic_inputs *ai)
 {
     if(ai->input_2==0)
     {
