@@ -105,7 +105,7 @@
 | L_84        | H_03 | Torque | (2, 6, 0) | 0 | 0 | Scenario Based |
 | L_85        | H_03 | Newton's Second law | (2, 5 ) | 10 | 10 | Requirement Based  |
 | L_86        | H_03  | Len's Law | (U=6, F=3 ) | 1/6 | 1/6 | Scenario Based  |
-| L_87        | H_03  | Refractive Index | (C=3*10^-8, n=2 ) | 1.5 | 1.5 |  Requirement Based |
+| L_87        | H_03  | Refractive Index | (C=3*10^8, n=2 ) | 1.5 | 1.5 |  Requirement Based |
 | L_88        | H_03  | Speed of Sound | (D=6, T=0.5 ) | 12 | 12 | Scenario Based  |
 | L_89        | H_03 | Light | (0.2, 1.2 ) | 0.24 | 0.24 | Scenario Based |
 | L_90        | H_06| Year into hours |      |        |     | Requirement Based |
