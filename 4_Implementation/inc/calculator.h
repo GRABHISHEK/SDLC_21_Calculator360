@@ -122,7 +122,6 @@ error_t factorial(single_inputs *si);
  * @param ti ti pointer to trignometric_inputs to send inputs for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
-
 error_t sine(trignometric_inputs *ti);
 /**
  * @brief compute cosine function
@@ -165,7 +164,6 @@ error_t cosecant(trignometric_inputs *ti);
  * @param oi oi pointer to other_inputs to send inputs for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
-
 error_t permutation(other_inputs *oi);
 /**
  * @brief compute combination function
