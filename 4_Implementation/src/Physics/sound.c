@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "physicscalc.h"
 void SoundFormulas()
 {
 int n;
