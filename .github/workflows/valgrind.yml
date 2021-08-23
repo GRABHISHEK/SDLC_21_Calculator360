@@ -1,0 +1,22 @@
+name: Dynamic Code - Valgrind
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  valgrind:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: apt install dependency
+        run: |
+          sudo apt-get -y install valgrind
+          sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev
+      - name: make test
+        run: make -C 4_Implementation/ test
+      - name: Valgrind
+        run: make -C 4_Implementation/ memoryleak
