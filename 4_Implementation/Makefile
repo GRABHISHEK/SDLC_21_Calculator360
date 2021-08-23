@@ -107,7 +107,7 @@ run:
 	
 # Build and run the unit tests
 test:
-	$(CC) $(INC) $(SRC) $(TEST) $(CFLAGS) $(call FixPath,$(TEST_NAME).$(EXEC))
+	$(CC) $(INC) $(SRC) $(TEST) $(CFLAGS) $(call FixPath,$(TEST_NAME).$(EXEC)) -lm
 	./$(call FixPath,$(TEST_NAME).$(EXEC))	
 
 	
