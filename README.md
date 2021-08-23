@@ -1,6 +1,7 @@
 # SDLC_21_Calculator360
 
 Build | Code Quality | Unity | Git Inspector |
+![Code Quality Score](https://www.code-inspector.com/project/26748/score/svg)
 |---------|------------|-----------|---------|
 | [![C/C++ - Build Status](https://github.com/thomasathul/SDLC_21_Calculator360/actions/workflows/build.yml/badge.svg)](https://github.com/thomasathul/SDLC_21_Calculator360/actions/workflows/build.yml)        |            |           |         |
 
