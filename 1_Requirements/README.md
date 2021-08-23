@@ -128,7 +128,7 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR39 | Doppler Effect in sound | HR03 | In Progress |
 | LR40 | Intensity of Sound| HR03 | In Progress |
 | LR41 | Incident, Reflective angles | HR03 | In Progress |
-| LR42 | Newton's Second law | HR03 | In Progress |
+| LR42 | Newtons Second law | HR03 | In Progress |
 | LR43 | Refractive index, Snell's Law| HR03 | In Progress |
 | LR44 | Simple Harmonic Motion | HR03 | In Progress |
 | LR45 | Len's Equation | HR03 | In Progress |
