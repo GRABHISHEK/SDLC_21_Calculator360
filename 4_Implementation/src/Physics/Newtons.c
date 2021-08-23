@@ -10,5 +10,4 @@ void Newtons()
     scanf("%d",&acceleration);
     force=mass*acceleration;
     printf("\n\t the force acting on a bode = %d",force);
-    return 0;
 }
