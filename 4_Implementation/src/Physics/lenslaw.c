@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "physicscalc.h"
 void lenslaw() {
      float u,f;
     scanf("%f %f",&u,&f);
