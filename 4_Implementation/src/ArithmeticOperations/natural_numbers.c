@@ -11,7 +11,7 @@ error_t natural_numbers(other_inputs *oi){
     }
 
     while(number_1<=oi->input_5){
-        si->output_4=si->output_5 + number_1;
+        oi->output_4=oi->output_5 + number_1;
         number_1++;
     }
     return SUCCESS;
