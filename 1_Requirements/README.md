@@ -77,7 +77,7 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | ID | Description | Status (Implemented/In Progress/Future) | 
 | ----- | ----- | ---------|
 | HR01 | User shall be able to perform Arthmetic Operations |In Progress | 
-| HR02 | User shall be able to perform Electrical unit conversions | In Progress |
+| HR02 | User shall be able to perform Electrical unit conversions | Implemented |
 | HR03 | User shall be able to perform Physics Related conversion | In Progress |
 | HR04 | User shall be able to perform Medical Operations | In Progress|
 | HR05 | User shall be able to perform Financial Operations | In Progress|
