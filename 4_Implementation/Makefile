@@ -43,7 +43,18 @@ src/ArithmeticOperations/sine.c\
 src/ArithmeticOperations/squareroot.c\
 src/ArithmeticOperations/sub.c\
 src/ArithmeticOperations/tangent.c\
-
+src/Physics/NewtonGravity.c\
+src/Physics/amTorque.c\
+src/Physics/circularMotion.c\
+src/Physics/displacement_velocity.c\
+src/Physics/friction.c\
+src/Physics/mfi.c\
+src/Physics/moi.c\
+src/Physics/reducedMass.c\
+src/Physics/work_energy.c\
+src/Physics/NewtonsSecondLaw.c\
+src/Physics/light.c\
+src/Physics/sound.c\
 
 # All test source files
 TEST=test.c\
