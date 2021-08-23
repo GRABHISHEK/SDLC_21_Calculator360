@@ -13,11 +13,7 @@
 #include <math.h>
 #include <string.h>
 #include <conio.h>
-const int m = 4, n = 4;
-  
-    int choose=0;
-int a[10][10],r,c,i,j,k;
-float dsst[4][4],Discretesine[4][4];
+
 
 int Electronicsfun();
 int Hadmardtransform(int avar);
