@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main() {
+void lensLaw() {
      float u,f;
     scanf("%f %f",&u,&f);
     float v;
