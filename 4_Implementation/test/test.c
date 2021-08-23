@@ -48,6 +48,8 @@ void tprealpowercalc(void);
 void testohmV(void);
 void testohmI(void);
 void testohmR(void);
+void testEBbill(void);
+void testvoltdivider(void);
 void test_simpleinterest(void);
 void test_principal(void);
 void test_rate(void);
@@ -117,6 +119,8 @@ int main(){
   RUN_TEST(testohmV);
   RUN_TEST(testohmI);
   RUN_TEST(testohmR);
+  RUN_TEST(testEBbill);
+  RUN_TEST(testvoltdivider);
   RUN_TEST(test_simpleinterest);
   RUN_TEST(test_principal);
   RUN_TEST(test_rate);
@@ -485,6 +489,17 @@ void testohmR(void)
   float I = 6.5, V = 2.1;
   TEST_ASSERT_EQUAL_FLOAT(3.1, ohmI(I, V));
   TEST_ASSERT_NOT_EQUAL(4.2, ohmI(I, V));
+}
+void testEBbill(void)
+{
+    TEST_ASSERT_EQUAL(552.12,EBbillcalc(145.6));
+    TEST_ASSERT_EQUAL(195.00,EBbillcalc(55));
+}
+
+void testvoltdivider(void)
+{
+    TEST_ASSERT_EQUAL(1.54,voltagedivider(2.5,0.5,0.8));
+    TEST_ASSERT_EQUAL(73.85,voltagedivider(120,20,32));
 }
 
 void test_simpleinterest(void)
