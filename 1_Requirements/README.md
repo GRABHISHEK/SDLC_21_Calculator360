@@ -122,7 +122,7 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR33 |  Newtonian Gravity | HR03 | In Progress |
 | LR34 |  Projectile Motion | HR03 | In Progress |
 | LR35 | Simple Pendulum  | HR03 | In Progress |
-| LR36| Conical Pendulum  | HR03 | In Progress |
+| LR36 | Conical Pendulum  | HR03 | In Progress |
 | LR37 | Sound  | HR03 | In Progress |
 | LR38 | Speed of sound | HR03 | In Progress |
 | LR39 | Doppler Effect in sound | HR03 | In Progress |
@@ -161,20 +161,20 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR72 | performing pounds to kg coversions | HR04 | In Progress |
 | LR73 | performing weight based calculations | HR04 | In Progress |
 | LR74 | performing flow rate for IV infusion | HR04 | In Progress |
-| LR75| performing flow rate for infusion pump | HR04 | In Progress |
-| LR76 | Permorming Simple Interest | HR05 |  In Progress  |
-| LR77 | Permorming Principal | HR05 |  In Progress  |
-| LR78 | Permorming Rate of interest | HR05 |  In Progress  |
-| LR79 | Permorming Time | HR05 |  In Progress  |
-| LR80 | Permorming Gain | HR05 |  In Progress  |
-| LR81 | Permorming Loss | HR05 |  In Progress  |
-| LR82 | Permorming Gain Percentage | HR05 |  In Progress  |
-| LR83 | Permorming Loss Percentage | HR05 |  In Progress  |
-| LR84 | Permorming Selling Price(with Gain) | HR05 |  In Progress  |
-| LR85 | Permorming Selling Price(with Loss) | HR05 |  In Progress  |
-| LR86 | Permorming Cost Price(with Gain) | HR05 |  In Progress  |
-| LR87 | Permorming Cost Price(with Loss) | HR05 |  In Progress  |
-| LR88 | Permorming Gain(from false weights) | HR05 |  In Progress  |
-| LR89 | Permorming Premium of a share | HR05 |  In Progress  |
-| LR90 | Permorming Discount of a share | HR05 |  In Progress  |
-| LR91 | Permorming No. of Shares | HR05 |  In Progress  |
+| LR75 | performing flow rate for infusion pump | HR04 | In Progress |
+| LR76 | Permorming Simple Interest | HR05 |  Implemented  |
+| LR77 | Permorming Principal | HR05 |  Implemented  |
+| LR78 | Permorming Rate of interest | HR05 |  Implemented  |
+| LR79 | Permorming Time | HR05 |  Implemented  |
+| LR80 | Permorming Gain | HR05 |  Implemented  |
+| LR81 | Permorming Loss | HR05 |  Implemented  |
+| LR82 | Permorming Gain Percentage | HR05 |  Implemented  |
+| LR83 | Permorming Loss Percentage | HR05 |  Implemented  |
+| LR84 | Permorming Selling Price(with Gain) | HR05 |  Implemented  |
+| LR85 | Permorming Selling Price(with Loss) | HR05 |  Implemented  |
+| LR86 | Permorming Cost Price(with Gain) | HR05 |  Implemented  |
+| LR87 | Permorming Cost Price(with Loss) | HR05 |  Implemented  |
+| LR88 | Permorming Gain(from false weights) | HR05 |  Implemented  |
+| LR89 | Permorming Premium of a share | HR05 |  Implemented  |
+| LR90 | Permorming Discount of a share | HR05 |  Implemented  |
+| LR91 | Permorming No. of Shares | HR05 |  Implemented  |
