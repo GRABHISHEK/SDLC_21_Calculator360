@@ -264,7 +264,7 @@ if(choose==4)
             printf("$%d%c",count[i],str[i]);
             i+=count[i];
         }
- }getch();
+ }
  
 }
     
