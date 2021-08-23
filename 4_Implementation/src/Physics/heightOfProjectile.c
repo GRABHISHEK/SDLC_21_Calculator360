@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include <math.h>
+#include "physicscalc.h"
 void heightOfProjectile() {
 double v=5;
 double teta=70;
