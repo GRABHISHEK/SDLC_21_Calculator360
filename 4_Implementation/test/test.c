@@ -18,6 +18,7 @@ static trignometric_inputs t_i={0,0};
 static other_inputs o_i={0,0,0};
 
 /* Prototypes for all the test functions */
+//maths
 void test_add(void);
 void test_subtract(void);
 void test_multiply(void);
@@ -36,6 +37,7 @@ void test_mod(void);
 void test_permutation(void);
 void test_combination(void);
 void test_natural_numbers(void);
+//electrical
 void startodelta(void);
 void deltatostar(void);
 void KWtoamps1p(void);
@@ -47,6 +49,9 @@ void tprealpowercalc(void);
 void testohmV(void);
 void testohmI(void);
 void testohmR(void);
+void testEBbill(void);
+void testvoltdivider(void);
+//finance
 void test_simpleinterest(void);
 void test_principal(void);
 void test_rate(void);
@@ -63,6 +68,7 @@ void test_gainfw(void);
 void test_premium(void);
 void test_discount(void);
 void test_no_of_shares(void);
+//electronics
 void cosine_transform(void);
 void sine_transform(void);
 void Hadmard_transform(void);
@@ -76,7 +82,8 @@ void tearDown(){}
 
 int main(){
   UNITY_BEGIN();
-    RUN_TEST(test_add);
+  //maths
+  RUN_TEST(test_add);
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
@@ -94,6 +101,7 @@ int main(){
   RUN_TEST(test_permutation);
   RUN_TEST(test_combination);
   RUN_TEST(test_natural_numbers);
+//electrical
   RUN_TEST(startodelta);
   RUN_TEST(deltatostar);
   RUN_TEST(KWtoamps1p);
@@ -102,10 +110,14 @@ int main(){
   RUN_TEST(batterylife1);
   RUN_TEST(sprealpowercalc);
   RUN_TEST(tprealpowercalc);
-RUN_TEST(testohmV);
+  RUN_TEST(testohmV);
   RUN_TEST(testohmI);
   RUN_TEST(testohmR);
-    RUN_TEST(test_simpleinterest);
+  RUN_TEST(testEBbill);
+  RUN_TEST(testvoltdivider);
+
+//finance
+  RUN_TEST(test_simpleinterest);
   RUN_TEST(test_principal);
   RUN_TEST(test_rate);
   RUN_TEST(test_time);
@@ -121,6 +133,7 @@ RUN_TEST(testohmV);
   RUN_TEST(test_premium);
   RUN_TEST(test_discount);
   RUN_TEST(test_no_of_shares);
+//electronics
   RUN_TEST(cosine_transform);
   RUN_TEST(sine_transform);
   RUN_TEST(Hadmard_transform);
@@ -461,6 +474,18 @@ void testohmR(void)
   float I = 6.5, V = 2.1;
   TEST_ASSERT_EQUAL_FLOAT(3.1, ohmI(I, V));
   TEST_ASSERT_NOT_EQUAL(4.2, ohmI(I, V));
+}
+
+void testEBbill(void)
+{
+    TEST_ASSERT_EQUAL(552.12,EBbillcalc(145.6));
+    TEST_ASSERT_EQUAL(195.00,EBbillcalc(55));
+}
+
+void testvoltdivider(void)
+{
+    TEST_ASSERT_EQUAL(1.54,voltagedivider(2.5,0.5,0.8));
+    TEST_ASSERT_EQUAL(73.85,voltagedivider(120,20,32));
 }
 
 void test_simpleinterest(void)
