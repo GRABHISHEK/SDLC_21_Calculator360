@@ -12,7 +12,6 @@
 #include <math.h>
 #include<stdlib.h>
 
-#define PROJECT_NAME "Math Calculator"
 static arithmetic_inputs a_i={0,0,0};
 static single_inputs s_i={0,0};
 static trignometric_inputs t_i={0,0};
@@ -50,7 +49,7 @@ void testohmI(void);
 void testohmR(void);
 void testEBbill(void);
 void testvoltdivider(void);
-void testPF(void)
+void testPF(void);
 void test_simpleinterest(void);
 void test_principal(void);
 void test_rate(void);
@@ -296,21 +295,21 @@ void test_factorial(void){
     TEST_ASSERT_EQUAL(SUCCESS,factorial(&s_i));
     TEST_ASSERT_EQUAL(24,s_i.output_2); 
 
-/* we are making output as '0' when input is lessthan or equla to '0' */
+ //we are making output as '0' when input is lessthan or equla to '0' 
     s_i.input_3=-1;
     TEST_ASSERT_EQUAL(FAILURE,factorial(&s_i));
-    TEST_ASSERT_EQUAL(0,s_i.output_2); 
+    TEST_ASSERT_EQUAL(0,s_i.output_2);
 
 }
 void test_sine(void){
     t_i.input_4=90;
     TEST_ASSERT_EQUAL(SUCCESS,sine(&t_i));
-    TEST_ASSERT_EQUAL(1,t_i.output_3); 
+    TEST_ASSERT_EQUAL(1,t_i.output_3);
 }
 void test_cosine(void){
     t_i.input_4=0;
     TEST_ASSERT_EQUAL(SUCCESS,cosine(&t_i));
-    TEST_ASSERT_EQUAL(1,t_i.output_3); 
+    TEST_ASSERT_EQUAL(1,t_i.output_3);
 }
 void test_tangent(void){
     t_i.input_4=45;
@@ -354,7 +353,7 @@ void test_permutation(void)
   
     o_i.input_5=6;
     o_i.input_6=5;
-    TEST_ASSERT_EQUAL(SUCCESS, permutationr(&o_i));
+    TEST_ASSERT_EQUAL(SUCCESS, permutation(&o_i));
     TEST_ASSERT_EQUAL(720,o_i.output_4); 
 
     o_i.input_5=120;

@@ -63,7 +63,7 @@ src/Physics/lenslaw.c\
 src/Physics/physicscalc.c
 
 # All test source files
-TEST=test.c\
+TEST=test/test.c\
 unity/unity.c
 
 # All include folders with header files
@@ -98,7 +98,7 @@ $(PROJECT_NAME):all
 
 #Run make call to invoke cppcheck and compliation
 all: 
-	$(CC) $(MAIN) $(SRC) $(INC) $(CFLAGS) $(call FixPath,$(PROJECT_NAME).$(EXEC)) 
+	$(CC) $(MAIN) $(SRC) $(INC) $(CFLAGS) $(call FixPath,$(PROJECT_NAME).$(EXEC))
 
 # Call `make run` to run the application
 run:
