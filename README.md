@@ -1,6 +1,6 @@
 # SDLC_21_Calculator360
 
-Build | Code Quality | Unity | Coverage |
+Build | Code Quality | Unity | Git Inspector |
 |---------|------------|-----------|---------|
 |         |            |           |         |
 
@@ -16,4 +16,13 @@ Folder                      | Description
 ## Contributors List and Summary
 | PS.No | Name | Features |Issues Raised | Issues Solved | No. of Test Cases | No. of Test Cases Passing |
 |-----|-----|----|------|-----|-----|-----|
-|     |     |    |      |     |     |     |
+|     | Abhishek GR |  |      |    |    |      |
+|     | Archit Shrivastava   |    |      |     |     |     |
+|     |    Athul Thomas              |     |     |      |    |     |
+|     |    Barathvignesh JK             |     |     |      |    |     |
+|     |   Bellamkonda Sushma              |     |     |      |    |     |
+|     |   Lok Prakash Raju Goli              |     |     |      |    |     |
+|     |   Sunkara Uday Kiran              |     |     |      |    |     |
+|     |   Valeti Triveni              |     |     |      |    |     |
+|     |   Venu k              |     |     |      |    |     |
+|     |  Yamini Satya Kameswari  Samayamanthula             |     |     |      |    |     |
