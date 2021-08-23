@@ -301,7 +301,6 @@ void test_combination(void)
     TEST_ASSERT_EQUAL(0,o_i.output_4); 
  
 }
-
 void test_natural_numbers(void)
 {
 
@@ -474,6 +473,6 @@ int main()
   RUN_TEST(Discrete_Fourier_Transform);
   RUN_TEST(Runlength_encoding_compression);
 
-  
+
   return UNITY_END();
 }
