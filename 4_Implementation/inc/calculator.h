@@ -18,7 +18,7 @@
  */
 typedef struct arthmetic_inputs{
     long long int input_1,input_2,output;
-}arthimetic_inputs;
+}arithmetic_inputs;
 /**
  * @brief Structure for storing Single functions input and output
  * 
@@ -59,42 +59,42 @@ typedef enum error_t{
  * @param ai ai pointer to arthimetic_inputs to send inputs for functions and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
-error_t add(arthimetic_inputs *ai);
+error_t add(arithmetic_inputs *ai);
 /**
  * @brief compute difference of two numbers
  * 
  * @param ai ai pointer to arthimetic_inputs to send inputs for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
-error_t subtract(arthimetic_inputs *ai);
+error_t subtract(arithmetic_inputs *ai);
 /**
  * @brief compute multiplication of two numbers
  * 
  * @param ai ai pointer to arthimetic_inputs to send inputs for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
-error_t multiply(arthimetic_inputs *ai);
+error_t multiply(arithmetic_inputs *ai);
 /**
  * @brief compute division of two numbers
  * 
  * @param ai ai pointer to arthimetic_inputs to send inputs for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
-error_t division(arthimetic_inputs *ai);
+error_t division(arithmetic_inputs *ai);
 /**
  * @brief compute power
  * 
  * @param ai ai pointer to arthimetic_inputs to send inputs for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
-error_t power(arthimetic_inputs *ai);
+error_t power(arithmetic_inputs *ai);
 /**
  * @brief compute mod
  * 
  * @param ai ai pointer to single_inputs to send input for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
-error_t mod(arthimetic_inputs *ai);
+error_t mod(arithmetic_inputs *ai);
 /**
  * @brief compute  logarithm function
  * 
