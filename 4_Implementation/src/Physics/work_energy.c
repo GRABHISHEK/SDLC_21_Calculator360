@@ -24,8 +24,8 @@ void workEnergypower() // main function declaration
       printf("%f %f", PE,KE);
   }
   else if(k==3){
-      printf("Enter the value of u then a and then t"); // instruction for the user.
-      scanf("%f", &v);
+      printf("Enter the value of V and R"); // instruction for the user.
+      scanf("%f %f", &V,&R);
       P=(V*V)/R; // Power
       printf("%f",P);
   }
