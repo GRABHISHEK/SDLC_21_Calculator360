@@ -6,7 +6,7 @@
 
 int mathcalc(){
     int choice;
-    printf("1-6:Arthimetic Operations:1-Addition 2-Subtaction 3-Multiplication   4-Division  5-Power function 6:mod \n");
+    printf("1-6:Arithmetic Operations:1-Addition 2-Subtaction 3-Multiplication   4-Division  5-Power function 6:mod \n");
     printf("7-9:Single input functions : 7:Squareroot  8:Logarithm with base10  9:Factorial\n");
     printf("10-15 :Trignometric functions : 10:sine 11:cosine 12:tangent  13: cotangent  14:secant 15:cosecant\n");
     printf("16-18 :Other functions : 16:permutation 17:combination  18: natural_numbers\n");
@@ -15,7 +15,7 @@ int mathcalc(){
     scanf("%d",&choice);
     
     if(choice>0 && choice<7){
-        arthimetic_inputs input;
+        arithmetic_inputs input;
         long long int a=0,b=0;
 	    printf("Enter the input1\n");
         scanf("%lld",&a);
