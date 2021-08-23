@@ -56,35 +56,35 @@ typedef enum error_t{
 /**
  * @brief compute sum of two numbers
  * 
- * @param ai ai pointer to arthimetic_inputs to send inputs for functions and store ouptut.
+ * @param ai ai pointer to arithmetic_inputs to send inputs for functions and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
 error_t add(arithmetic_inputs *ai);
 /**
  * @brief compute difference of two numbers
  * 
- * @param ai ai pointer to arthimetic_inputs to send inputs for function and store ouptut.
+ * @param ai ai pointer to arithmetic_inputs to send inputs for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
 error_t subtract(arithmetic_inputs *ai);
 /**
  * @brief compute multiplication of two numbers
  * 
- * @param ai ai pointer to arthimetic_inputs to send inputs for function and store ouptut.
+ * @param ai ai pointer to arithmetic_inputs to send inputs for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
 error_t multiply(arithmetic_inputs *ai);
 /**
  * @brief compute division of two numbers
  * 
- * @param ai ai pointer to arthimetic_inputs to send inputs for function and store ouptut.
+ * @param ai ai pointer to arithmetic_inputs to send inputs for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
 error_t division(arithmetic_inputs *ai);
 /**
  * @brief compute power
  * 
- * @param ai ai pointer to arthimetic_inputs to send inputs for function and store ouptut.
+ * @param ai ai pointer to arithmetic_inputs to send inputs for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
 error_t power(arithmetic_inputs *ai);
@@ -175,7 +175,7 @@ error_t combination (other_inputs *oi);
 /**
  * @brief compute natural number function
  * 
- * @param oi oi pointer to trignometric_inputs to send inputs for function and store ouptut.
+ * @param oi oi pointer to other_inputs to send inputs for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
 error_t natural_numbers(other_inputs *oi);
