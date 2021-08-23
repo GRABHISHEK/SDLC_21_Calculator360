@@ -83,6 +83,9 @@ void test_moi(void);
 void test_reducedMass(void);
 void test_sound(void);
 void test_work_energy(void);
+void test_heightOfProjectile(void);
+void test_conicalPendulum(void);
+void test_simplePendulum(void);
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
@@ -154,6 +157,9 @@ int main(){
   RUN_TEST(test_reducedMass);
   RUN_TEST(test_sound);
   RUN_TEST(test_work_energy);
+  RUN_TEST(test_heightOfProjectile);
+  RUN_TEST(test_conicalPendulum);
+  RUN_TEST(test_simplePendulum);
   return UNITY_END();
 }
 
@@ -644,6 +650,7 @@ void test_work_energy(void){
   TEST_ASSERT_EQUAL(16660.000000 35972.000000, workEnergypower(34,2,50,46));
   TEST_ASSERT_EQUAL(774.000000, workEnergypower(62,1,86,9));
   TEST_ASSERT_EQUAL(8.333333, workEnergypower(135,3,20,48));
+
 }
 void test_Newtons(void);//
 void test_sound(void);//  
