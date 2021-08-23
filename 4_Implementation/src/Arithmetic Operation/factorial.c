@@ -3,8 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 error_t factorial(single_inputs *si){
-    float number_1=si->input_3;
-    
+    float number_1=si->input_3; 
     if(number_1<=0){
 	si->output_2=0;
         return FAILURE;
@@ -14,6 +13,5 @@ error_t factorial(single_inputs *si){
         si->output_2=si->output_2 * number_1;
         number_1--;
     }
-    return SUCCESS;
-    
+    return SUCCESS;   
 }
