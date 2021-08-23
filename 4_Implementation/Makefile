@@ -22,7 +22,8 @@ src/electrical/ohmslaw.c\
 src/electrical/voltagedivider.c\
 src/electrical/powerfactor.c\
 src/electrical/electricalcalc.c\
-src/Electronicsfunctions.c
+src/Electronicsfunctions.c\
+src/Finance/*.c\
 src/ArithmeticOperations/add.c\
 src/ArithmeticOperations/combination.c\
 src/ArithmeticOperations/cosecant.c\

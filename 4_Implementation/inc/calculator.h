@@ -53,6 +53,7 @@ typedef enum error_t{
     ERROR_DIVISION_BY_ZERO=-2
 }error_t;
 
+int mathcalc();
 /**
  * @brief compute sum of two numbers
  * 

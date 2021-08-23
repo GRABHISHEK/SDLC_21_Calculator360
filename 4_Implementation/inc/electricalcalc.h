@@ -26,7 +26,6 @@
  */
 typedef enum errort
 {
-    SUCCESS,
     NULL_ERROR,
 } errort;
 
