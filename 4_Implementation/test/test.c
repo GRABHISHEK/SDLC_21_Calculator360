@@ -86,6 +86,7 @@ void test_work_energy(void);
 void test_heightOfProjectile(void);
 void test_conicalPendulum(void);
 void test_simplePendulum(void);
+void test_lenslaw(void);
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
@@ -160,6 +161,7 @@ int main(){
   RUN_TEST(test_heightOfProjectile);
   RUN_TEST(test_conicalPendulum);
   RUN_TEST(test_simplePendulum);
+  RUN_TEST(test_lenslaw);
   return UNITY_END();
 }
 
