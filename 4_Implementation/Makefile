@@ -30,7 +30,7 @@ src/ArithmeticOperations/cosine.c\
 src/ArithmeticOperations/cotangent.c\
 src/ArithmeticOperations/division.c\
 src/ArithmeticOperations/factorial.c\
-src/ArthimeticOperations/logarithm.c\
+src/ArithmeticOperations/logarithm.c\
 src/ArithmeticOperations/mathcalc.c\
 src/ArithmeticOperations/mod.c\
 src/ArithmeticOperations/multiply.c\
