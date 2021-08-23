@@ -1,7 +1,8 @@
 #include "electricalcalc.h"
 #include "Electronics.h"
 #include "calculator.h"
-#include"fin.h"
+#include "fin.h"
+#include "physicscalc.h"
 int main()
 {
     printf("Choose your option \n1.Electrical \n2.Electronic \n3.Arithmetic \n4. \n5.Finance \n6. \n");
@@ -24,6 +25,7 @@ int main()
         financecal();
         break;
     case 6:
+        physicscalc();
         break;
     default:
         printf("\nInvalid choice, please choose from 1 to 6");
