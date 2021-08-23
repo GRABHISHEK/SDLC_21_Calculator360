@@ -1,6 +1,6 @@
 # Daily Stand Up
 
-## Call 1 - 19th August 2018 (7:59-8:58)
+## Call 1 - 19th August 2021 (7:59-8:58)
 
 ### **Agenda** : Planning the project and discussion about requirement analysis
 
@@ -10,7 +10,7 @@ The meeting started with introduction of team members. We added ideas for the na
 
 Next we discussed on how requirements should be done.We divided each part of requirements to the team members. We ended the meeting by fixing a deadline for completion of the requirements.
 
-## Call 2 - 20th August 2018 (6:19-7:48)
+## Call 2 - 20th August 2021 (6:19-7:48)
 
 ### **Agenda** : Design and testplanning
 
