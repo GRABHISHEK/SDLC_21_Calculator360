@@ -168,10 +168,7 @@ void test_power(void){
 
 void test_mod(void)
 {
-  a_i.input_1=4;
-  a_i.input_2=2;
-  TEST_ASSERT_EQUAL(SUCCESS, mod(&a_i));
-  TEST_ASSERT_EQUAL(0,a_i.output);
+  
 
   a_i.input_1=570;
   a_i.input_2=7;
@@ -181,6 +178,11 @@ void test_mod(void)
   a_i.input_2=254;
   TEST_ASSERT_EQUAL(SUCCESS, mod(&a_i));
   TEST_ASSERT_EQUAL(234,a_i.output);
+    
+  a_i.input_1=4;
+  a_i.input_2=0;
+  TEST_ASSERT_EQUAL(ERROR_DIVISION_BY_ZERO, mod(&a_i));
+  TEST_ASSERT_EQUAL(0,a_i.output);
   
 }
 void test_squareroot(void){
