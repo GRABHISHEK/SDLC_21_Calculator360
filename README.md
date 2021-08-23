@@ -2,7 +2,7 @@
 
 Build | Code Quality | Code Grade | Unity | Git Inspector |
 |---------|---------|-----------|---------|------------|
-|        |![Code Quality](https://www.code-inspector.com/project/26748/score/svg) |   ![Code Grade](https://www.code-inspector.com/project/26748/status/svg)  | [![Contribution Check - Git Inspector](https://github.com/thomasathul/SDLC_21_Calculator360/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/thomasathul/SDLC_21_Calculator360/actions/workflows/gitinspector.yml)       |
+|        |![Code Quality](https://www.code-inspector.com/project/26748/score/svg) |   ![Code Grade](https://www.code-inspector.com/project/26748/status/svg)  || [![Contribution Check - Git Inspector](https://github.com/thomasathul/SDLC_21_Calculator360/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/thomasathul/SDLC_21_Calculator360/actions/workflows/gitinspector.yml)       |
 
 ## Running the program 
 Head to the Implementation page to learn more about [Getting started](https://github.com/thomasathul/SDLC_21_Calculator360/tree/main/4_Implementation#getting-started-with-calculator360) with Calculator360.
