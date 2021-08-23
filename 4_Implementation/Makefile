@@ -23,6 +23,25 @@ src/electrical/voltagedivider.c\
 src/electrical/powerfactor.c\
 src/electrical/electricalcalc.c\
 src/Electronicsfunctions.c
+src/ArithmeticOperations/add.c\
+src/ArithmeticOperations/combination.c\
+src/ArithmeticOperations/cosecant.c\
+src/ArithmeticOperations/cosine.c\
+src/ArithmeticOperations/cotangent.c\
+src/ArithmeticOperations/division.c\
+src/ArithmeticOperations/factorial.c\
+src/ArithmeticOperations/logarithm.c\
+src/ArithmeticOperations/mathcalc.c\
+src/ArithmeticOperations/mod.c\
+src/ArithmeticOperations/multiply.c\
+src/ArithmeticOperations/natural_numbers.c\
+src/ArithmeticOperations/permutation.c\
+src/ArithmeticOperations/power.c\
+src/ArithmeticOperations/secant.c\
+src/ArithmeticOperations/sine.c\
+src/ArithmeticOperations/squareroot.c\
+src/ArithmeticOperations/sub.c\
+src/ArithmeticOperations/tangent.c\
 
 
 # All test source files
