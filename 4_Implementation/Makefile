@@ -59,6 +59,8 @@ src/Physics/sound.c\
 src/Physics/conicalPendulum.c\
 src/Physics/heightOfProjectile.c\
 src/Physics/simplePendulum.c\
+src/Physics/lenslaw.c\
+src/Physics/physicscalc.c
 
 # All test source files
 TEST=test.c\

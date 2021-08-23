@@ -5,7 +5,7 @@
 #include "physicscalc.h"
 int main()
 {
-printf("Choose your option \n1.Electrical \n2.Electronic \n3.Arithmetic \n4. \n5.Finance \n6. Physics\n");
+printf("Choose your option \n1.Electrical \n2.Electronic \n3.Arithmetic \n4.Finance \n5. Physics \n6.");
    int choice;
     scanf("%d", &choice);
     switch (choice)
@@ -20,13 +20,13 @@ printf("Choose your option \n1.Electrical \n2.Electronic \n3.Arithmetic \n4. \n5
         mathcalc();
         break;
     case 4:
-        break;
-    case 5:
         financecal();
         break;
-    case 6:
+    case 5:
         physicscalc();
         break;
+    case 6:
+      break;
     default:
         printf("\nInvalid choice, please choose from 1 to 6");
     }

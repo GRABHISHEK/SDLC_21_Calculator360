@@ -8,7 +8,7 @@
 
 int physicscalc();
 void Newtons();
-void amTorque(); // Angular momentum and torque
+void AmTorque(); // Angular momentum and torque
 void reducedMass(); // Reduced mass
 void force(); // NewtonianGravity
 void circularMotion(); // centripetal force and centripetal acceleration
@@ -23,7 +23,7 @@ void LightFormulas(); //light
 void lenslaw(); //lenslaw
 void simplePendulum(); // simplePendulum
 void conicalPendulum(); // conicalPendulum
-void heightOfPendulum(); // heightOfPendulum
+void heightOfProjectile(); // heightOfPendulum
 
 
 

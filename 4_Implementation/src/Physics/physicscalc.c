@@ -50,7 +50,7 @@ int physicscalc()
         workEnergypower();
         break;
     case 13:
-        heightOfPendulum();
+        heightOfProjectile();
         break;
     case 14:
         conicalPendulum();
