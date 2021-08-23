@@ -11,7 +11,5 @@ error_t logarithm(single_inputs *si){
     else{
         si->output_2=log10(si->input_3);
         return SUCCESS;
-    }
-    
-    
+    }    
 }
