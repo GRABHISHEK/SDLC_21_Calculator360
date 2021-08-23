@@ -675,7 +675,15 @@ void test_work_energy(void){
     TEST_ASSERT_EQUAL(10, Newtons(2,5));
     TEST_ASSERT_EQUAL(10, Newtons(2,5));
      }
-   
+void test_light(void){
+TEST_ASSERT_EQUAL(0.24, light(0.2,1.2));
+TEST_ASSERT_EQUAL(0.24, light(0.2,1.2));
+                  }
+ void test_sound(void){
+ TEST_ASSERT_EQUAL(12, sound(6,0.5));
+  TEST_ASSERT_EQUAL(12, sound(6,0.5));
+ }
+  
 void test_Newtons(void);//
 void test_sound(void);//  
 void test_light(void);//
