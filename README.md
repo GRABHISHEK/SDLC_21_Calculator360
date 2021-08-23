@@ -2,7 +2,7 @@
 
 Build | Code Quality | Unity | Git Inspector |
 |---------|------------|-----------|---------|
-|         |            |           |         |
+| [![C/C++ - Build Status](https://github.com/thomasathul/SDLC_21_Calculator360/actions/workflows/build.yml/badge.svg)](https://github.com/thomasathul/SDLC_21_Calculator360/actions/workflows/build.yml)        |            |           |         |
 
 Folder                      | Description
 ----------------------------| -----------------------------------------
