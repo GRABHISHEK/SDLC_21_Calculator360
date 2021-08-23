@@ -8,7 +8,7 @@
 #include "../unity/unity_internals.h"
 #include <math.h>
 #define PROJECT_NAME "Math Calculator"
-static arthimetic_inputs a_i={0,0,0};
+static arithmetic_inputs a_i={0,0,0};
 static single_inputs s_i={0,0};
 static trignometric_inputs t_i={0,0};
 static other_inputs o_i={0,0,0};
