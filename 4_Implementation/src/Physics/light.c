@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "physicscalc.h"
 void LightFormulas()
 {
 while(1)
