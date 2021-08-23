@@ -121,19 +121,19 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR32 | Moment of Inertia  | HR03 | In Progress |
 | LR33 |  Newtonian Gravity | HR03 | In Progress |
 | LR34 |  Projectile Motion | HR03 | In Progress |
-| LR35 | Simple Pendulum  | HR03 | In Progress |
-| LR36 | Conical Pendulum  | HR03 | In Progress |
-| LR37 | Sound  | HR03 | In Progress |
-| LR38 | Speed of sound | HR03 | In Progress |
-| LR39 | Doppler Effect in sound | HR03 | In Progress |
-| LR40 | Intensity of Sound| HR03 | In Progress |
-| LR41 | Incident, Reflective angles | HR03 | In Progress |
-| LR42 | Newtons Second law | HR03 | In Progress |
-| LR43 | Refractive index, Snell's Law| HR03 | In Progress |
-| LR44 | Simple Harmonic Motion | HR03 | In Progress |
-| LR45 | Len's Equation | HR03 | In Progress |
-| LR46 | Wavelength of Sound| HR03 | In Progress |
-| LR47 | Angular Momentum | HR03 | In Progress |
+| LR35 | Simple Pendulum  | HR03 | Implemented |
+| LR36 | Conical Pendulum  | HR03 | Implemented |
+| LR37 | Sound  | HR03 | Implemented |
+| LR38 | Speed of sound | HR03 | Implemented |
+| LR39 | Doppler Effect in sound | HR03 | Implemented |
+| LR40 | Intensity of Sound| HR03 | Implemented |
+| LR41 | Incident, Reflective angles | HR03 | Implemented |
+| LR42 | Newtons Second law | HR03 | Implemented |
+| LR43 | Refractive index, Snell's Law| HR03 | Implemented |
+| LR44 | Simple Harmonic Motion | HR03 | Implemented |
+| LR45 | Lens Law | HR03 | Implemented |
+| LR46 | Wavelength of Sound| HR03 | Implemented |
+| LR47 | Angular Momentum | HR03 | Implemented |
 | LR48 | Performing Star to delta conversion  | HR02 | Implemented |
 | LR49 | Performing Delta to Star conversion  | HR02 | Implemented |
 | LR50 | Performing KW to Amps conversion (Single phase) | HR02 | Implemented |
