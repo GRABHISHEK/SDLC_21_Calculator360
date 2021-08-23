@@ -19,7 +19,6 @@ static trignometric_inputs t_i={0,0};
 static other_inputs o_i={0,0,0};
 
 /* Prototypes for all the test functions */
-//maths
 void test_add(void);
 void test_subtract(void);
 void test_multiply(void);
@@ -38,7 +37,6 @@ void test_mod(void);
 void test_permutation(void);
 void test_combination(void);
 void test_natural_numbers(void);
-//electrical
 void startodelta(void);
 void deltatostar(void);
 void KWtoamps1p(void);
@@ -50,9 +48,6 @@ void tprealpowercalc(void);
 void testohmV(void);
 void testohmI(void);
 void testohmR(void);
-void testEBbill(void);
-void testvoltdivider(void);
-//finance
 void test_simpleinterest(void);
 void test_principal(void);
 void test_rate(void);
@@ -69,7 +64,6 @@ void test_gainfw(void);
 void test_premium(void);
 void test_discount(void);
 void test_no_of_shares(void);
-//electronics
 void cosine_transform(void);
 void sine_transform(void);
 void Hadmard_transform(void);
@@ -94,10 +88,6 @@ void tearDown(){}
 
 int main(){
   UNITY_BEGIN();
-<<<<<<< HEAD
-  //maths
-=======
->>>>>>> 281830691106e66e90a2043df67f168a5aebeb5f
   RUN_TEST(test_add);
   RUN_TEST(test_subtract);
   RUN_TEST(test_multiply);
@@ -116,7 +106,6 @@ int main(){
   RUN_TEST(test_permutation);
   RUN_TEST(test_combination);
   RUN_TEST(test_natural_numbers);
-//electrical
   RUN_TEST(startodelta);
   RUN_TEST(deltatostar);
   RUN_TEST(KWtoamps1p);
@@ -128,13 +117,6 @@ int main(){
   RUN_TEST(testohmV);
   RUN_TEST(testohmI);
   RUN_TEST(testohmR);
-<<<<<<< HEAD
-  RUN_TEST(testEBbill);
-  RUN_TEST(testvoltdivider);
-
-//finance
-=======
->>>>>>> 281830691106e66e90a2043df67f168a5aebeb5f
   RUN_TEST(test_simpleinterest);
   RUN_TEST(test_principal);
   RUN_TEST(test_rate);
@@ -151,7 +133,6 @@ int main(){
   RUN_TEST(test_premium);
   RUN_TEST(test_discount);
   RUN_TEST(test_no_of_shares);
-//electronics
   RUN_TEST(cosine_transform);
   RUN_TEST(sine_transform);
   RUN_TEST(Hadmard_transform);
@@ -506,18 +487,6 @@ void testohmR(void)
   TEST_ASSERT_NOT_EQUAL(4.2, ohmI(I, V));
 }
 
-void testEBbill(void)
-{
-    TEST_ASSERT_EQUAL(552.12,EBbillcalc(145.6));
-    TEST_ASSERT_EQUAL(195.00,EBbillcalc(55));
-}
-
-void testvoltdivider(void)
-{
-    TEST_ASSERT_EQUAL(1.54,voltagedivider(2.5,0.5,0.8));
-    TEST_ASSERT_EQUAL(73.85,voltagedivider(120,20,32));
-}
-
 void test_simpleinterest(void)
 {
   TEST_ASSERT_EQUAL(100.000000, simpleinterest(100,10,10));
@@ -625,21 +594,43 @@ void Runlength_encoding_compression(void){
 
 }
 void test_NewtonianGravity(void){
-   TEST_ASSERT_EQUAL(, simpleinterest(100,10,10));
+   TEST_ASSERT_EQUAL(0.010000, force(5000000,20000,30));
+   TEST_ASSERT_EQUAL(0.060000, force(2500000,460000,-35));
+} 
+void test_amTorque(void){
+   TEST_ASSERT_EQUAL(2000, AmTorque(2,100,20));
+   TEST_ASSERT_EQUAL(250, AmTorque(1,25,10));
 }
-  
+void test_circularMotion(void){
+  TEST_ASSERT_EQUAL(225.0000000, circularMotion(20,30,4,2));
+  TEST_ASSERT_EQUAL(13333.333008, circularMotion(48,-50,9,1));
+}
+void test_displacement_velocity(void){
+  TEST_ASSERT_EQUAL(13000.000000, dispVelocity(20,1,40,25));
+  TEST_ASSERT_EQUAL(3164.000000, dispVelocity(14,2,63,50));
+}
+void test_friction(void){
+  TEST_ASSERT_EQUAL(1.724138, friction(50,29));
+  TEST_ASSERT_EQUAL(600.000000, friction(1500,2.5));
+}
+void test_mfi(void){
+  TEST_ASSERT_EQUAL(600.000000, mofoim(20,1,30));
+  TEST_ASSERT_EQUAL(520.000000, mofoim(65,3,26,18));
+}
+void test_moi(void){
+  TEST_ASSERT_EQUAL(75.000000, moi(25,5,2,6));
+  TEST_ASSERT_EQUAL(414.000000, moi(92,3,1));
+}
+void test_reducedMass(void){
+  TEST_ASSERT_EQUAL(5.000000, reduceMass(10,10));
+  TEST_ASSERT_EQUAL(87.660973, reduceMass(283,127));
+}
+void test_work_energy(void){
+  TEST_ASSERT_EQUAL(16660.000000 35972.000000, workEnergypower(34,2,50,46));
+  TEST_ASSERT_EQUAL(774.000000, workEnergypower(62,1,86,9));
+  TEST_ASSERT_EQUAL(8.333333, workEnergypower(135,3,20,48));
+}
 void test_Newtons(void);//
-void test_amTorque(void);
-void test_circularMotion(void);
-void test_displacement_velocity(void);
-void test_friction(void);
-void test_light(void);
-void test_mfi(void);
-void test_moi(void);
-void test_reducedMass(void);
-void test_sound(void);
-void test_work_energy(void);
-  
-  
-
+void test_sound(void);//  
+void test_light(void);//
 
