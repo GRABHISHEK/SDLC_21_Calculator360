@@ -24,5 +24,5 @@ Folder                      | Description
 |     |   Lok Prakash Raju Goli              |     |     |      |    |     |
 |     |   Sunkara Uday Kiran              |     |     |      |    |     |
 |     |   Valeti Triveni              |     |     |      |    |     |
-|     |   Venu k              |     |     |      |    |     |
+|     |   Venu K              |     |     |      |    |     |
 |     |  Yamini Satya Kameswari  Samayamanthula             |     |     |      |    |     |
