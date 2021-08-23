@@ -4,9 +4,13 @@
 #include "Electronics.h"
 #include "unity_internals.h"
 #include "../inc/Electronics.h"
+#include "fin.h"
+#include "../inc/fin.h"
 #include "../unity/unity.h"
 #include "../unity/unity_internals.h"
 #include <math.h>
+#include<stdlib.h>
+
 #define PROJECT_NAME "Math Calculator"
 static arithmetic_inputs a_i={0,0,0};
 static single_inputs s_i={0,0};
@@ -43,13 +47,28 @@ void tprealpowercalc(void);
 void testohmV(void);
 void testohmI(void);
 void testohmR(void);
+void test_simpleinterest(void);
+void test_principal(void);
+void test_rate(void);
+void test_time(void);
+void test_gain(void);
+void test_loss(void);
+void test_gainp(void);
+void test_lossp(void);
+void test_spgain(void);
+void test_sploss(void);
+void test_cpgain(void);
+void test_cploss(void);
+void test_gainfw(void);
+void test_premium(void);
+void test_discount(void);
+void test_no_of_shares(void);
 
-    /* Required by the unity test framework */
-    void setUp()
-{
-}
+/* Required by the unity test framework */
+void setUp(){}
 /* Required by the unity test framework */
 void tearDown(){}
+
 int main(){
   UNITY_BEGIN();
     RUN_TEST(test_add);
@@ -81,6 +100,22 @@ int main(){
 RUN_TEST(testohmV);
   RUN_TEST(testohmI);
   RUN_TEST(testohmR);
+    RUN_TEST(test_simpleinterest);
+  RUN_TEST(test_principal);
+  RUN_TEST(test_rate);
+  RUN_TEST(test_time);
+  RUN_TEST(test_gain);
+  RUN_TEST(test_loss);
+  RUN_TEST(test_gainp);
+  RUN_TEST(test_lossp);
+  RUN_TEST(test_spgain);
+  RUN_TEST(test_sploss);
+  RUN_TEST(test_cpgain);
+  RUN_TEST(test_cploss);
+  RUN_TEST(test_gainfw);
+  RUN_TEST(test_premium);
+  RUN_TEST(test_discount);
+  RUN_TEST(test_no_of_shares);
   return UNITY_END();
 }
 
@@ -417,6 +452,89 @@ void testohmR(void)
   TEST_ASSERT_EQUAL_FLOAT(3.1, ohmI(I, V));
   TEST_ASSERT_NOT_EQUAL(4.2, ohmI(I, V));
 }
+
+void test_simpleinterest(void)
+{
+  TEST_ASSERT_EQUAL(100.000000, simpleinterest(100,10,10));
+  TEST_ASSERT_EQUAL(168.000000, simpleinterest(560,5,6));
+}
+void test_principal(void)
+{
+  TEST_ASSERT_EQUAL(166.666667, principal(50,5,6));
+  TEST_ASSERT_EQUAL(483.333333, principal(58,3,4));
+}
+void test_rate(void)
+{
+  TEST_ASSERT_EQUAL(4000.000000, rate(400,2.5,4));
+  TEST_ASSERT_EQUAL(55.913978, rate(520,300,3.1));
+}
+void test_time(void)
+{
+    TEST_ASSERT_EQUAL(38.461538,time(250,130,5));
+    TEST_ASSERT_EQUAL(68.292683,time(56,41,2));
+}
+void test_gain(void)
+{
+    TEST_ASSERT_EQUAL(108.000000,gain(120,12));
+    TEST_ASSERT_EQUAL(Invalid,gain(20,50));
+}
+void test_loss(void)
+{
+    TEST_ASSERT_EQUAL(38.000000,loss(12,50));
+    TEST_ASSERT_EQUAL(Invalid,loss(52,10));
+}
+void test_gainp(void)
+{
+    TEST_ASSERT_EQUAL(76.923077,gainp(40,52));
+    TEST_ASSERT_EQUAL(28.048780,gainp(23,82));
+}
+void test_lossp(void)
+{
+    TEST_ASSERT_EQUAL(247.619048,lossp(52,21));
+    TEST_ASSERT_EQUAL(13.483146,lossp(12,89));
+}
+void test_spgain(void)
+{
+    TEST_ASSERT_EQUAL(57.200000,spgain(10,52));
+    TEST_ASSERT_EQUAL(15.200000,spgain(52,10));
+}
+void test_sploss(void)
+{
+    TEST_ASSERT_EQUAL(43.680000,sploss(52,91));
+    TEST_ASSERT_EQUAL(6.320000,sploss(21,8));
+}
+void test_cpgain(void)
+{
+    TEST_ASSERT_EQUAL(54.716981,cpgain(59,87));
+    TEST_ASSERT_EQUAL(47.794118,cpgain(36,65));
+}
+void test_cploss(void)
+{
+    TEST_ASSERT_EQUAL(4.761905,cploss(58,2));
+    TEST_ASSERT_EQUAL(4.255319,cploss(6,4));
+}
+void test_gainfw(void)
+{
+    TEST_ASSERT_EQUAL(4.166667,gainfw(5,125));
+    TEST_ASSERT_EQUAL(Invalid,gainfw(56,12));
+}
+void test_premium(void)
+{
+    TEST_ASSERT_EQUAL(56.000000,premium(156,100));
+    TEST_ASSERT_EQUAL(Invalid,premium(56,59));
+}
+void test_discount(void)
+{
+    TEST_ASSERT_EQUAL(16.000000,discount(69,85));
+    TEST_ASSERT_EQUAL(Invalid,discount(156,125));
+}
+void test_no_of_shares(void)
+{
+    TEST_ASSERT_EQUAL(Invalid,no_of_shares(560,25));
+    TEST_ASSERT_EQUAL(100,no_of_shares(500,5));
+}
+
+
 /**
  * @file test.c
  * @author Abhishek G R
