@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-error_t natural_number(other_inputs *oi){
+error_t natural_numbers(other_inputs *oi){
     int number_1=1;
     
     if(number_1 < 0)
