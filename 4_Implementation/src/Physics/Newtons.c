@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()
+#include "physicscalc.h"
+void Newton()
 {
     int force,mass,acceleration;
     printf("\n\t enter the mass of a body = ");
