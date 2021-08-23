@@ -20,7 +20,7 @@ Folder                      | Description
 ## Contributors List and Summary
 | PS.No | Name | Features |Issues Raised | Issues Solved | No. of Test Cases | No. of Test Cases Passing |
 |-----|-----|----|------|-----|-----|-----|
-|     | Abhishek GR |  |      |    |    |      |
+|     | Abhishek GR |  |      |    | 10 | 10   |
 |     | Archit Shrivastava   |    |      |     |     |     |
 |     |    Athul Thomas              |     |     |      |  8  |  8   |
 |     |    Barathvignesh JK             |     |     |      |    |     |
