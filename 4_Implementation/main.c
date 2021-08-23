@@ -2,7 +2,6 @@
 #include "Electronics.h"
 #include "calculator.h"
 #include"fin.h"
-
 int main()
 {
     printf("Choose your option \n1.Electrical \n2.Electronic \n3.Arithmetic \n4. \n5.Finance \n6. \n");
