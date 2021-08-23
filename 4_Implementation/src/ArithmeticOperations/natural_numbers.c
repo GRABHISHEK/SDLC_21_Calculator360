@@ -5,7 +5,7 @@
 error_t natural_numbers(other_inputs *oi){
     int number_1=1;
     
-    if(number_1 < 0)
+    if(oi->input_5<0)
     {
         return FAILURE;
     }
