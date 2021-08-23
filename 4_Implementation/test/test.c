@@ -666,8 +666,16 @@ void test_work_energy(void){
   TEST_ASSERT_EQUAL(16660.000000 35972.000000, workEnergypower(34,2,50,46));
   TEST_ASSERT_EQUAL(774.000000, workEnergypower(62,1,86,9));
   TEST_ASSERT_EQUAL(8.333333, workEnergypower(135,3,20,48));
-
 }
+  void test_lenslaw(void){
+    TEST_ASSERT_EQUAL(1/6, lenslaw(6,3));
+    TEST_ASSERT_EQUAL(1/7, lenslaw(7,4));
+  }
+    void test_Newtons(void){
+    TEST_ASSERT_EQUAL(10, Newtons(2,5));
+    TEST_ASSERT_EQUAL(10, Newtons(2,5));
+     }
+   
 void test_Newtons(void);//
 void test_sound(void);//  
 void test_light(void);//
