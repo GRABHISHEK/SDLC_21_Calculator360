@@ -112,24 +112,24 @@ int mathcalc(){
 		  other_inputs o_input;
             long long int num_o=0.0;
 	        printf("Enter the input for other function\n");
-            scanf("%f",&num_t);
+            scanf("%lld",&num_t);
             o_input.input_5=num_o;
             switch(choice){
                 case 15:
                     mod(&o_input);
-                    printf("The Result is %.3f",o_input.output_4);
+                    printf("The Result is %lld",o_input.output_4);
                     break;
                 case 16:
                     permutation(&o_input);
-                    printf("The Result is %.3f",o_input.output_4);
+                    printf("The Result is %lld",o_input.output_4);
                    break;
 	            case 17:
                     combination(&o_input);
-                    printf("The Result is %.3f",o_input.output_4);
+                    printf("The Result is %lld",o_input.output_4);
                     break;
 	            case 18:
                     naturalnumbers(&o_input);
-                    printf("The Result is %.3f",o_input.output_4);
+                    printf("The Result is %lld",o_input.output_4);
                     break;
 	            default:
                     break;
