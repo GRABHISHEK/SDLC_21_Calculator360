@@ -12,6 +12,7 @@ CFLAGS= -o
 MAIN=main.c
 
 # All source code files
+
 SRC=src/electrical/batterylife.c\
 src/electrical/KWtoAmps.c\
 src/electrical/singlephasepower.c\
@@ -77,7 +78,7 @@ ifdef OS
    EXEC = exe
 else
    ifeq ($(shell uname), Linux)
-      RM = rm -rf
+      RM = rm - rf
 	  CPPCHECK=cppcheck --enable=all $(SRC) $(MAIN)
 	  VALGRIND=valgrind ./$(call FixPath,$(TEST_NAME).$(EXEC))
       FixPath = $1
@@ -117,7 +118,6 @@ memoryleak:
 #Run the target to find static code analysis in the program
 static:
 	$(CPPCHECK)
-
 
 
 #To test the coverage of the whole program
