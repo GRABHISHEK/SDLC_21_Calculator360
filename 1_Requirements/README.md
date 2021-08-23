@@ -101,13 +101,13 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR12 | Performing Cotangent function | HR01 | Implemented |
 | LR13 | Performing Secant function | HR01 | Implemented |
 | LR14 | Performing cosecant function | HR01| Implemented |
-| LR15 | Read the input from user for applying transform techniques from the following | HR06 |  Implemented   |
-| LR16 | Perform Discrete cosine Transform  | HR06 |  Implemented  |
-| LR17 | Perform Discrete sine Transform | HR06 | Implemented  |
-| LR18 | Perform Hadmard Transform  | HR06 |  Implemented  |
-| LR19 | Perform Fourier Transform | HR06 |  Implemented  |
-| LR20 | Perform Run length encoding compression | HR06 |  Implemented  |
-| LR21 | compare the initial and transformed pixel vales and disply the optimizatio | HR06 |  In Progress  |
+| LR15 | Read the input from user for applying transform techniques from the following | HR07 |  Implemented   |
+| LR16 | Perform Discrete cosine Transform  | HR07 |  Implemented  |
+| LR17 | Perform Discrete sine Transform | HR07 | Implemented  |
+| LR18 | Perform Hadmard Transform  | HR07 |  Implemented  |
+| LR19 | Perform Fourier Transform | HR07 |  Implemented  |
+| LR20 | Perform Run length encoding compression | HR07 |  Implemented  |
+| LR21 | compare the initial and transformed pixel vales and disply the optimizatio | HR07 |  In Progress  |
 | LR22 | Motion in one dimension | HR03 | In Progress |
 | LR23 | Momentum, Force, Impulse | HR03 | In Progress |
 | LR24 | Pressure | HR03 | In Progress |
