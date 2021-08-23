@@ -5,6 +5,7 @@ void workEnergypower() // main function declaration
 {
   int k;
   float F,D,W,m,PE,KE,h,v,P,R,V; // variable declaration
+  float g = 9.8;
   printf("Enter the value of m");
   scanf("%f",&m);
   printf("Choose the required output 1.Work 2.Energy 3.Power"); // instruction for the user.
