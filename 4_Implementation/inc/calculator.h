@@ -1,7 +1,7 @@
 /**
  * @file calculator.h
  * @author Venu.K, Sushma.B
- * @brief Functions to perform Arthimetic Operations,Single function operations,Trignometric operations,other operations
+ * @brief Functions to perform Arithmetic Operations,Single function operations,Trignometric operations,other operations
  * @version 0.1
  * @date 2021-08-22
  * 
@@ -13,7 +13,7 @@
 #define __CALCULATOR_H__
 #include <stdlib.h>
 /**
- * @brief Structure for storing Arthimetic functions input and output
+ * @brief Structure for storing Arithmetic functions input and output
  * 
  */
 typedef struct arthmetic_inputs{
