@@ -63,6 +63,11 @@ void test_gainfw(void);
 void test_premium(void);
 void test_discount(void);
 void test_no_of_shares(void);
+void cosine_transform(void);
+void sine_transform(void);
+void Hadmard_transform(void);
+void  Discrete_Fourier_Transform(void);
+void Runlength_encoding_compression(void);
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -116,6 +121,11 @@ RUN_TEST(testohmV);
   RUN_TEST(test_premium);
   RUN_TEST(test_discount);
   RUN_TEST(test_no_of_shares);
+  RUN_TEST(cosine_transform);
+  RUN_TEST(sine_transform);
+  RUN_TEST(Hadmard_transform);
+  RUN_TEST(Discrete_Fourier_Transform);
+  RUN_TEST(Runlength_encoding_compression);
   return UNITY_END();
 }
 
@@ -534,65 +544,33 @@ void test_no_of_shares(void)
     TEST_ASSERT_EQUAL(100,no_of_shares(500,5));
 }
 
-
-/**
- * @file test.c
- * @author Abhishek G R
- * @brief 
- * @version 0.1
- * @date 2021-07-13
- * 
- * @copyright Copyright (c) 2021
- * 
- */
-
-/**
- * @brief test functions 
- * 
- */
-
-void setUp(){}
-void tearDown(){}
-
-/**
- * @brief main function of test.c 
- * 
- */
-void cosine_transform(){
+void cosine_transform(void){
   TEST_ASSERT_EQUAL_INT(1, cosinetransform(111,123));
   TEST_ASSERT_EQUAL_INT(0, cosinetransform(-777,123));
 
 }
-void sine_transform(){
+void sine_transform(void){
   TEST_ASSERT_EQUAL_INT(1, sinetransform(9837));
   TEST_ASSERT_EQUAL_INT(0, sinetransform(0));
 
 }
-void Hadmard_transform(){
+void Hadmard_transform(void){
   TEST_ASSERT_EQUAL_INT(1, Hadmardtransform(9837));
   TEST_ASSERT_EQUAL_INT(0, Hadmardtransform(4545));
   
 }
-void  Discrete_Fourier_Transform(){
+void  Discrete_Fourier_Transform(void){
   TEST_ASSERT_EQUAL_INT(1, DiscreteFourierTransform(9837,99));
   TEST_ASSERT_EQUAL_INT(0, DiscreteFourierTransform(-8080,23));
 
 }
-void Runlength_encoding_compression(){
+void Runlength_encoding_compression(void){
   TEST_ASSERT_EQUAL_INT(1, RunlengthEncodingCompression(111,123));
   TEST_ASSERT_EQUAL_INT(0, RunlengthEncodingCompression(000,69));
 
 }
-int main()
-{
-  /* Initiate the Unity Test Framework */
-  UNITY_BEGIN();
-  RUN_TEST(cosine_transform);
-  RUN_TEST(sine_transform);
-  RUN_TEST(Hadmard_transform);
-  RUN_TEST(Discrete_Fourier_Transform);
-  RUN_TEST(Runlength_encoding_compression);
+
+  
+  
 
 
-  return UNITY_END();
-}
