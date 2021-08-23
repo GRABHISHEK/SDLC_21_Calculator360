@@ -116,7 +116,7 @@ error_t square_root(single_inputs *si);
  * @param si si pointer to other_inputs to send input for function and store ouptut.
  * @return error_t SUCCESS if operation is completed successfully. Error value otherwise.
  */
-error_t factorial(other_inputs *oi);
+error_t factorial(long long number_1, other_inputs *oi);
 /**
  * @brief compute sine function
  * 
