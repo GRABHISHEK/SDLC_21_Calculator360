@@ -121,8 +121,8 @@ int mathcalc(){
             switch(choice)
             {
 		 case 15:
-                    factorial(&o_input);
-                    printf("Factorial of the number is %lld",s_input.output_4);
+                    factorial(o_input.input_5,&o_input);
+                    printf("Factorial of the number is %lld",o_input.output_4);
                     break;
                 case 16:
                     permutation(&o_input);
