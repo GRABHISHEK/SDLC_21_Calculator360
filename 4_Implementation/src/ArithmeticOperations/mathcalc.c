@@ -4,7 +4,7 @@
 #include <math.h>
 
 
-int main(){
+int mathcalc(){
     int choice;
     printf("1-5:Arthimetic Operations:1-Addition 2-Subtaction 3-Multiplication   4-Division  5-Power function\n");
     printf("6-8:Single input functions : 6:Squareroot  7:Logarithm with base10  8:Factorial\n");
