@@ -24,7 +24,7 @@ Folder                      | Description
 |     | Archit Shrivastava   |    |      |     |     |     |
 | 99005871     |    Athul Thomas              | LR48, LR49, LR50, LR51, LR52, LR53, LR54, LR55, LR56, LR57     |   3  |   2   |  8  |  8   |
 |     |    Barathvignesh JK             |  L53, L58, L59, L60   |  0   |   1   |   6 |    6 |
-|99005908     |   Bellamkonda Sushma              |     |     |      |  13  |  13   |
+|99005908     |   Bellamkonda Sushma              | L52 to L69    |     |      |  13  |  13   |
 | 99005906    |   Lok Prakash Raju Goli              |     |     |      | 16  |  16  |
 |  99005860   |   Sunkara Uday Kiran              |  L22, L23, L24, L25, L26, L27, L28, L29, L30, L31, L32, L33   |  2   |   2   |  11  |  11   |
 |  99005886   |   Valeti Triveni                  |  L34, L35, L36, L37, L38, L39, L40, L41, L42, L43, L44, L45, L46, L47   |    |     |  6 | 6 |
