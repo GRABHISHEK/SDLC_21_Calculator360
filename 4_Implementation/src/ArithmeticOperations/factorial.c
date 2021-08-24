@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-error_t factorial(other_inputs *oi)
+error_t factorial(int number_1, other_inputs *oi)
 {
-int number_1=1;
+
   if (number_1 <= 0) {
     oi->output_4 = 0;
     return FAILURE;
