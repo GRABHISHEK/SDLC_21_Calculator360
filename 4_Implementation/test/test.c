@@ -53,8 +53,8 @@ void test_simpleinterest(void);
 void test_principal(void);
 void test_rate(void);
 void test_time(void);
-/*void test_gain(void);*/
-/*void test_loss(void);*/
+void test_gain(void);
+void test_loss(void);
 void test_gainp(void);
 void test_lossp(void);
 void test_spgain(void);
