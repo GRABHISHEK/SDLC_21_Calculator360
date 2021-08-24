@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "physicscalc.h"
 
-void force()
+float force()
 {
     float G;
     G = 6.67 / 1e11;
