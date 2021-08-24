@@ -23,12 +23,12 @@ Folder                      | Description
 |  99005896   | Abhishek GR |  |      |    | 10 | 10   |
 |     | Archit Shrivastava   |    |      |     |     |     |
 | 99005871     |    Athul Thomas              | LR48, LR49, LR50, LR51, LR52, LR53, LR54, LR55, LR56, LR57     |   3  |   2   |  8  |  8   |
-|     |    Barathvignesh JK             |     |     |      |    |     |
+|     |    Barathvignesh JK             |  L53, L58, L59, L60   |  0   |   1   |   6 |    6 |
 |99005908     |   Bellamkonda Sushma              |     |     |      |  13  |  13   |
 | 99005906    |   Lok Prakash Raju Goli              |     |     |      | 16  |  16  |
 |     |   Sunkara Uday Kiran              |     |     |      |    |     |
 |     |   Valeti Triveni              |     |     |      |    |     |
-|99005884    |   Venu K              | LR01,LR02,LR03,LR04,LR09,LR10,LR11,LR12,LR13,LR14     |     |      | 22   | 22    |
+|99005884    |   Venu K              |     |     |      | 22   | 22    |
 |     |  Yamini Satya Kameswari  Samayamanthula             |     |     |      |    |     |
 
 
