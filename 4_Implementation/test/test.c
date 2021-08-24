@@ -603,8 +603,7 @@ void test_NewtonianGravity(void){
    TEST_ASSERT_EQUAL(0.010000, force(5000000,20000,30));
    TEST_ASSERT_EQUAL(0.060000, force(2500000,460000,-35));
 } 
-/*
-void test_amTorque(void){
+/*void test_amTorque(void){
    TEST_ASSERT_EQUAL(2000, AmTorque(2,100,20));
    TEST_ASSERT_EQUAL(250, AmTorque(1,25,10));
 }
