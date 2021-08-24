@@ -147,12 +147,12 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | LR58 | Performing Ohm's law calculation | HR02 | Implemented |
 | LR59 | Performing Power Factor calculation | HR02 | Implemented |
 | LR60 | Performing Voltage divider calculation | HR02 | Implemented |
-| LR61 | Permorming Mod | HR01 |  In Progress  |
-| LR62 | Performing Power | HR01 |  In Progress |
-| LR63 | Performing Factorial | HR01 |  In Progress  |
-| LR64 | Performing Permutation | HR01 |  In progress  |
-| LR65 | Performing Combination | HR01 | In Progress |
-| LR66 | performing Sum of Natural Numbers | HR01 | In Progress |
+| LR61 | Permorming Mod | HR01 |  Implemented  |
+| LR62 | Performing Power | HR01 |  Implemented |
+| LR63 | Performing Factorial | HR01 |  Implemented  |
+| LR64 | Performing Permutation | HR01 |  Implemented  |
+| LR65 | Performing Combination | HR01 | Implemented |
+| LR66 | performing Sum of Natural Numbers | HR01 | Implemented |
 | LR67 | performing BSA calculation | HR04 | In Progress |
 | LR68 | performing BMI calculation | HR04 | In Progress |
 | LR69 | performing BMR calculation | HR04 | In Progress |
