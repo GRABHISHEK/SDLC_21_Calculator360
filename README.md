@@ -1,7 +1,7 @@
 # SDLC_21_Calculator360
 
 ## What is Calculator360?
-A calculator is a useful machine to solve arithmetical problems. The simplest calculators can do only addition, subtraction, multiplication, and division. More sophisticated calculators can handle the electrical, physics, medical and financial calculations. The purpose of a calculator is to do correct calculations, and to do so efficiently. The design of the calculator is simple. It has various components to input the problem and display the output of the problem. The key layout of the device is also very simple for providing easy access to the user. Calculator360 supports multiple calculations across various subjects.
+A calculator is a useful machine to solve arithmetical problems. More sophisticated calculators can handle the electrical, physics, medical and financial calculations. The purpose of a calculator is to do correct calculations, and to do so efficiently. It has various components to input the problem and display the output of the problem. The key layout of the device is also very simple for providing easy access to the user. **Calculator360** supports multiple calculations across various subjects. We intend to create a calculator that provides the user to have multiple options to make calculations or conversion related to his/her subject.
 
 ## Badges
 
