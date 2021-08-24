@@ -1,9 +1,9 @@
 # High Level Design
-## Structural
-![](highleveldesignstructural.png)
+## Behavioural
 ![](https://github.com/thomasathul/SDLC_21_Calculator360/blob/main/2_Design/Calculator360_highlevelDesign.jpeg)
 
-## Behavioural
+## Structural
+![](highleveldesignstructural.png)
 ![](Calculator360_structlowleveldesign_1math.png)
 ![](Calculator360_structlowleveldesign_2.png)
 ![](Calculator360_structlowleveldesign_3electronics.png)
