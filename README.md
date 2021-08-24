@@ -25,15 +25,15 @@ Folder                      | Description
 ## Contributors List and Summary
 | PS.No | Name | Features |Issues Raised | Issues Solved | No. of Test Cases | No. of Test Cases Passing |
 |-----|-----|----|------|-----|-----|-----|
-|  99005896   | Abhishek GR | LR15,LR16,LR17,LR18,LR19,LR20,LR21  |      | 1   | 10 | 10   |
+|  99005896   | Abhishek GR | LR15,LR16,LR17,</br>LR18,LR19,LR20,LR21  |      | 1   | 10 | 10   |
 |     | Archit Shrivastava   |    |      |     |     |     |
-| 99005871     |    Athul Thomas              | LR48, LR49, LR50, LR51, LR52, LR54, LR55, LR56, LR57     |   3  |   2   |  8  |  8   |
+| 99005871     |    Athul Thomas              | LR48, LR49, LR50, LR51, </br>LR52, LR54, LR55, LR56, LR57     |   3  |   2   |  8  |  8   |
 |   99005867  |    Barathvignesh JK             |  L53, L58, L59, L60   |  1   |   1   |   6 |    6 |
 |99005908     |   Bellamkonda Sushma              | L52 to L69    |     |      |  18  |  18   |
-| 99005906    |   Lok Prakash Raju Goli              |  LR76,LR77,LR78,LR79,LR80,LR81,LR82,LR83,LR84,LR85,LR86,LR87,LR88,LR89,LR90,LR91   |     |      | 16  |  16  |
-|  99005860   |   Sunkara Uday Kiran              |  L22, L23, L24, L25, L26, L27, L28, L29, L30, L31, L32, L33   |  2   |   2   |  11  |  11   |
-|  99005886   |   Valeti Triveni                  |  L34, L35, L36, L37, L38, L39, L40, L41, L42, L43, L44, L45, L46, L47   |    |     |  6 | 6 |
-|  99005884    |   Venu K              |  LR01,LR02,LR03,LR04,LR09,LR10,LR11,LR12,LR13,LR14   |     |      | 22   | 22    |
+| 99005906    |   Lok Prakash Raju Goli              |  LR76,LR77,LR78,LR79,</br>LR80,LR81,LR82,LR83,</br>LR84,LR85,LR86,LR87,</br>LR88,LR89,LR90,LR91   |     |      | 16  |  16  |
+|  99005860   |   Sunkara Uday Kiran              |  L22, L23, L24, L25,</br> L26, L27, L28, L29,</br> L30, L31, L32, L33   |  2   |   2   |  11  |  11   |
+|  99005886   |   Valeti Triveni                  |  L34, L35, L36, L37,</br> L38, L39, L40, L41,</br> L42, L43, L44, L45,</br> L46, L47   |    |     |  6 | 6 |
+|  99005884    |   Venu K              |  LR01,LR02,LR03,LR04,</br>LR09,LR10,LR11,LR12,</br>LR13,LR14   |     |      | 22   | 22    |
 |     |  Yamini Satya Kameswari  Samayamanthula             |     |     |      |    |     |
 
 
