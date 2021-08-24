@@ -70,8 +70,8 @@ void sine_transform(void);
 void Hadmard_transform(void);
 void Discrete_Fourier_Transform(void);
 void Runlength_encoding_compression(void);
-/*void test_NewtonianGravity(void);//
-void test_Newtons(void);//
+void test_NewtonianGravity(void);//
+/*void test_Newtons(void);//
 void test_amTorque(void);
 void test_circularMotion(void);
 void test_displacement_velocity(void);
@@ -599,11 +599,11 @@ void Runlength_encoding_compression(void){
   TEST_ASSERT_EQUAL_INT(0, RunlengthEncodingCompression(000,69));
 
 }
-/*void test_NewtonianGravity(void){
+void test_NewtonianGravity(void){
    TEST_ASSERT_EQUAL(0.010000, force(5000000,20000,30));
    TEST_ASSERT_EQUAL(0.060000, force(2500000,460000,-35));
 } 
-void test_amTorque(void){
+/*void test_amTorque(void){
    TEST_ASSERT_EQUAL(2000, AmTorque(2,100,20));
    TEST_ASSERT_EQUAL(250, AmTorque(1,25,10));
 }
