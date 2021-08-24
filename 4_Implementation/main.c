@@ -6,7 +6,7 @@
 #include "time.h"
 int main()
 {
-printf("Choose your option \n1.Electrical \n2.Electronic \n3.Arithmetic \n4.Finance \n5. Physics \n");
+printf("Choose your option \n1.Electrical \n2.Electronic \n3.Arithmetic \n4.Finance \n5. Physics \n6.Time \n");
    int choice;
     scanf("%d", &choice);
     switch (choice)
