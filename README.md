@@ -21,7 +21,7 @@ Folder                      | Description
 | PS.No | Name | Features |Issues Raised | Issues Solved | No. of Test Cases | No. of Test Cases Passing |
 |-----|-----|----|------|-----|-----|-----|
 |  99005896   | Abhishek GR | LR15,LR16,LR17,LR18,LR19,LR20,LR21  |      | 1   | 10 | 10   |
-|     | Archit Shrivastava   |    |      |     |     |     |
+|99005862     | Archit Shrivastava   |    |      |     |     |     |     |     |    |      |
 | 99005871     |    Athul Thomas              | LR48, LR49, LR50, LR51, LR52, LR53, LR54, LR55, LR56, LR57     |   3  |   2   |  8  |  8   |
 |     |    Barathvignesh JK             |  L53, L58, L59, L60   |  0   |   1   |   6 |    6 |
 |99005908     |   Bellamkonda Sushma              |     |     |      |  13  |  13   |
