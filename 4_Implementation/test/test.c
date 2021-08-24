@@ -25,7 +25,7 @@ void test_divide(void);
 void test_power(void);
 void test_squareroot(void);
 void test_logarithm(void);
-void test_factorial(void);
+/* void test_factorial(void); */
 void test_sine(void);
 void test_cosine(void);
 void test_tangent(void);
@@ -33,8 +33,8 @@ void test_cotangent(void);
 void test_secant(void);
 void test_cosecant(void);
 void test_mod(void);
-void test_permutation(void);
-void test_combination(void);
+/* void test_permutation(void);
+void test_combination(void); */
 void test_natural_numbers(void);
 void startodelta(void);
 void deltatostar(void);
@@ -104,7 +104,7 @@ int main(){
   RUN_TEST(test_power);
   RUN_TEST(test_squareroot);
   RUN_TEST(test_logarithm);
-  RUN_TEST(test_factorial);
+ /* RUN_TEST(test_factorial); */
   RUN_TEST(test_sine);
   RUN_TEST(test_cosine);
   RUN_TEST(test_tangent);
@@ -112,8 +112,8 @@ int main(){
   RUN_TEST(test_secant);
   RUN_TEST(test_cosecant);
   RUN_TEST(test_mod);
-  RUN_TEST(test_permutation);
-  RUN_TEST(test_combination);
+/*  RUN_TEST(test_permutation);
+  RUN_TEST(test_combination); */
   RUN_TEST(test_natural_numbers);
   RUN_TEST(startodelta);
   RUN_TEST(deltatostar);
@@ -296,7 +296,7 @@ void test_logarithm(void){
     TEST_ASSERT_EQUAL(SUCCESS,logarithm(&s_i));
     TEST_ASSERT_EQUAL(17,s_i.output_2);
 }
-void test_factorial(void){
+/* void test_factorial(void){
     o_i.input_5=4;
     TEST_ASSERT_EQUAL(SUCCESS,factorial(&o_i));
     TEST_ASSERT_EQUAL(24,o_i.output_4); 
@@ -304,7 +304,7 @@ void test_factorial(void){
  //we are making output as '0' when input is lessthan or equla to '0' 
     o_i.input_5=-1;
     TEST_ASSERT_EQUAL(FAILURE,factorial(&o_i));
-    TEST_ASSERT_EQUAL(0,o_i.output_4);
+    TEST_ASSERT_EQUAL(0,o_i.output_4); */
 
 }
 void test_sine(void){
@@ -354,7 +354,7 @@ void test_cosecant(void){
     TEST_ASSERT_EQUAL(2,t_i.output_3);
 }
 
-void test_permutation(void)
+/* void test_permutation(void)
 {
   
     o_i.input_5=6;
@@ -388,7 +388,7 @@ void test_combination(void)
     o_i.input_5=5;
     o_i.input_6=6;
     TEST_ASSERT_EQUAL(FAILURE, combination(&o_i));
-    TEST_ASSERT_EQUAL(0,o_i.output_4); 
+    TEST_ASSERT_EQUAL(0,o_i.output_4); */ 
  
 }
 void test_natural_numbers(void)
