@@ -26,7 +26,7 @@ Folder                      | Description
 |     |    Barathvignesh JK             |  L53, L58, L59, L60   |  0   |   1   |   6 |    6 |
 |99005908     |   Bellamkonda Sushma              |     |     |      |  13  |  13   |
 | 99005906    |   Lok Prakash Raju Goli              |     |     |      | 16  |  16  |
-|     |   Sunkara Uday Kiran              |     |     |      |    |     |
+|  99005860   |   Sunkara Uday Kiran              |  L22, L23, L24, L25, L26, L27, L28, L29, L30, L31, L32, L23   |  2   |   2   |  11  |  11   |
 |     |   Valeti Triveni              |     |     |      |    |     |
 |99005884    |   Venu K              |  LR01,LR02,LR03,LR04,LR09,LR10,LR11,LR12,LR13,LR14   |     |      | 22   | 22    |
 |     |  Yamini Satya Kameswari  Samayamanthula             |     |     |      |    |     |
