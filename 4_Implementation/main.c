@@ -26,6 +26,9 @@ printf("Choose your option \n1.Electrical \n2.Electronic \n3.Arithmetic \n4.Fina
     case 5:
         physicscalc();
         break;
+    case 6:
+          timecalc();
+          break;
         
     default:
         printf("\nInvalid choice, please choose from 1 to 6");
