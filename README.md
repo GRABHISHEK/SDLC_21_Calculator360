@@ -25,7 +25,7 @@ Folder                      | Description
 | 99005871     |    Athul Thomas              |     |   3  |   2   |  8  |  8   |
 |     |    Barathvignesh JK             |     |     |      |    |     |
 |99005908     |   Bellamkonda Sushma              |     |     |      |  13  |  13   |
-| 99005906    |   Lok Prakash Raju Goli              |     |     |      |    |    |
+| 99005906    |   Lok Prakash Raju Goli              |     |     |      | 16  |  16  |
 |     |   Sunkara Uday Kiran              |     |     |      |    |     |
 |     |   Valeti Triveni              |     |     |      |    |     |
 |99005884    |   Venu K              |     |     |      | 22   | 22    |
