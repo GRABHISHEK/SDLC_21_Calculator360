@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-error_t factorial(number_1, other_inputs *oi)
+error_t factorial(long long number_1, other_inputs *oi)
 {
 
   if (number_1 <= 0) {
