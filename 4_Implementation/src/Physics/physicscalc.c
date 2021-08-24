@@ -9,12 +9,13 @@ int physicscalc()
     switch (c)
     {
     case 1:
-        float F,m1,m2,r;
+    {
+        float m1,m2,r;
         printf("Enter the values of m1, m2 and r");
         scanf("%f %f %f",&m1,&m2,&r);
-        force();
         printf("%f",force(m1,m2,r));
         break;
+    }
     /*case 2:
         Newtons();
         break;

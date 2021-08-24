@@ -7,7 +7,7 @@
 #define PI 3.14
 
 int physicscalc();
-float force(); // NewtonianGravity
+float force(float m1, float m2, float r);  // NewtonianGravity
 /*void Newtons(); // Newton
 void AmTorque(); // Angular momentum and torque
 void circularMotion(); // centripetal force and centripetal acceleration
@@ -23,6 +23,5 @@ void heightOfProjectile(); // heightOfPendulum
 void conicalPendulum(); // conicalPendulum
 void simplePendulum(); // simplePendulum
 void lenslaw(); //lenslaw*/
-
 
 #endif
