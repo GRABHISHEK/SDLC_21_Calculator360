@@ -79,12 +79,12 @@
 | L_58        | H_01  | Performing factorial | (5) | 120 | 120 | Requirement Based |
 | L_59        | H_01 | Performing Factorial | (20) | 2432902008176640000 | 2432902008176640000 | Scenario Based |
 | L-60        | H_01 | Performing Factorial | (-60) | FAILURE | FAILURE | Boundary Scenario |
-| L_61        | H_01 | Performing Permutation | (6,5) | 720 | 720 | Requirement Based |
-| L_62        | H_01 | Performing Permutation | (120,6) | 2629976731200 | 2629976731200 | Scenario Based |
-| L_63        | H_01 | Performing permutation | (5,6) | FAILURE | FAILURE | Boundary Based |
-| L_64        | H_01 | Performing combination | (6,5) | 6 | 6 | Requirement Based |
-| L_65        | H_01 | Performing combination | (120,6) | 3652745460 | 3652745460 | Scenario Based |
-| L_66        | H_01 | Performing combination | (5,6) | FAILURE | FAILURE | Boundary Based |
+| L_61        | H_01 | Performing logarithm | (10) | 1 | 1 | Requirement Based |
+| L_62        | H_01 | Performing logarithm | (-10) | UNDEFINED | UNDEFINED | Scenario Based |
+| L_63        | H_01 | Performing logarithm | 100000000000000000 | 17 | 17 | Boundary Based |
+| L_64        | H_01 | Performing square root | 9 | 3 | 3 | Requirement Based |
+| L_65        | H_01 | Performing square root | 25 | 5 | 3652745460 | Scenario Based |
+| L_66        | H_01 | Performing square root | 9223372036854775805 | 3037000448 | 3037000448 | Boundary Based |
 | L_67        | H_01 | Performing sum of natural number | (90) | 4095 | 4095 | Requirement Based |
 | L_68        | H_01 | Performing sum of natural numbers | (740) | 274170 | 274170 | Scenario Based |
 | L_69        | H_01 | Performing sum of natural numbers | (-60) | FAILURE | FAILURE | Boundary Based |
