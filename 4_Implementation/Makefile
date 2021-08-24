@@ -99,7 +99,7 @@ $(PROJECT_NAME):all
 
 #Run make call to invoke cppcheck and compliation
 all: 
-	$(CC) $(MAIN) $(SRC) $(INC) $(CFLAGS) $(call FixPath,$(PROJECT_NAME).$(EXEC)) -lm
+	$(CC) $(MAIN) $(SRC) $(INC) $(CFLAGS) $(call FixPath,$(PROJECT_NAME).$(EXEC)) 
 
 # Call `make run` to run the application
 run:
@@ -108,13 +108,13 @@ run:
 	
 # Build and run the unit tests
 test:
-	$(CC) $(INC) $(SRC) $(TEST) $(CFLAGS) $(call FixPath,$(TEST_NAME).$(EXEC)) -lm
+	$(CC) $(INC) $(SRC) $(TEST) $(CFLAGS) $(call FixPath,$(TEST_NAME).$(EXEC)) 
 	./$(call FixPath,$(TEST_NAME).$(EXEC))	
 
 	
 #Run the target to find the memory leak in the program	
 memoryleak:
-	$(CC) $(INC) $(SRC) $(TEST) $(CFLAGS) $(call FixPath,$(TEST_NAME).$(EXEC)) -lm
+	$(CC) $(INC) $(SRC) $(TEST) $(CFLAGS) $(call FixPath,$(TEST_NAME).$(EXEC)) 
 	$(VALGRIND)
 	
 
@@ -125,7 +125,7 @@ static:
 
 #To test the coverage of the whole program
 coverage:
-	$(CC) -fprofile-arcs -ftest-coverage $(SRC) $(TEST) $(INC) $(CFLAGS) $(call FixPath,$(TEST_NAME).$(EXEC)) -lm
+	$(CC) -fprofile-arcs -ftest-coverage $(SRC) $(TEST) $(INC) $(CFLAGS) $(call FixPath,$(TEST_NAME).$(EXEC)) 
 	./$(call FixPath,$(TEST_NAME).$(EXEC))
 	gcov -a $(COV_SRC)
 

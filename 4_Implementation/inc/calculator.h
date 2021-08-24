@@ -12,6 +12,7 @@
 #ifndef __CALCULATOR_H__
 #define __CALCULATOR_H__
 #include <stdlib.h>
+#include <math.h>
 /**
  * @brief Structure for storing Arithmetic functions input and output
  * 
