@@ -28,7 +28,7 @@ Folder                      | Description
 | 99005906    |   Lok Prakash Raju Goli              |     |     |      | 16  |  16  |
 |     |   Sunkara Uday Kiran              |     |     |      |    |     |
 |     |   Valeti Triveni              |     |     |      |    |     |
-|99005884    |   Venu K              |     |     |      | 22   | 22    |
+|99005884    |   Venu K              | LR01,LR02,LR03,LR04,LR09,LR10,LR11,LR12,LR13,LR14     |     |      | 22   | 22    |
 |     |  Yamini Satya Kameswari  Samayamanthula             |     |     |      |    |     |
 
 
