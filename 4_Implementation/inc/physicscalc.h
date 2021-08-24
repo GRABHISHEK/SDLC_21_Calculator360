@@ -8,7 +8,7 @@
 
 int physicscalc();
 float force(); // NewtonianGravity
-void Newtons(); // Newton
+/*void Newtons(); // Newton
 void AmTorque(); // Angular momentum and torque
 void circularMotion(); // centripetal force and centripetal acceleration
 void disVelocity(); // displacement, final velocity, average velocity
@@ -22,7 +22,7 @@ void workEnergypower(); // work,potential energy,kinetic energy,power
 void heightOfProjectile(); // heightOfPendulum
 void conicalPendulum(); // conicalPendulum
 void simplePendulum(); // simplePendulum
-void lenslaw(); //lenslaw
+void lenslaw(); //lenslaw*/
 
 
 #endif
