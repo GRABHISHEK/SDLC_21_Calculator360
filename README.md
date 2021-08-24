@@ -22,8 +22,8 @@ Folder                      | Description
 |-----|-----|----|------|-----|-----|-----|
 |  99005896   | Abhishek GR | LR15,LR16,LR17,LR18,LR19,LR20,LR21  |      | 1   | 10 | 10   |
 |     | Archit Shrivastava   |    |      |     |     |     |
-| 99005871     |    Athul Thomas              | LR48, LR49, LR50, LR51, LR52, LR53, LR54, LR55, LR56, LR57     |   3  |   2   |  8  |  8   |
-|     |    Barathvignesh JK             |  L53, L58, L59, L60   |  0   |   1   |   6 |    6 |
+| 99005871     |    Athul Thomas              | LR48, LR49, LR50, LR51, LR52, LR54, LR55, LR56, LR57     |   3  |   2   |  8  |  8   |
+|   99005867  |    Barathvignesh JK             |  L53, L58, L59, L60   |  1   |   1   |   6 |    6 |
 |99005908     |   Bellamkonda Sushma              | L52 to L69    |     |      |  18  |  18   |
 | 99005906    |   Lok Prakash Raju Goli              |  LR76,LR77,LR78,LR79,LR80,LR81,LR82,LR83,LR84,LR85,LR86,LR87,LR88,LR89,LR90,LR91   |     |      | 16  |  16  |
 |  99005860   |   Sunkara Uday Kiran              |  L22, L23, L24, L25, L26, L27, L28, L29, L30, L31, L32, L33   |  2   |   2   |  11  |  11   |
