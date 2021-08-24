@@ -131,18 +131,18 @@ int main(){
   RUN_TEST(test_principal);
   RUN_TEST(test_rate);
   RUN_TEST(test_time);
-  /*RUN_TEST(test_gain);*/
-  /*RUN_TEST(test_loss);*/
+  RUN_TEST(test_gain);
+  RUN_TEST(test_loss);
   RUN_TEST(test_gainp);
   RUN_TEST(test_lossp);
   RUN_TEST(test_spgain);
   RUN_TEST(test_sploss);
   RUN_TEST(test_cpgain);
   RUN_TEST(test_cploss);
-  /*RUN_TEST(test_gainfw);
+  RUN_TEST(test_gainfw);
   RUN_TEST(test_premium);
   RUN_TEST(test_discount);
-  RUN_TEST(test_no_of_shares);*/
+  RUN_TEST(test_no_of_shares);
   RUN_TEST(cosine_transform);
   RUN_TEST(sine_transform);
   RUN_TEST(Hadmard_transform);
@@ -508,16 +508,14 @@ void test_time(void)
     TEST_ASSERT_EQUAL(38.461538,time(250,130,5));
     TEST_ASSERT_EQUAL(68.292683,time(56,41,2));
 }
-/*void test_gain(void)
+void test_gain(void)
 {
     TEST_ASSERT_EQUAL(108.000000,gain(120,12));
-    TEST_ASSERT_EQUAL(Invalid,gain(20,50));
-}*/
-/*void test_loss(void)
+}
+void test_loss(void)
 {
     TEST_ASSERT_EQUAL(38.000000,loss(12,50));
-    TEST_ASSERT_EQUAL(Invalid,loss(52,10));
-}*/
+}
 void test_gainp(void)
 {
     TEST_ASSERT_EQUAL(76.923077,gainp(40,52));
@@ -548,26 +546,22 @@ void test_cploss(void)
     TEST_ASSERT_EQUAL(4.761905,cploss(58,2));
     TEST_ASSERT_EQUAL(4.255319,cploss(6,4));
 }
-/*void test_gainfw(void)
+void test_gainfw(void)
 {
     TEST_ASSERT_EQUAL(4.166667,gainfw(5,125));
-    TEST_ASSERT_EQUAL(Invalid,gainfw(56,12));
 }
 void test_premium(void)
 {
     TEST_ASSERT_EQUAL(56.000000,premium(156,100));
-    TEST_ASSERT_EQUAL(Invalid,premium(56,59));
 }
 void test_discount(void)
 {
     TEST_ASSERT_EQUAL(16.000000,discount(69,85));
-    TEST_ASSERT_EQUAL(Invalid,discount(156,125));
 }
 void test_no_of_shares(void)
 {
-    TEST_ASSERT_EQUAL(Invalid,no_of_shares(560,25));
     TEST_ASSERT_EQUAL(100,no_of_shares(500,5));
-}*/
+}
 
 void cosine_transform(void){
   TEST_ASSERT_EQUAL_INT(1, cosinetransform(111,123));
