@@ -80,7 +80,7 @@ A calculator is a useful machine to solve arithmetical problems. The simplest ca
 | HR02 | User shall be able to perform Electrical unit conversions | Implemented |
 | HR03 | User shall be able to perform Physics Related conversion | In Progress |
 | HR04 | User shall be able to perform Medical Operations | In Progress|
-| HR05 | User shall be able to perform Financial Operations | In Progress|
+| HR05 | User shall be able to perform Financial Operations | Implemented |
 | HR06 | User shall be able to perform Time Operations |In Progress | 
 | HR07 | User shall be able to perform  Electronics Operations |In Progress| 
 
