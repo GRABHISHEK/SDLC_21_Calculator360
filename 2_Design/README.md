@@ -18,7 +18,8 @@
 ![](https://github.com/thomasathul/SDLC_21_Calculator360/blob/main/2_Design/Calculator360_LLdesign-Electrical.png)
 ## 3.Electronics
 ![](https://github.com/thomasathul/SDLC_21_Calculator360/blob/main/2_Design/Calculator360_LLdesign-Electronics.png)
-## 4.Physics 
+## 4.Physics
+![](https://github.com/thomasathul/SDLC_21_Calculator360/blob/main/2_Design/Calculator360_design-Physics.jpg)
 ## 5.Medical
 ## 6.Finance
 ## 7.Time
