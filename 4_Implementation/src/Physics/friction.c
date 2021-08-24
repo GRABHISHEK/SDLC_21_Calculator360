@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include "physicscalc.h"
 
-void friction()
+float friction(float F, float N)
 {
     int k;
-    float F,N,sf; // variable declaration.
-    float g = 9.8;  // in m/s^2
-
-    printf("Enter the value of F and then N");
-    scanf("%f %f ",&F,&N); // input statement which take the value.
+    float F,g=9.8; // in m/s^2
     sf=F/N; // static friction
     printf("%f",sf);
+    return sf;
 }
