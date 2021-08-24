@@ -7,7 +7,7 @@
 #define PI 3.14
 
 int physicscalc();
-void force(); // NewtonianGravity
+float force(); // NewtonianGravity
 void Newtons(); // Newton
 void AmTorque(); // Angular momentum and torque
 void circularMotion(); // centripetal force and centripetal acceleration
