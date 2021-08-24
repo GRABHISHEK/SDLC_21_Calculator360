@@ -60,7 +60,8 @@ src/Physics/conicalPendulum.c\
 src/Physics/heightOfProjectile.c\
 src/Physics/simplePendulum.c\
 src/Physics/lenslaw.c\
-src/Physics/physicscalc.c
+src/Physics/physicscalc.c\
+src/time/time.c
 
 # All test source files
 TEST=test/test.c\

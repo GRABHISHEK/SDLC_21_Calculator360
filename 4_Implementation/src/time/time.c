@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "time.h"
 int timecalc()
 {
     unsigned long long v;
