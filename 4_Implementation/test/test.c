@@ -516,7 +516,7 @@ void testvoltdivider(void)
   float Vin1=2.5, R1 = 0.5, R2 = 0.8; 
   float Vin2=120, R3 = 20, R4 = 32; 
     TEST_ASSERT_EQUAL(1.54,voltagedivideroperation(&Vin1,&R1,&R2));
-    TEST_ASSERT_EQUAL(73.85,voltagedivideroperation(&Vin2,&R3,R4));
+    TEST_ASSERT_EQUAL(73.85,voltagedivideroperation(&Vin2,&R3,&R4));
 }
 
 void testPF(void)   

@@ -114,10 +114,19 @@ typedef struct pfstruct
 float powerfactor();
 
 /**
+ * @brief Finding Power factor
+ * 
+ * @param input 
+ * @return pfstruct 
+ */
+pfstruct pfcalc(pfstruct input);
+
+/**
  * @brief Electrical Calculator Page
  * 
  * @return int 
  */
+
 int electricalcalc();
 
 /**
