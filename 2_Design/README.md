@@ -13,6 +13,7 @@
 
 # Low Level Design
 ## 1.Maths
+![](https://github.com/thomasathul/SDLC_21_Calculator360/blob/main/2_Design/Calculator360_LLdesign-Maths.png)
 ## 2.Electrical 
 ![](https://github.com/thomasathul/SDLC_21_Calculator360/blob/main/2_Design/Calculator360_LLdesign-Electrical.png)
 ## 3.Electronics
