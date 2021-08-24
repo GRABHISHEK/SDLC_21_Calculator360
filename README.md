@@ -24,7 +24,7 @@ Folder                      | Description
 |     | Archit Shrivastava   |    |      |     |     |     |
 |     |    Athul Thomas              |     |     |      |  8  |  8   |
 |     |    Barathvignesh JK             |     |     |      |    |     |
-|     |   Bellamkonda Sushma              |     |     |      |    |     |
+|     |   Bellamkonda Sushma              |     |     |      |  13  |  13   |
 |     |   Lok Prakash Raju Goli              |     |     |      |    |     |
 |     |   Sunkara Uday Kiran              |     |     |      |    |     |
 |     |   Valeti Triveni              |     |     |      |    |     |
