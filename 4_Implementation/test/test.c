@@ -33,7 +33,7 @@ void test_cotangent(void);
 void test_secant(void);
 void test_cosecant(void);
 void test_mod(void);
-
+void test_factorial(void) ;
 void test_natural_numbers(void);
 void startodelta(void);
 void deltatostar(void);
@@ -111,7 +111,7 @@ int main(){
   RUN_TEST(test_secant);
   RUN_TEST(test_cosecant);
   RUN_TEST(test_mod);
-
+  RUN_TEST(test_factorial);
   RUN_TEST(test_natural_numbers);
   RUN_TEST(startodelta);
   RUN_TEST(deltatostar);
@@ -342,6 +342,17 @@ void test_cosecant(void){
     t_i.input_4=180;
     TEST_ASSERT_EQUAL(UNDEFINED,cosecant(&t_i));
     TEST_ASSERT_EQUAL(2,t_i.output_3);
+}
+
+void test_factorial(void) {
+  long long input_5 = 4;
+  TEST_ASSERT_EQUAL(SUCCESS, factorial(input_5 ,& o_i));
+  TEST_ASSERT_EQUAL(24, o_i.output_4);
+
+  /* we are making output as '0' when input is lessthan or equla to '0' */
+  long long number1 = -1;
+  TEST_ASSERT_EQUAL(FAILURE, factorial(number1 ,& o_i));
+  TEST_ASSERT_EQUAL(0, o_i.output_4);
 }
 
 
