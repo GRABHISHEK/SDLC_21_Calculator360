@@ -47,9 +47,9 @@ void tprealpowercalc(void);
 void testohmV(void);
 void testohmI(void);
 void testohmR(void);
-/*void testEBbill(void);*/
-/*void testvoltdivider(void);*/
-/*void testPF(void);*/
+void testEBbill(void);
+void testvoltdivider(void);
+void testPF(void);
 void test_simpleinterest(void);
 void test_principal(void);
 void test_rate(void);
@@ -126,9 +126,9 @@ int main(){
   RUN_TEST(testohmV);
   RUN_TEST(testohmI);
   RUN_TEST(testohmR);
-  /*RUN_TEST(testEBbill);*/
-  /*RUN_TEST(testvoltdivider);*/
-  /*RUN_TEST(testPF);*/
+  RUN_TEST(testEBbill);
+  RUN_TEST(testvoltdivider);
+  RUN_TEST(testPF);
   RUN_TEST(test_simpleinterest);
   RUN_TEST(test_principal);
   RUN_TEST(test_rate);
@@ -504,29 +504,35 @@ void testohmR(void)
   TEST_ASSERT_EQUAL_FLOAT(3.095238, ohmI(I, V));
   TEST_ASSERT_NOT_EQUAL(4.2, ohmI(I, V));
 }
-/*void testEBbill(void)
+void testEBbill(void)
 {
-    TEST_ASSERT_EQUAL(552.12,EBbillcalc(145.6));
-    TEST_ASSERT_EQUAL(195.00,EBbillcalc(55));
-}*/
+  float unit1 = 145.6, unit2 = 55;
+    TEST_ASSERT_EQUAL(552.12,EBbillcalc(&unit1));
+    TEST_ASSERT_EQUAL(195.00,EBbillcalc(&unit2));
+}
 
-/*void testvoltdivider(void)
+void testvoltdivider(void)
 {
-    TEST_ASSERT_EQUAL(1.54,voltagedivider(2.5,0.5,0.8));
-    TEST_ASSERT_EQUAL(73.85,voltagedivider(120,20,32));
-}*/
+  float Vin1=2.5, R1 = 0.5, R2 = 0.8; 
+  float Vin2=120, R3 = 20, R4 = 32; 
+    TEST_ASSERT_EQUAL(1.54,voltagedivideroperation(&Vin1,&R1,&R2));
+    TEST_ASSERT_EQUAL(73.85,voltagedivideroperation(&Vin2,&R3,R4));
+}
 
-/*void testPF(void)   
+void testPF(void)   
 {
     pfstruct input1;
     input1.P = 2;
     input1.I = 10;
     input1.V = 230;
-    pfcalc(input1);
-    TEST_ASSERT_EQUAL(0.87,input1.PF);
-    TEST_ASSERT_EQUAL(2.30,input1.AP);
-    TEST_ASSERT_EQUAL(1.14,input1.RP);
-}*/
+    pfstruct output1 = pfcalc(input1);
+    input1.PF =0.87;
+    input1.AP =2.30;
+    input1.RP =1.14;
+    TEST_ASSERT_EQUAL(output1.PF,input1.PF);
+    TEST_ASSERT_EQUAL(output1.AP,input1.AP);
+    TEST_ASSERT_EQUAL(output1.RP,input1.RP);
+}
 
 void test_simpleinterest(void)
 {
